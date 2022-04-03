@@ -1,0 +1,134 @@
+---
+title: "Candidature au poste de Maître de Conférences"
+subtitle: ""  
+author: 
+  - "Fabio A. CRUZ SANCHEZ"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css: ["assets/Fabio.css", "assets/Fabio-MdC.css" ]
+    seal: false
+    nature:
+#      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      navigation:
+        scroll: false # disable slide transitions by scrolling
+always_allow_html: true
+---
+
+```{r setup, include=FALSE}
+# Load packages -----
+library(tidyverse)
+library(xaringanExtra)
+library(xaringanthemer)
+library(fontawesome)
+library(fontawesome)
+library(here)
+library(vembedr)
+
+source(here("Presentation","xaringan-themer.R"))
+
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+
+# Link for the Figures
+URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
+
+```
+
+
+
+class: title-slide, center, bottom
+
+## `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$title`
+
+
+.pull-left[Ecole Nationale Supérieure en Génie des Systèmes Industriels – ENSGSI]
+
+.pull-right[
+Equipe de Recherche sur les Processus Innovatifs ]
+
+
+### `r rmarkdown::metadata$author`
+
+`r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$subtitle` | `r fa("map-marker-alt", fill = "steelblue")` `r paste0("Nancy ",  format(Sys.time(), '%d %B, %Y'))`
+
+---
+
+# Mon Parcours
+
+.pull-left[
+```{r, echo=FALSE, out.width = '40%', fig.align='center', out.extra='class="rounded"'}
+knitr::include_graphics(paste0(URL, 'Fabio/Fabio-300x300.jpg'))
+```
+]
+
+.pull-rigth[
+33 ans <br>
+Docteur en Génie des Systèmes Industriels <br>
+
+Qualifications CNU : **60** – **62**   <br>
+
+Langues:
+.large[`r emo::ji("colombia")` | `r emo::ji("france")` | `r emo::ji("united")` | `r emo::ji("brazil")`]
+
+]
+
+
+
+- Universidad Nacional
+- International trainee at Brazil
+- MAster M2 Midi
+- Thèse de Doctorat France
+- Postdocat UTT
+
+--
+
+class: top, left
+background-image: url(`r paste0(URL, 'Fabio/vosviewer/Fabio.jpg')`)
+background-position: right
+background-size: 70%
+
+
+---
+
+
+## Mon Parcour Recherche
+
+Ingénieur Mécanique <br>
+
+M2 - Master Design Global <br>
+
+---
+
+## Mon Parcour Ensegnement
+
+---
+
+# Mon Projet pour ce Poste
+
+---
+
+## Mon Project Recherche
+
+---
+
+## Mon projet Ensegnement
+
+
+
+
+
+
+#

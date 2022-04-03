@@ -1,0 +1,30 @@
+﻿id	label	x	y	cluster	weight<Links>	weight<Total link strength>	weight<Occurrences>	score<Avg. pub. year>	score<Avg. citations>	score<Avg. norm. citations>
+1	3d printing	0.4261	0.1093	6	12	4	4	2018.75	44.75	1.385
+2	additive manufacturing	0.3442	0.2885	6	6	2	2	2019	31	1.6314
+3	benchmarking	1.2878	-0.2122	2	3	1	1	2014	46	1
+4	circular economy	0.087	0.0624	7	6	2	2	2020	48.5	1.7701
+5	closed loop supply chain	-0.4312	-0.2545	1	12	2	2	2021	17.5	1.1387
+6	distributed recycling	-0.3704	0.2888	4	13	4	4	2020	27.5	1.0036
+7	dry model	0.4392	0.3852	6	3	1	1	2018	0	1
+8	fused granular fabrication	-0.7591	0.1426	3	4	1	1	2020	13	0.4745
+9	green fablab	-0.5024	0.6954	4	3	1	1	2020	0	0
+10	innovation labs	-0.5237	0.635	4	3	1	1	2020	0	0
+11	machine qualification	1.3451	-0.1906	2	3	1	1	2014	46	1
+12	mechanical properties	0.8337	-0.0401	5	5	1	1	2017	82	1
+13	mixed integer linear programming	-0.022	-0.041	7	5	1	1	2020	35	1.2774
+14	open source 3-dimensional printing	1.302	-0.1471	2	3	1	1	2014	46	1
+15	open source additive manufacturing	0.8222	-0.1213	5	5	1	1	2017	82	1
+16	pla	0.7689	-0.0749	5	5	1	1	2017	82	1
+17	plastic recycling	0.4052	-0.0372	5	10	3	3	2019	59.6667	1.5134
+18	political dimension	-0.7059	-0.4598	1	7	1	1	2022	0	1
+19	polylactic acid	-0.7922	0.0835	3	4	1	1	2020	13	0.4745
+20	recycling	-0.7397	-0.1393	3	11	2	2	2021	6.5	0.7372
+21	reprap	1.0967	-0.1377	2	8	2	2	2015.5	64	1
+22	reverse logistics	-0.69	-0.3363	1	7	1	1	2022	0	1
+23	reverse supply chain	-0.7201	-0.3942	1	7	1	1	2022	0	1
+24	social dimension	-0.6511	-0.4048	1	7	1	1	2022	0	1
+25	strategic intent	-0.4589	0.648	4	3	1	1	2020	0	0
+26	surgical training	0.4781	0.3393	6	3	1	1	2018	0	1
+27	sustainability indicators	-0.7717	-0.3491	1	7	1	1	2022	0	1
+28	technological dimension	-0.7798	-0.4256	1	7	1	1	2022	0	1
+29	tensile properties	-0.7179	0.0877	3	4	1	1	2020	13	0.4745

@@ -1,0 +1,5 @@
+label	replace by
+3d printers    3D printers 
+closed loop supply chain    closed-loop supply chains   
+closed-loop supply chain networks    closed-loop supply chain  
+closed-loop supply chains (clsc)    closed-loop supply chain  
