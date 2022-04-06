@@ -100,13 +100,13 @@ Une troisième axe en cours de développement est l’analyse de la soutenabilit
 Le développement d'indicateurs au-déla des technico-économiques intégrant la capacité de charge des écosystèmes et leurs services est un enjeu prometteur pour rendre les filières industrielles plus résilientes.
 
 <!-- INEDIT -->
-Actuellement, je participe au développement du démonstrateur [Green Fablab](https://lf2l.fr/projects/green-fablab/)^[https://lf2l.fr/projects/green-fablab/] dans le cadre du projet Européen H2020 INEDIT. 
+Actuellement, je participe au développement du démonstrateur [Green Fablab](https://lf2l.fr/projects/green-fablab/)^[https://lf2l.fr/projects/green-fablab/] dans le cadre du projet Européen H2020 [INEDIT](http://erpi.univ-lorraine.fr/projects/INEDIT/). 
 Cela est une opportunité pour mieux comprendre l'opérationnalisation et la démultiplication de la démarche de recyclage distribué auprès des acteurs et des communautés locales. 
 <!-- Climatelabs -->
-En parallèle, je collabore également dans le projet Erasmus+ ClimateLabs que cherche à renforcer les capacités de recherche appliquée et d’innovation de dix universités partenaires du Mexique, du Brésil et de la Colombie par la conception et la mise en œuvre de Social Innovation Labs pour l’atténuation et l’adaptation au changement climatique. 
+En parallèle, je collabore également dans le projet [Erasmus+ Climatelabs](https://erpi.univ-lorraine.fr/fr/projects/Climatelabs/) que cherche à renforcer les capacités de recherche appliquée et d’innovation de dix universités partenaires du Mexique, du Brésil et de la Colombie par la conception et la mise en œuvre de Social Innovation Labs pour l’atténuation et l’adaptation au changement climatique. 
 
 
-```{r, echo=FALSE, out.width = '80%', fig.align='center', fig.cap="Nuages de mots fait à partir des résumés des mes articles scientifique"}
+```{r, echo=FALSE, out.width = '75%', fig.align='center', fig.cap="Nuages de mots fait à partir des résumés des mes articles scientifiques"}
 #download.file(paste0(URL, 'Fabio/Fabio-300x300.jpg'), "Dossier/Figures/Fabio.jpg", mode = "wb")
 knitr::include_graphics(here("Figures/Cloud.png"))
 ```
@@ -301,7 +301,7 @@ Aujourd’hui, dans le cadre du projet INEDIT, qui vise le transfert des approch
 
 
 ```{r DRAM-INEDIT, fig.cap="Récyclage distribué via la fabrication additive", out.width='100%'}
-knitr::include_graphics(here("Figures/INEDIT.pdf"))
+knitr::include_graphics(here("Figures/INEDIT.jpg"))
 ```
 
 Indéniablement, le développement  de ce projet mobilise un panel de méthodologies de recherche dans la conception mécanique (e.g; plan d'expériences, validation statistique/ANOVA, simulation) et en innovation (e.g. recherche opérationnelle, analyse multicritère, systèmes dynamiques)  et ouvrent un champ d'expérimentation non négligeable pour la créativité de solutions avec des étudiants en ingénierie. 
@@ -369,7 +369,7 @@ Le faible taux actuel de recyclage des plastiques montre les limites de l'approc
 Cette nouvelle approche du recyclage propose un système local adapté aux petites quantités de déchets. Sous ce nouveau paradigme, les problèmes économiques et environnementaux d’un recyclage centralisé seraient limités, principalement en raison de l'utilisation d'une technologie open source moins coûteuse, de plus courtes distances entre le lieu de récupération et le point de traitement.
 
 
-Cet axe est en cours de recherche, et fait l’objet du développement dans le projet de démonstration appliqué INEDIT[^Pour plus détails sur le Projet INEDIT: https://cordis.europa.eu/project/id/869952].
+Cet axe est en cours de recherche, et fait l’objet du développement dans le projet de démonstration appliqué INEDIT^[Pour plus détails sur le Projet INEDIT: https://cordis.europa.eu/project/id/869952].
 
 ### Espace d'innovation pour la circularité 
 
@@ -378,7 +378,7 @@ J’ai pu travailler en collaboration avec des chercheurs de l’ERPI et de l'É
 
 La contribution principale a été de donner un aperçu du travail empirique sur la façon dont un projet de recyclage pédagogique est développé au sein d'un laboratoire d'innovation afin d'observer l'évolution de l'intention stratégique à la fois du projet et du laboratoire d'innovation. L’impact tangible et intangible, est mis en évidence dans la manière dont il se répercute sur le pilotage d'un projet d’innovation avec des élèves ingénieurs. 
 
-Ainsi, je participe dans le projet Erasmus+ Climatelabs dont l’enjeux essentiel est de concevoir et mettre en œuvre des espaces d’innovation avec  10 partenaires de l'Amérique latine (5 en Colombie, 3 au Brésil et 2 Mexique). En fonction des besoins, des forces, des défis et des caractéristiques des institutions et des territoires, chaque université mettra en œuvre un projet pilote, se connectera à des réseaux internationaux pertinents ainsi qu'à d'autres institutions nationales, construira l'infrastructure physique et virtuelle du laboratoire, et développera des stratégies pour la durabilité et l'extensibilité du projet. Ce projet est une opportunité pour partager la connaissance et l’expérience que ERPI/ENSGSI a mûri lors de la création et plus précisément, au cours du développement du projet de Green Fablab.
+Ainsi, je participe dans le projet [Erasmus+ Climatelabs](https://erpi.univ-lorraine.fr/fr/projects/Climatelabs/) dont l’enjeux essentiel est de concevoir et mettre en œuvre des espaces d’innovation avec  10 partenaires de l'Amérique latine (5 en Colombie, 3 au Brésil et 2 Mexique). En fonction des besoins, des forces, des défis et des caractéristiques des institutions et des territoires, chaque université mettra en œuvre un projet pilote, se connectera à des réseaux internationaux pertinents ainsi qu'à d'autres institutions nationales, construira l'infrastructure physique et virtuelle du laboratoire, et développera des stratégies pour la durabilité et l'extensibilité du projet. Ce projet est une opportunité pour partager la connaissance et l’expérience que ERPI/ENSGSI a mûri lors de la création et plus précisément, au cours du développement du projet de Green Fablab.
 
 Les espaces d’innovation sont un sujet de profond intérêt pour les industriels et les académiques car ces espaces permettent de développer des compétences d'innovation et de créativité collective ainsi que nouvelles pratiques de travail qui reposent sur des approches de collaboration, de co-conception, de co-production et de co-création. 
 Les notions de *"fabrication personnelle"*, de pratiques *Do-It-Yourself* ou de *"making"* sont souvent des approches sociales et collaboratives, impliquant le partage et la modification de conceptions en ligne, la coopération sur des projets et/ou l'utilisation d'outils dans des espaces partagés. 
@@ -439,10 +439,8 @@ Le verrou scientifique essentiel sera de clarifier une approche méthodologique 
 # Activités d'Enseignement
 ## Description synthethique
 
-Après mes travaux de thèse, mes activités d’enseignement ont débuté en 2017 en tant que chercheur contractuel vacataire à l’Ecole Nationale Supérieure en Génie des Systèmes et de l’Innovation (ENSGSI) et depuis 2019 à l'Institut Universitaire de Technologie Nancy-Charlemagne à Nancy. 
+Après mes travaux de thèse, mes activités d’enseignement ont débuté en 2017 en tant que chercheur contractuel vacataire à l’École Nationale Supérieure en Génie des Systèmes et de l’Innovation (ENSGSI) et depuis 2020 à l'Institut Universitaire de Technologie (IUT) Nancy-Charlemagne à Nancy. 
 L'expérience des travaux de recherche m’a amené à proposer un TP autour de la  recherche reproductible dans le cadre du module de *Recherche, Innovation et Développement* pour étudiants de cycle ingénieur généralistes de 3AI et parcours Master Design M2 - Innovation et Design Évalués par les Usages (IDEAS) et pour le master Master Urbanisme et Aménagement, Innovation Urbaine pour des Villes & Territoires en Transformation (IUVTT) de l’ENSGSI. 
-
-
 
 
     
@@ -466,6 +464,7 @@ Je présente en détail le contenu pédagogique et de mes contributions aux modu
 
 
 ## Module CI15. Recherche, Innovation et Developpement
+
 Ce cours permet aux étudiants de 3AI et Master IDEAS de l’ENSGSI et IUVTT de maîtriser les éléments fondamentaux sur les bases de la recherche scientifique en considérant  les étapes clés de la recherche scientifique : recherche documentaire ciblée, analyse de documents --essentiellement en langue Anglaise-, préparer et suivre un protocole expérimental et aussi travailler sur l’organisation et les modes de financement de la recherche. 
 Le module est organisé en deux volets : la méthodologie de recherche et un atelier d’écriture pour réaliser un travail de synthèse sous la forme d'un article d'état de l'art. Il permet également de connaître les bases des données scientifiques, présentation de la structure des articles scientifiques et la gestion de référence (Mendeley et Zotero). 
 
@@ -474,14 +473,17 @@ Le module est organisé en deux volets : la méthodologie de recherche et un ate
 ## Licence professionnel Animateur et facilitateur de tiers-lieux éco-responsables (AFTER) – IUT Charlemagne - ENSGSI
 
 La licence professionnelle AFTER est portée par l’ENSGSI et l’IUT Charlemagne à Nancy est centrée principalement sur la formation de profils pouvant gérer et animer des tiers lieux comme le Lorraine Fab Living Lab. La formation vise à former des personnes inventives et entreprenantes ayant un esprit créatif, qui sont intéressées par le « faire soi-même » ou avec autrui et ayant une forte attention portée aux enjeux environnementaux.
-Les modules d’Animation d’un lieu, ‘Exploiter durablement les ressources et les partenariats’ et ‘Recyclage des matériaux à l’aide des techniques Open Source’ font partie de l’UE gestion d’un tiers lieu dans lesquels nous abordons diverses thématiques autour de la gestion et animation d’un tiers lieux. Par exemple, les étudiants découvrent la méthode design thinking pour pouvoir animer des séances de conception et idéation. Egalement, un présentation sur l’approches de machines open source pour récyclage et projets phares dans la communauté.
+Les modules *'d’Animation d’un lieu', ‘Exploiter durablement les ressources et les partenariats’ et ‘Recyclage des matériaux à l’aide des techniques Open Source’* font partie de l’UE gestion d’un tiers lieu dans lesquels nous abordons diverses thématiques autour de la gestion et animation d’un tiers lieux. Par exemple, les étudiants découvrent la méthode design thinking pour pouvoir animer des séances de conception et idéation.
+Également, une présentation sur l’approche de machines open source pour recyclage et projets phares dans la communauté.
 
 *Ma contribution*: Présentation des enjeux de l'économie circulaire axés sur le recyclage de matière plastique. En lien, j’ai proposé des séances de TP recyclage et la mise en en application des ces outils technologiques présentes au Green Fablab avec un publique de élèves d’un collège classé “éducation prioritaire renforcé” (REP +). Cette animation permet découvrir les tiers lieux comme lieu d’expérimentation, sensibilité au recyclage de matière plastique et enfin, montrer le métier d' animateur et de chercheur.
 
-## Pôle Conception et Innovation Module Ingénierie de l’innovation II / Design Thinking
-Ce cours d'introduction sur la méthode de conception "Design Thinking" s'appuie sur un processus de co-création impliquant des retours de l'utilisateur final.  Cette approche de l'innovation permet de développer un produit ou un service qui est à la fois désirable, viable et réalisable par la combinaison des approches humaines, économiques et technologiques.
+## Pôle Conception / Innovation: Conception Mécanique/CAO
 
-*Ma contribution*: Conception et animations des séances de TD pour la partie prototypage.
+Ce cours d'introduction sur la méthode de conception "Design Thinking" s'appuie sur un processus de co-création impliquant des retours de l'utilisateur final. 
+Cette approche de l'innovation permet de développer un produit ou un service qui est à la fois désirable, viable et réalisable par la combinaison des approches humaines, économiques et technologiques.
+
+*Ma contribution*: Conception et animations des séances de TD pour la partie prototypage en lien avec les ressource technologiques du Lorraine Fab Living Lab. 
 
   
 ## Introduction au prototypage et à l’impression 3D
@@ -493,7 +495,7 @@ Cette expérience a été très constructive d'un point de vue pédagogique et a
 
 ## Projet d'enseignement
 
-Sur la base de l'expérience de création de cours pour les professeurs de collèges et des lycées, et plus précisément les expériences de recherche et la participation à des projets de recherche nationaux et européens, mon projet pédagogique concerne donc l’application des génie de conception mécanique en incluant des principes d'économie circulaire afin que les future élèves engenieurs identifient le contexte de conception produit. Je peux le résumer en trois élément fondamentaux :
+Sur la base de l'expérience de création de cours pour les professeurs de collèges et des lycées, et plus précisément les expériences de recherche et la participation à des projets de recherche nationaux et européens, mon projet pédagogique concerne donc l’application des génie de conception mécanique en incluant des principes d'économie circulaire afin que les future élèves ingénieurs identifient le contexte de conception produit. Je peux le résumer en trois élément fondamentaux :
 
 1. La compréhension de la caractérisation des matériaux en utilisant l'approche open hardware comme support de fabrication afin de relever le comportement, et l’impact de fabrication traditionnels.
 2. La conception de produit en utilisant des critères de soutenabilité tels que la réparabilité, le reconditionnement et le recyclage. Cette phase de conception peut inclure des aides technologiques à la créativité numérique comme la réalité virtuelle afin d'explorer un espace de conception plus large.
@@ -504,9 +506,11 @@ Mon constat de départ à travers des travaux de recherche préfigurent une tend
 D’abord, la compréhension et la caractérisation des matériaux est un pilier essentiel dans la formation des ingénieurs. La communauté scientifique développe de plus en plus de matériaux bio-sourcés. Il y a un champ pédagogique à explorer en utilisant de nouveaux composites à base de déchets qui impliquent la caractérisation des matériaux, ainsi que des évaluations économiques et environnementales du cycle de vie. 
 Plus spécifiquement pour le cursus d’Ingénierie, il s'agit donc de créer une connaissance de caractérisation mécanique open source pour comprendre les impacts qu'ont les choix des procédés de fabrication sur la performance mécanique. Assurément, un élément essentiel sera la compréhension des barrières et des opportunités inhérentes à la matière recyclée en tant que matière secondaire.
 
-Ensuite, au vu des impacts écologiques que la surproduction et surconsommation ont sur la capacité de charge de nos écosystèmes,  il est impératif de favoriser des compétences pour prioriser le ‘droit à la réparation’ ^[Plus de détails dur la comunication officiel de l’EU: (https://www.europarl.europa.eu/news/en/headlines/society/20220331STO26410/why-is-the-eu-s-right-to-repair-legislation-important)]. Développement d'outils à faible coût, gratuits et à codes sources ouverts, fabriqués numériquement (idéalement à partir de déchets recyclés) pour permettre la création des moyens de production y compris  des outils scientifiques.
+Ensuite, au vu des impacts écologiques de la surproduction et de surconsommation sur la capacité de charge de nos écosystèmes,  il est impératif de favoriser des compétences pour prioriser le ‘droit à la réparation’ ^[Plus de détails dur la comunication officiel de l’EU: (https://www.europarl.europa.eu/news/en/headlines/society/20220331STO26410/why-is-the-eu-s-right-to-repair-legislation-important)]. 
+Le développement d'outils à faible coût, gratuits et à codes sources ouverts, fabriqués numériquement (idéalement à partir de déchets recyclés) pour permettre la création des moyens de production y compris  des outils scientifiques.
 
-Et finalement, l’open source est très fédérateur dans la technologie de l'information et des communications. Je peux imaginer que ce rôle fédérateur l’open hardware peut aussi le faire grâce à la démocratisation de l'électronique et de la fabrication digital. Cela pourra créer des nouvelles chaînes de valeur locales. L’approche pédagogique doit mobiliser fortement les capacités à la création et à la documentation en mode open source sur les concepts et prototypes dans une communauté ouverte en dehors de la communauté académique. Implémentées au sein des parcours ces compétences numériques nourrissent la création pédagogique active que peut compléter les bases théoriques autour de la conception mécanique et energétique. 
+Et finalement, l’open source est très fédérateur dans la technologie de l'information et des communications. Je peux imaginer que ce rôle fédérateur l’open hardware peut aussi le faire grâce à la démocratisation de l'électronique et de la fabrication numérique.
+Cela pourra créer des nouvelles chaînes de valeur locales. L’approche pédagogique doit mobiliser fortement les capacités à la création et à la documentation en mode open source sur les concepts et prototypes dans une communauté ouverte en dehors de la communauté académique. Implémentées au sein des parcours ces compétences numériques nourrissent la création pédagogique active que peut compléter les bases théoriques autour de la conception mécanique et energétique. 
 
 Ce projet d'enseignement pourrait s'intituler *“Conception de produit soutenable open source : les atouts de la collecte jusqu'au recyclage en circuit”*
 Ce parcours aurait pour objectif de combiner les approches open hardware et *Faire-soi-même* afin d'éco-concevoir des produits et des procédés qui répondent aujourd'hui à la stratégie des enjeux de l'économie circulaire.  
@@ -591,6 +595,8 @@ Lien vers la vidéo de la prestation - Finale de l'Université de Lorraine 2016 
 
 # Annexes {-}
 
+\renewcommand{\thesection}{\Alph{section}}
+
 ## Liste de la Production Scientifique {#articles}
 ### Revues internationales à comité de lecture
 
@@ -651,6 +657,7 @@ Lien vers la vidéo de la prestation - Finale de l'Université de Lorraine 2016 
 
 2. **Fabio Cruz**, Hakim Boudaoud, Sandrine Hoppe, Mauricio Camargo. Le concept du Green Fablab: une approche distribuée pour le recyclage de polymères en circuit-court dans le cadre de la fabrication additive open-source. 15ème Congrès de la Société Française de Génie des Procédés (SFGP), Jul 2017, Nancy, France. ⟨hal-02518997⟩
 
+\newpage
 
 ## Les attestations de l’ensemble des enseignements dispensés
 
