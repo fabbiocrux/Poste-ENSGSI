@@ -34,7 +34,7 @@
   --header-font-family-fallback: Georgia, serif;
   --code-font-family: 'Source Code Pro';
   --code-font-is-google: 1;
-  --base-font-size: 20px;
+  --base-font-size: 30px;
   --text-font-size: 1rem;
   --code-font-size: 0.9rem;
   --code-inline-font-size: 1em;
@@ -149,7 +149,6 @@ a, a > code {
 }
 .title-slide {
   background-color: var(--title-slide-background-color);
-  background-image: url("https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/INEDIT-logo-00.jpg");
   background-size: 80%;
   background-position: 50% 15%;
 }

@@ -7,7 +7,7 @@ style_mono_accent(
    white_color = "#FFFFFF",
     
    # Fonts
-   base_font_size = "20px",
+   base_font_size = "30px",
    
    # Text
    text_font_size = "1rem",
@@ -25,7 +25,7 @@ style_mono_accent(
 
    # Title slide
    title_slide_background_color = '#FFFFFF',
-   title_slide_background_image = "https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/INEDIT-logo-00.jpg",
+   #title_slide_background_image = "https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/INEDIT-logo-00.jpg",
    title_slide_background_size = '80%',
    title_slide_background_position = '50% 15%',
    title_slide_text_color = "#4D4D4E",

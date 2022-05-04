@@ -35,7 +35,7 @@ options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
   fig.width=9, fig.height=3.5, fig.retina=3,
   out.width = "100%",
-  cache = FALSE,
+  cache = TRUE,
   echo = FALSE,
   message = FALSE, 
   warning = FALSE,
@@ -51,72 +51,169 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 class: title-slide, center, bottom
 
-## `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$title`
-
-
-.pull-left[Ecole Nationale Supérieure en Génie des Systèmes Industriels – ENSGSI]
-
-.pull-right[
-Equipe de Recherche sur les Processus Innovatifs ]
-
-
-### `r rmarkdown::metadata$author`
-
-`r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$subtitle` | `r fa("map-marker-alt", fill = "steelblue")` `r paste0("Nancy ",  format(Sys.time(), '%d %B, %Y'))`
-
----
-
-# Mon Parcours
 
 .pull-left[
-```{r, echo=FALSE, out.width = '40%', fig.align='center', out.extra='class="rounded"'}
-knitr::include_graphics(paste0(URL, 'Fabio/Fabio-300x300.jpg'))
+```{r, echo=FALSE, out.width = '60%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Logos/ENSGSI/2022-ENSGSI.jpeg'))
+```
+]
+.pull-right[
+```{r, echo=FALSE, out.width = '70%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Logos/ERPI/ERPI.svg'))
 ```
 ]
 
-.pull-rigth[
-33 ans <br>
-Docteur en Génie des Systèmes Industriels <br>
 
-Qualifications CNU : **60** – **62**   <br>
 
-Langues:
-.large[`r emo::ji("colombia")` | `r emo::ji("france")` | `r emo::ji("united")` | `r emo::ji("brazil")`]
+****
+## *Conception de produit open source soutenable: les atouts de la collecte jusqu'au recyclage en circuit court*
+
+###  `r rmarkdown::metadata$title`
+
+### `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$author`
+
+`r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$subtitle` | `r fa("map-marker-alt", fill = "steelblue")` `r paste0("Nancy ",  format(Sys.time(), '%d %B, %Y'))`
+
+
+???
+
+Bonjour à tous.
+- Tout d’abord je vous remercie de m’accueillir aujourd’hui. 
+- Je m'appelle Fabio Cruz. 
+J’ai le plaisir de vous présenter de ma candidature pour le poste XXX à pourvoir au sein de l’INSPE 
+
+
+---
+class: middle
+
+# Agenda 
+
+.grey_Inedit[
+1. .large.bg-yellow[**Mon profil et parcours**]
+1. Proposition D'intégration au ENSGSI et à l'ERPI 
+1. COnclusion
+]   
+
+
+???
+Trois point importantes
+
+1. Quien soy?
+2. Que he hecho en investigacion y en Cursos?
+3. Cual es mi vision sobre la ingenieria para los futuros estudiantes?
+
+
+---
+
+
+.pull-left-1[
+```{r, echo=FALSE, out.width = '40%', fig.align='center', out.extra='class="rounded"'}
+knitr::include_graphics(paste0(URL, 'Fabio/Fabio-300x300.jpg'))
+```
+
+34 ans - .large[`r emo::ji("colombia")`| `r emo::ji("france")`|]  <br>
+Ingénieur Mécanique et <br>
+Master II - Design Global.<br>
+PhD. en Génie des Systèmes Industriels <br>
+CNU : **60** – **62**   <br>
+]
+
+
+--
+
+.pull-right-2[ 
+
+- **2005 - 2012**:  Universidad Nacional de Colombie
+   - **2010**: International trainee at .large[`r emo::ji("brazil")`]
+   
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("images/brazil/Brazil.png")
+```
+]
+
+---
+
+.pull-left-1[
+```{r, echo=FALSE, out.width = '40%', fig.align='center', out.extra='class="rounded"'}
+knitr::include_graphics(paste0(URL, 'Fabio/Fabio-300x300.jpg'))
+```
+
+34 ans - .large[`r emo::ji("colombia")`| `r emo::ji("france")`|]  <br>
+Ingénieur Mécanique et <br>
+Master II - Design Global.<br>
+PhD. en Génie des Systèmes Industriels <br>
+CNU : **60** – **62**   <br>
 
 ]
 
 
 
-- Universidad Nacional
-- International trainee at Brazil
-- MAster M2 Midi
-- Thèse de Doctorat France
-- Postdocat UTT
+.pull-right-2[
+**2005 - 2012**:  Universidad Nacional de Colombie
+   - **2010**: International trainee at .large[`r emo::ji("brazil")`]
+***   
 
---
+.large[`r emo::ji("france")`] **2012 - 2013**: Master M2: Management de l'Innovation  <br>
+- **2013 - 2016**: Thèse de Doctorat France <br>
+- **2017 - 2021**: Post-doc ERPI / Lorraine Fab Living Lab (LF2L) <br>
+- **2021**: Post-doc InSyTE (Anciennement CREIDD) à l'UTT <br>
+- **2021 - ...**: Chercheur ERPI / LF2L <br>
+]
 
-class: top, left
-background-image: url(`r paste0(URL, 'Fabio/vosviewer/Fabio.jpg')`)
-background-position: right
-background-size: 70%
+---
+class: bottom, left
+
+```{r, echo=FALSE, out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'DRAM/SDRAM-00.svg'))
+```
+
+# Mon objet de recherche: Green Fablab (dans le papier)
+
+---
+
+
+
+
+ .pull-left-2[
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Fablab/Fablab-00.png'))
+```
+]
+.pull-right-1[
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Foldarap/Emmanuel-00.jpeg'))
+```
+]
+
+---
+class: bottom, left
+background-image: url(`r paste0(URL,'Metodologies/Master-recherche/Master-01.png')`)
+background-position: center
+background-size: 90%
+
+Mon Parcour Recherche
+
+---
 
 
 ---
 
 
-## Mon Parcour Recherche
 
-Ingénieur Mécanique <br>
-
-M2 - Master Design Global <br>
-
----
 
 ## Mon Parcour Ensegnement
 
 ---
 
 # Mon Projet pour ce Poste
+
+class: bottom, left
+background-image: url("/Presentation/images/Green-Fablab.jpg")
+background-position: top center
+background-size: 50%
+
+
+# Mon objet de recherche: Green Fablab (dans la réalité)
 
 ---
 
@@ -126,9 +223,3 @@ M2 - Master Design Global <br>
 
 ## Mon projet Ensegnement
 
-
-
-
-
-
-#
