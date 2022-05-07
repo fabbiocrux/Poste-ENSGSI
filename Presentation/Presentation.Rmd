@@ -39,7 +39,8 @@ knitr::opts_chunk$set(
   echo = FALSE,
   message = FALSE, 
   warning = FALSE,
-  hiline = TRUE
+  hiline = TRUE,
+  fig.align='center'
 )
 
 # Link for the Figures
@@ -86,7 +87,7 @@ J’ai le plaisir de vous présenter de ma candidature pour le poste XXX à pour
 ---
 class: middle
 
-# Agenda 
+# Sommaire 
 
 .grey_Inedit[
 1. .large.bg-yellow[**Mon profil et parcours**]
@@ -96,12 +97,6 @@ class: middle
 
 
 ???
-Trois point importantes
-
-1. Quien soy?
-2. Que he hecho en investigacion y en Cursos?
-3. Cual es mi vision sobre la ingenieria para los futuros estudiantes?
-
 
 ---
 
@@ -126,7 +121,7 @@ CNU : **60** – **62**   <br>
 - **2005 - 2012**:  Universidad Nacional de Colombie
    - **2010**: International trainee at .large[`r emo::ji("brazil")`]
    
-```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+```{r, echo=FALSE, out.width = '90%', fig.align='center'}
 knitr::include_graphics("images/brazil/Brazil.png")
 ```
 ]
@@ -149,7 +144,7 @@ CNU : **60** – **62**   <br>
 
 
 .pull-right-2[
-**2005 - 2012**:  Universidad Nacional de Colombie
+- **2005 - 2012**:  Universidad Nacional de Colombie
    - **2010**: International trainee at .large[`r emo::ji("brazil")`]
 ***   
 
@@ -161,17 +156,6 @@ CNU : **60** – **62**   <br>
 ]
 
 ---
-class: bottom, left
-
-```{r, echo=FALSE, out.width = '90%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'DRAM/SDRAM-00.svg'))
-```
-
-# Mon objet de recherche: Green Fablab (dans le papier)
-
----
-
-
 
 
  .pull-left-2[
@@ -180,32 +164,138 @@ knitr::include_graphics(paste0(URL, 'LF2L/Fablab/Fablab-00.png'))
 ```
 ]
 .pull-right-1[
-```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+```{r,  out.width = '100%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'Foldarap/Emmanuel-00.jpeg'))
 ```
 ]
 
+
 ---
+class: top, left
+background-image: url("images/SDRAM-00.jpg")
+background-position: 50% 90%
+background-size: 85%
+
+## Recyclage distribué pour la Fabrication additive
+
+--
+
+background-image: url("images/SDRAM-01.jpg")
+
+---
+
 class: bottom, left
-background-image: url(`r paste0(URL,'Metodologies/Master-recherche/Master-01.png')`)
-background-position: center
-background-size: 90%
+background-image: url("images/1-Machine.jpg")
+background-position: 50% 20px
+background-size: 85%
 
-Mon Parcour Recherche
-
----
+### Validation technique de machine open source
 
 
 ---
+class: top, left
+background-image: url("images/SDRAM-01.jpg")
+background-position: 50% 90%
+background-size: 85%
 
+## Recyclage distribué pour la Fabrication additive
 
+--
 
-
-## Mon Parcour Ensegnement
+background-image: url("images/SDRAM-02.jpg")
 
 ---
 
-# Mon Projet pour ce Poste
+class: bottom left
+background-image: url("images/2-Recycling.jpg")
+background-position: 50% 10px
+background-size: 88%
+
+### Faisabilité technique de recyclage pour la FA open source. 
+
+---
+
+class: top, left
+background-image: url("images/SDRAM-02.jpg")
+background-position: 50% 90%
+background-size: 85%
+
+## Recyclage distribué pour la Fabrication additive
+
+--
+
+background-image: url("images/SDRAM-03.jpg")
+
+---
+
+class: bottom, left
+background-image: url("images/3-Logistical.jpg")
+background-position: 50% 10px
+background-size: 85%
+
+###  Validation de la chaîne d'approvisionnment
+
+---
+
+class: top, left
+background-image: url("images/SDRAM-03.jpg")
+background-position: 50% 90%
+background-size: 85%
+
+## Recyclage distribué pour la Fabrication additive
+
+--
+background-image: url("images/SDRAM-04.jpg")
+
+---
+
+class: bottom, left
+
+
+###  Validation de la chaîne d'approvisionnment
+
+```{r,  out.width = '100%', fig.align='center'}
+knitr::include_graphics("images/04-Indicators.jpg")
+```
+
+
+---
+
+class: middle
+
+# Du laboratoire vers la société
+
+.pull-right.bg-yellow[... Mon **parcours enseignement**]
+
+---
+class:  left
+# Mon Parcours Ensegnement
+
+.pull-left[
+```{r,  out.width = '50%', fig.align='center'}
+knitr::include_graphics("images/Cursos-00.jpg")
+```
+]
+
+---
+class: top, left
+background-image: url("images/Cursos-01.jpg")
+background-position: 50% 50%
+background-size: 95%
+
+---
+class: top, left
+background-image: url("images/Cursos-02.jpg")
+background-position: 50% 50%
+background-size: 95%
+
+---
+class: top, left
+background-image: url("images/Cursos-03.jpg")
+background-position: 50% 50%
+background-size: 95%
+
+---
 
 class: bottom, left
 background-image: url("/Presentation/images/Green-Fablab.jpg")
@@ -213,13 +303,138 @@ background-position: top center
 background-size: 50%
 
 
-# Mon objet de recherche: Green Fablab (dans la réalité)
+# Mon Projet pour ce Poste
 
 ---
 
-## Mon Project Recherche
+## Attendus du Poste
+
+.pull-left[
+**Enseignement**
+
+- De développer des contenus pédagogiques favorisant l’expérimentation. 
+- Force de proposition pour faire évoluer les enseignements. 
+- Projet de développement de l’école
+- Déploiement de nouveaux types d’accompagnement offerts aux élèves ingénieurs 
+]
+.pull-right[
+**Recherche:**
+
+- Eco-conception des produits
+- L'émergence des nouvelles filières (écosystèmes industriels) à partir des produits issus d’une l'innovation.
+- Projets de recherche multi-partenariat
+]
 
 ---
 
-## Mon projet Ensegnement
+## Attendus du Poste: Enseignement
 
+.pull-left[
+
+Force de proposition:
+
+- ... contenus pédagogiques .bg-green[favorisant l’expérimentation]. 
+
+- Projet de développement de l’école
+
+- Nouveaux types accompagnement offerts aux élèves ingénieurs 
+
+]
+
+--
+
+.pull-right-1[
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Foldarap/Emmanuel-00.jpeg'))
+```
+- Open Hardware
+]
+
+---
+
+## Attendus du Poste: Enseignement
+
+.pull-left[
+
+Force de proposition:
+
+- ... contenus pédagogiques favorisant l’expérimentation. 
+
+- .bg-green[Projet de développement de l’école]
+
+- Nouveaux types accompagnement offerts aux élèves ingénieurs 
+
+]
+
+.pull-right-1[
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Foldarap/Emmanuel-00.jpeg'))
+```
+- Open Hardware
+]
+
+---
+
+## Attendus du Poste: Enseignement
+
+.pull-left-1[
+
+Force de proposition:
+
+- ... contenus pédagogiques favorisant l’expérimentation. 
+
+- Projet de développement de l’école
+
+- .bg-green[Nouveaux types accompagnement offerts aux élèves ingénieurs]
+
+]
+
+.pull-right-2[
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Foldarap/Emmanuel-00.jpeg'))
+```
+- Open Hardware
+]
+
+
+---
+
+
+## Attendus du Poste: Recherche
+
+.pull-left-2[
+
+```{r, echo=FALSE, out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Foldarap/Emmanuel-00.jpeg'))
+```
+
+- Open Hardware
+
+]
+
+.pull-right-1[
+
+Force de proposition:
+
+
+- Eco-conception. 
+
+- Nouvelles filières
+
+- 
+]
+
+
+---
+
+class: bottom, left
+
+# Thanks
+
+---
+class: bottom, left
+background-image: url(`r paste0(URL,'Metodologies/Master-recherche/Master-01.png')`)
+background-position: center
+background-size: 90%
+
+# Benchmarking research

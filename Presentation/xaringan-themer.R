@@ -21,7 +21,7 @@ style_mono_accent(
    # H2
    header_h2_font_size = "1.25rem",
    # H3
-   header_h3_font_size = "1.15rem",
+   header_h3_font_size = "1rem",
 
    # Title slide
    title_slide_background_color = '#FFFFFF',
@@ -37,7 +37,7 @@ style_mono_accent(
    #header_background_text_color = "#1381B0",
    #header_background_padding = '0px 0px',
    #header_background_content_padding_top = "5px",
-   padding = '25px 50px 50px 30px',
+   padding = '25px 50px 10px 25px',
    
    # Footnote
    footnote_position_bottom = '0px',
@@ -60,7 +60,7 @@ style_mono_accent(
       # Changing the Title H1
       ".remark-slide-content > h1:first-of-type" = list(
          "margin-top" = "5px",
-         "padding-bottom" = "25px",
+         "padding-bottom" = "7px",
          "border-bottom" = '1px solid #EB811B'
       ),
       
@@ -71,10 +71,11 @@ style_mono_accent(
       
       # Changing the Title H2
       ".remark-slide-content > h2:first-of-type" = list(
-         "margin-top" = "5px",
-         "padding-bottom" = "25px",
-         "border-bottom" = '1px solid #EB811B'
-      ),
+         "margin" = "0px",
+         "color" = "#EB811B"
+      #    "padding-bottom" = "7px",
+      #    "border-bottom" = '1px solid #EB811B'
+       ),
       
       # Changing the Title H3
       ".remark-slide-content > h3:first-of-type" = list(
