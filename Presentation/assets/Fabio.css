@@ -418,3 +418,7 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   float: right;
   width: 60%;
 }
+.pull-down {
+  position: absolute;
+  bottom: 50px;
+}

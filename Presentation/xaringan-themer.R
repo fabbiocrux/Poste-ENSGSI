@@ -122,9 +122,11 @@ style_mono_accent(
       ".pull-right-2"= list(
          "float"= "right",
          "width"= '60%'
+      ),
+      ".pull-down" = list (
+         "position" = "absolute",
+         "bottom" =  "50px"
       )
-      
-      
    ),
    outfile = here("Presentation","assets", "Fabio.css")
 )
