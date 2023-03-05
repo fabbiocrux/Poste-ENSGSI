@@ -10,12 +10,12 @@ output:
      number_sections: true
      latex_engine: xelatex
      includes:
-       in_header: packages.tex
-       before_body: titlepage.tex
+       in_header: assets/packages.tex
+       before_body: assets/titlepage.tex
         
-bibliography: library.bib 
+bibliography: assets/library.bib 
 #csl: chicago-fullnote-bibliography-short-title-subsequent.csl
-csl: journal-of-cleaner-production.csl
+csl: assets/journal-of-cleaner-production.csl
 link-citations: yes
 colorlinks: true
 linkcolor: blue
@@ -51,7 +51,7 @@ library(fontawesome)
 library(tidyverse)
 library(networkD3)
 library(viridis)
-#library(icons)
+library(icons)
 library(wordcloud2)
 library(tm)
 library(kableExtra)
