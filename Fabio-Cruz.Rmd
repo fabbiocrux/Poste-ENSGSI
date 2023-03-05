@@ -277,7 +277,8 @@ Freeform Fabrication Symposium)  \\
 \end{small}
 
 
-Mes activités de recherche ont comme dénominateur commun le croisement de trois enjeux sociétaux forts :  1) le vecteur industriel de la fabrication additive,  2) Celui du recyclage des matières plastique,  3) la croissance des espaces d'innovation dites ouverte type Fab Labs / hackerspaces. Chaque élément est très important dans un contexte où notre société doit agir à tous les niveaux (produit-procédé / filière / territoire) vers une transition écologique des modes de production, de fabrication et de consommation en prenant en compte les enjeux environnementaux actuels. 
+Mes activités de recherche ont comme dénominateur commun le croisement de trois enjeux sociétaux forts :  1) le vecteur industriel de la fabrication additive,  2) Celui du recyclage des matières plastique,  3) la croissance des espaces d'innovation dites ouverte type Fab Labs / hackerspaces. 
+Chaque élément est très important dans un contexte où notre société doit agir à tous les niveaux (produit-procédé / filière / territoire) vers une transition écologique des modes de production, de fabrication et de consommation en prenant en compte les enjeux environnementaux actuels. 
  
 
 Mes travaux de recherche ont abouti à la proposition d’un cadre conceptuel de filière de  recyclage des thermoplastiques pour l'impression 3D en considérant les étapes clés et un premier ensemble des indicateurs multicritères pour évaluer cette proposition comme illustré dans la figure Figure \@ref(fig:DRAM).    
