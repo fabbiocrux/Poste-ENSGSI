@@ -417,6 +417,9 @@ background-size: 85%
 
 ## Recyclage distribué pour la Fabrication additive
 
+
+
+
 --
 background-image: url("images/SDRAM-07.jpg")
 
