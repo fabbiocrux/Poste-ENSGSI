@@ -1,0 +1,166 @@
+---
+title: "Candidature au poste de <br> Maître de Conférences"
+subtitle: "ENSGSI / ERPI"  
+date: '`r Sys.Date()`'
+#institute: "Lorraine Fab Living Lab"
+author: 
+  - 'Fabio A. CRUZ SANCHEZ'
+format: 
+  beamer: 
+    aspectratio: 169
+    navigation: vertical
+    theme: Luebeck
+    #toc: true
+    #toc-title: "Organisation de la presentation"
+    #Luebeck
+    colortheme: beaver
+    slide-level: 3
+    toc-depth: 2
+    #beamerarticle: true
+    #latex_engine: lualatex
+    include-in-header: 
+      text: |
+       %\usepackage{emoji}
+       %\usepackage{xelatexemoji}-
+        %\AtBeginSection{}
+        %\renewcommand{\tableofcontents}{...}
+        \setbeameroption{show notes}   
+fontsize: 11pt  
+
+---
+
+
+```{r setup, include=FALSE}
+# Load packages -----
+#library(tidyverse)
+#library(xaringanExtra)
+#library(xaringanthemer)
+library(fontawesome)
+#library(here)
+#library(vembedr)
+
+#source(here("Presentation","xaringan-themer.R"))
+
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = TRUE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE,
+  fig.align='center'
+)
+
+# Link for the Figures
+URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
+
+
+#library(renderthis)
+
+```
+
+### Organisation de la presentation {.plain}
+
+\tableofcontents
+
+
+
+# Mon Profil et Parcours Professionnel
+
+
+
+### Profile
+
+
+
+:::: {.columns}
+::: {.column width="30%"}
+
+![](Figures/Fabio.jpg){width=60}
+
+34 ans - ![](Figures/icons/flag-colombia.png){width=20} ![](Figures/icons/flag-france.png){width=20} 
+
+Ingénieur Mécanique
+
+Master II - Design Global.
+
+PhD. en Génie des Systèmes Industriels
+
+CNU : 60 – 62
+
+:::
+
+
+::: {.column width="65%" }
+
+![](Figures/timeline.jpg)
+
+:::
+::::
+
+::: notes
+This is a speaker note.
+
+- Use basic Markdown
+- like this list
+- *and inline formatting*
+:::
+
+
+## Activités de Recherche
+
+### Domaine de recherche {.s}
+
+Design for a systemic **distributed recycling** via open hardware.
+
+
+\vfill
+ 
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Figures/Profil-Recherche.jpg){width=200}
+
+:::
+
+
+::: {.column width="50%" }
+
+- Technical feasability of recycling
+
+
+
+- Validation of the Open SOurce
+:::
+::::
+
+
+
+### Production Scientifique
+
+
+### Collaboration et Projets Scientifiques
+
+
+### Projet de Recherche
+
+
+## Activités d'Enseignement
+
+
+## Responsabilités Collectifs
+
+
+# Proposition d'intégration à l'ENSGSI et à l'ERPI 
+
+## Projet de Recherche
+
+## Projet d'Ensegement
+
+## Mon futur investissement collectif
+
+# Conclusion
+
