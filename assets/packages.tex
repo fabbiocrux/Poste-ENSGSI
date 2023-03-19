@@ -2,6 +2,12 @@
 % 	CONFIGURATION OF PARAMETERS
 %----------------------------------------------------
 
+\let\paragraph\oldparagraph
+\let\subparagraph\oldsubparagraph
+
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+
 % ----------------
 %  FONTS AND TYPESETTING SETTINGS
 % -----------------
@@ -27,35 +33,8 @@
 % \usepackage{marginnote}
 % \renewcommand*{\marginfont}{\small\sffamily}
 % \usepackage{wrapfig}
-%---------------------------------
-% Modification du model de UL
-%\graphicspath{{./Figures/}} % chemin des figures
 
 
-% -----------------
-%  DEFINITION OF THE COLORS
-% -----------------
-%\usepackage{color} % Color
-%\usepackage[usenames,dvipsnames,table]{xcolor}
-%\usepackage{colortbl}
-
-% -----------------
-% 	MATHEMATHICAL SYMBOLS
-% -----------------
-%\usepackage{amssymb} %% The amssymb package provides various useful mathematical symbols
-%\usepackage{amsthm} %% The amsthm package provides extended theorem environments
-%\usepackage{amsmath}  % Paqute de Matematicas
-%----------------------------------------------------------------------------------------
-
-% -----------------
-%  BIBLIOGRAPHY
-% -----------------
-%\usepackage  {natbib}
-\usepackage{csquotes} %a utiliser si biblatex est utilisé
-%\usepackage[style=numeric-comp, doi=false, backend=bibtex, isbn=false, url=false, sorting=none, language=english ]{biblatex}
-%\addbibresource{library.bib}
-
-%\usepackage[toc,page]{appendix}
 
 % -----------------
 %  VARIOUS PACKAGES FROM ME
@@ -84,14 +63,29 @@
 \usepackage{import}
 
 
-%----------------------------------------------------------------------
-%  PERSONALIZATION OF PACKAGES
-%----------------------------------------------------------------------
-
 
 % -----------------
 %  DEFINITION OF COMMANDS BY ME
 % -----------------
 %\pagenumbering{Roman}
+
+
+\newenvironment{cols}[1][]{}{}
+
+\newenvironment{col}[1]{\begin{minipage}{#1}\ignorespaces}{%
+\end{minipage}
+\ifhmode\unskip\fi
+\aftergroup\useignorespacesandallpars}
+
+\def\useignorespacesandallpars#1\ignorespaces\fi{%
+#1\fi\ignorespacesandallpars}
+
+\makeatletter
+\def\ignorespacesandallpars{%
+  \@ifnextchar\par
+    {\expandafter\ignorespacesandallpars\@gobble}%
+    {}%
+}
+\makeatother
 
 
