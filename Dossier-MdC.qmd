@@ -1,5 +1,6 @@
 ---
 title: "Dossier"
+#lang: fr
 # output:
 #   pdf_document:
 #     columns: 2
@@ -24,6 +25,12 @@ format:
     include-before-body: [assets/titlepage.tex]
     keep-tex: true
 
+crossref:
+  fig-title: Figure     # (default is "Figure")
+  tbl-title: Tableau     # (default is "Table")
+  title-delim: ":"     # (default is ":")
+  fig-prefix: Figure   # (default is "Figure")
+  tbl-prefix: Tableau    # (default is "Table")
 bibliography: assets/library.bib
 csl: assets/journal-of-cleaner-production.csl
 filters:
@@ -496,15 +503,43 @@ Le verrou scientifique essentiel sera de clarifier une approche méthodologique 
 # Activités d'Enseignement
 ## Description synthethique
 
-Après mes travaux de thèse, mes activités d'enseignement ont débuté en 2017 en tant que chercheur contractuel vacataire à l’École Nationale Supérieure en Génie des Systèmes et de l’Innovation (ENSGSI) et depuis 2020 à l'Institut Universitaire de Technologie (IUT) Nancy-Charlemagne à Nancy. 
+
+Après mes travaux de thèse, mes activités d'enseignement ont débuté en 2017 en tant que chercheur contractuel vacataire.
+\begin{wraptable}{r}{0.3\textwidth}
+   \caption{\label{tbl-heures}Synthèse des\\activités d'enseignement}
+   \begin{tabular}[t]{lr}
+   \toprule
+   Année & HETD\\
+   \midrule
+   2021 - 2022 & 91\\
+   2020 - 2021 & 69\\
+   2019 - 2020 & 57\\
+   2017 - 2018 & 75\\
+   \bottomrule
+   \end{tabular}
+\end{wraptable}
+Initialement à l’École Nationale Supérieure en Génie des Systèmes et de l’Innovation (ENSGSI), et depuis 2020 à l'Institut Universitaire de Technologie (IUT) Nancy-Charlemagne à Nancy.
+Tableau \ref{tbl-heures} presente une volumen global de mes activités d’enseignement.
 
 
-L'expérience des travaux de recherche m’a amené à proposer un TP autour de la  recherche reproductible dans le cadre du module de *Recherche, Innovation et Développement* pour étudiants de cycle ingénieur généralistes de 3AI et parcours Master Design M2 - Innovation et Design Évalués par les Usages (IDEAS) et pour le master Master Urbanisme et Aménagement, Innovation Urbaine pour des Villes & Territoires en Transformation (IUVTT) de l’ENSGSI. 
+Les enseignements ont été dispensés à des niveaux BAC+3, à BAC +5, principalement en travaux dirigés dans différents pôles d’enseignement (Figure 2).
+
+```{r}
+
+```
+
+La majorité de mes enseignements (91 %) est dispensée au sein des pôles de Conception et Innovation et Génie Mécanique Energétique.
+
+
+Mes thématiques d’enseignement portent majoritairement sur 
 
 
 
-    
-```{r, fig.pos='H'}
+```{r, include=FALSE}
+#| label: tbl-heures
+#| tbl-cap: Synthèse des activités d’enseignement
+
+
 heures <- tribble(~Année, ~`Heures - HETD`,
                   "2021 - 2022", 91,
                   "2020 - 2021", 69,
@@ -514,8 +549,12 @@ heures <- tribble(~Année, ~`Heures - HETD`,
 
 heures %>% 
    kbl(booktabs = TRUE) %>%
-  kable_styling()
+  kable_styling(latex_options = "HOLD_position")
 ```
+
+
+
+L'expérience des travaux de recherche m’a amené à proposer un TP autour de la  recherche reproductible dans le cadre du module de *Recherche, Innovation et Développement* pour étudiants de cycle ingénieur généralistes de 3AI et parcours Master Design M2 - Innovation et Design Évalués par les Usages (IDEAS) et pour le master Master Urbanisme et Aménagement, Innovation Urbaine pour des Villes & Territoires en Transformation (IUVTT) de l’ENSGSI. 
 
 
 Également, au vue de la thématique du recyclage de plastique et des espaces d’innovation, je me suis proposé pour aider dans la création de contenu de la Licence Professionnelle en Apprentissage AFTER (Animateur Facilitateur de Tiers-lieux Éco-Responsables) que dispense entre l’ENSGSI et l’IUT Charlemagne. J’ai réalisé des cours (CM), TD et TP et participé à la rédaction de documents supports (cours, TD, TP). J'ai également encadré des élèves ingénieurs de 2ème année lors de projets industriels ainsi que des étudiants du Master (M2 IDEAS) lors des projets de recherche de fin d’études. Les enseignement ont été dispensés pour un total de **`r sum(heures[2])` heures équivalent TD**.
@@ -523,12 +562,7 @@ heures %>%
 Je présente en détail le contenu pédagogique et de mes contributions aux modules de formations qui donnent une aperçu de mes expériences d’enseignement : (1) Recherche, Innovation et Développement, (2) Modules de Licence AFTER, (3) Pôle Conception et Innovation Module Ingénierie de l’innovation II / Design Thinking; et (4) Introduction au prototypage et à l’impression 3D.
 
 
-## Module CI15. Recherche, Innovation et Developpement
-
-Ce cours permet aux étudiants de 3AI et Master IDEAS de l’ENSGSI et IUVTT de maîtriser les éléments fondamentaux sur les bases de la recherche scientifique en considérant  les étapes clés de la recherche scientifique : recherche documentaire ciblée, analyse de documents --essentiellement en langue Anglaise-, préparer et suivre un protocole expérimental et aussi travailler sur l’organisation et les modes de financement de la recherche. 
-Le module est organisé en deux volets : la méthodologie de recherche et un atelier d’écriture pour réaliser un travail de synthèse sous la forme d'un article d'état de l'art. Il permet également de connaître les bases des données scientifiques, présentation de la structure des articles scientifiques et la gestion de référence (Mendeley et Zotero). 
-
-*Ma contribution*: Animations de séances TD sur l'application de la méthode de revue systématique de la littérature  à partir d'une équation ciblée. J'ai également proposé une TD sur la recherche reproductible en utilisation de logiciels open source comme R et Github. 
+## Participation aux modules pédagogiques
 
 ## Licence professionnel Animateur et facilitateur de tiers-lieux éco-responsables (AFTER) – IUT Charlemagne - ENSGSI
 
@@ -537,6 +571,16 @@ Les modules *'d’Animation d’un lieu', ‘Exploiter durablement les ressource
 Également, une présentation sur l’approche de machines open source pour recyclage et projets phares dans la communauté.
 
 *Ma contribution*: Présentation des enjeux de l'économie circulaire axés sur le recyclage de matière plastique. En lien, j’ai proposé des séances de TP recyclage et la mise en en application des ces outils technologiques présentes au Green Fablab avec un publique de élèves d’un collège classé “éducation prioritaire renforcé” (REP +). Cette animation permet découvrir les tiers lieux comme lieu d’expérimentation, sensibilité au recyclage de matière plastique et enfin, montrer le métier d' animateur et de chercheur.
+
+
+
+### Module CI15. Recherche, Innovation et Developpement
+
+Ce cours permet aux étudiants de 3AI et Master IDEAS de l’ENSGSI et IUVTT de maîtriser les éléments fondamentaux sur les bases de la recherche scientifique en considérant  les étapes clés de la recherche scientifique : recherche documentaire ciblée, analyse de documents --essentiellement en langue Anglaise-, préparer et suivre un protocole expérimental et aussi travailler sur l’organisation et les modes de financement de la recherche. 
+Le module est organisé en deux volets : la méthodologie de recherche et un atelier d’écriture pour réaliser un travail de synthèse sous la forme d'un article d'état de l'art. Il permet également de connaître les bases des données scientifiques, présentation de la structure des articles scientifiques et la gestion de référence (Mendeley et Zotero). 
+
+*Ma contribution*: Animations de séances TD sur l'application de la méthode de revue systématique de la littérature  à partir d'une équation ciblée. J'ai également proposé une TD sur la recherche reproductible en utilisation de logiciels open source comme R et Github. 
+
 
 ## Pôle Conception / Innovation: Conception Mécanique/CAO
 

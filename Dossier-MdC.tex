@@ -111,7 +111,7 @@
 % ----------------
 %  FONTS AND TYPESETTING SETTINGS
 % -----------------
-\usepackage[french]{babel}
+%\usepackage[french]{babel}
 %\usepackage[bitstream-charter]{mathdesign}
 
 \usepackage{fontawesome5}
@@ -247,9 +247,9 @@
   \newcommand\figurename{Figure}
 \fi
 \ifdefined\tablename
-  \renewcommand*\tablename{Table}
+  \renewcommand*\tablename{Tableau}
 \else
-  \newcommand\tablename{Table}
+  \newcommand\tablename{Tableau}
 \fi
 }
 \@ifpackageloaded{float}{}{\usepackage{float}}
@@ -334,7 +334,7 @@
 	\end{flushright}
 \end{titlepage}
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, enhanced, frame hidden, interior hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, breakable]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, enhanced, sharp corners, interior hidden, borderline west={3pt}{0pt}{shadecolor}, breakable, frame hidden]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -609,7 +609,7 @@ Freeform Fabrication Symposium)  \\
 \subsection{Synthèse qualitatif des mes axes de
 recherche}\label{synthuxe8se-qualitatif-des-mes-axes-de-recherche}}
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, bottomrule=.15mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{En quelque mots}, opacitybacktitle=0.6, rightrule=.15mm, breakable, toprule=.15mm, titlerule=0mm, bottomtitle=1mm, toptitle=1mm, arc=.35mm, colbacktitle=quarto-callout-tip-color!10!white, coltitle=black, leftrule=.75mm, left=2mm, opacityback=0, colback=white]
+\begin{tcolorbox}[enhanced jigsaw, breakable, bottomrule=.15mm, colframe=quarto-callout-tip-color-frame, opacityback=0, toptitle=1mm, leftrule=.75mm, left=2mm, opacitybacktitle=0.6, arc=.35mm, colback=white, coltitle=black, titlerule=0mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{En quelque mots}, rightrule=.15mm, bottomtitle=1mm, toprule=.15mm, colbacktitle=quarto-callout-tip-color!10!white]
 
 Mes travaux de recherche portent sur le design systémique (produit /
 procédé / filière / territoire) d'une approche local et open source de
@@ -675,13 +675,12 @@ additive}
 
 \end{figure}
 
-Indéniablement, le développement de ce projet mobilise un panel de
-méthodologies de recherche dans la conception mécanique (e.g; plan
-d'expériences, validation statistique/ANOVA, simulation) et en
-innovation (e.g.~recherche opérationnelle, analyse multicritère,
-systèmes dynamiques) et ouvrent un champ d'expérimentation non
-négligeable pour la créativité de solutions avec des étudiants en
-ingénierie.
+Le développement de ce projet mobilise un panel de méthodologies de
+recherche dans la conception mécanique (e.g: plan d'expériences,
+validation statistique/ANOVA, simulation) et en innovation
+(e.g.~recherche opérationnelle, analyse multicritère, systèmes
+dynamiques) et ouvrent un champ d'expérimentation non négligeable pour
+la créativité de solutions avec des étudiants en ingénierie.
 
 A partir de ce contexte, les axes de recherche peuvent être décrits d'un
 point de vue technologique (micro) vers une vision système (macro) de
@@ -1030,11 +1029,35 @@ al., 2022}).
 \hypertarget{description-synthethique}{%
 \subsection{Description synthethique}\label{description-synthethique}}
 
+\begin{wraptable}{r}{0.3\textwidth}
+   \caption{\label{tbl-heures}Synthèse des\\activités d'enseignement}
+   \begin{tabular}[t]{lr}
+   \toprule
+   Année & HETD\\
+   \midrule
+   2021 - 2022 & 91\\
+   2020 - 2021 & 69\\
+   2019 - 2020 & 57\\
+   2017 - 2018 & 75\\
+   \bottomrule
+   \end{tabular}
+\end{wraptable}
+
 Après mes travaux de thèse, mes activités d'enseignement ont débuté en
-2017 en tant que chercheur contractuel vacataire à l'École Nationale
-Supérieure en Génie des Systèmes et de l'Innovation (ENSGSI) et depuis
-2020 à l'Institut Universitaire de Technologie (IUT) Nancy-Charlemagne à
-Nancy.
+2017 en tant que chercheur contractuel vacataire. Initialement à l'École
+Nationale Supérieure en Génie des Systèmes et de l'Innovation (ENSGSI),
+et depuis 2020 à l'Institut Universitaire de Technologie (IUT)
+Nancy-Charlemagne à Nancy. Tableau\textasciitilde{}\ref{tbl-heures}
+presente une volumen global de mes activités d'enseignement.
+
+Mes thématiques d'enseignement portent majoritairement sur l'aide à la
+décision et l'analyse multicritère (détaillée en section 3.1.1) ainsi
+que sur l'ingénierie de l'innovation (détaillée en section 3.1.2). J'ai
+également récemment monté des modules d'enseignement concernant l'open
+innovation et les collaborations internationales (section 3.1.3), ainsi
+que la digitalisation des entreprises, en collaboration avec des
+enseignants du pôle Conception-Innovation de l'ENSGSI. Le contenu
+détaillé des enseignements menés est présenté en Annexe 3.
 
 L'expérience des travaux de recherche m'a amené à proposer un TP autour
 de la recherche reproductible dans le cadre du module de
@@ -1043,20 +1066,6 @@ ingénieur généralistes de 3AI et parcours Master Design M2 - Innovation
 et Design Évalués par les Usages (IDEAS) et pour le master Master
 Urbanisme et Aménagement, Innovation Urbaine pour des Villes \&
 Territoires en Transformation (IUVTT) de l'ENSGSI.
-
-\begin{table}
-\centering
-\begin{tabular}[t]{lr}
-\toprule
-Année & Heures - HETD\\
-\midrule
-2021 - 2022 & 91\\
-2020 - 2021 & 69\\
-2019 - 2020 & 57\\
-2017 - 2018 & 75\\
-\bottomrule
-\end{tabular}
-\end{table}
 
 Également, au vue de la thématique du recyclage de plastique et des
 espaces d'innovation, je me suis proposé pour aider dans la création de
