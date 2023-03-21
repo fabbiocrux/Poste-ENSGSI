@@ -204,6 +204,22 @@
 \usepackage{makecell}
 \usepackage{xcolor}
 \makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
 \makeatother
 \makeatletter
 \makeatother
@@ -278,12 +294,12 @@
 \begin{titlepage}
 	\begin{flushright}
 
-		\LARGE{\textbf{2022}}\\
+		\LARGE{\textbf{2023}}\\
 		\vfill
 		\Large{Dossier de Candidature} \\ 
 		\Large{aux fonctions de } \\
 		\Large{Maître de conférences}\\[1cm]
-		\Large{\textbf{Référence 60-62MCF 0182 -- Galaxie 1473}}  \\
+		\Large{\textbf{Référence 60-61MCF -- Galaxie 1637}}  \\
 		\vfill
 		
       \Large{École Nationale Supérieure en Génie des Systèmes Industriels\\ --ENSGSI-}\\
@@ -318,7 +334,7 @@
 	\end{flushright}
 \end{titlepage}
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, enhanced, frame hidden, interior hidden, breakable, sharp corners, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, enhanced, frame hidden, interior hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, breakable]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -377,40 +393,49 @@ Recyclagé distribué; 3D Printing; Recyclage plastique; Soutenabilité
 Je suis ingénieur mécanique formé à l'Université Nacional de Colombie
 titulaire d'un Master II en Management de l'Innovation et du Design
 Industriel et PhD. en Génie des Systèmes Industriels de l'Université de
-Lorraine. Mes expériences professionnelles et de recherche sont centrées
-sur le champ de la fabrication additive open source (également appelé
-\emph{Impression 3D}) comme vecteur de développement industriel durable.
+Lorraine.
 
-Mon parcours est fortement lié à la recherche et au développement d'une
-nouvelle filière distribuée en circuit court pour la valorisation des
-matières plastiques recyclées via la fabrication additive. Cela implique
-une approche multi-échelle afin d'appréhender les enjeux liés au procédé
-technologique, la filière associée et le contexte territorial tout en
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+    \includegraphics[width=0.48\textwidth]{Figures/Cloud.png}
+  \end{center}
+  \caption{Nuages de mots fait à partir des résumés des mes articles scientifiques}
+\end{wrapfigure}
+
+Mes expériences professionnelles et de recherche sont centrées sur le
+champ de la fabrication additive open source (également appelé
+\emph{Impression 3D}) comme vecteur de développement industriel
+soutenable.\\
+Plus précisement, sur l'étude systémique d'une nouvelle filière
+distribuée en circuit court pour la valorisation des matières plastiques
+recyclées via la fabrication additive. Cela implique une approche
+multi-échelle afin d'appréhender les enjeux liés au procédé
+technologique, la filière associée et le contexte territorial. Tout en
 gardant une collaboration avec de multiples acteurs et la mobilisation
 de différentes méthodologies pour améliorer, tester et expérimenter de
 nouveaux usages.
 
 Je travaille sur un premier axe portant sur la validation du procédé
 d'impression 3D open source en tant qu'outil reproductible pour la
-fabrication des pièces en lien avec le Laboratoire LEM3 de l'UL. Une
-attention particulière est portée sur la performance géométrique,
-mécanique et vibratoire de ce procédé à l'échelle industrielle standard.
-Un deuxième axe central dans mon parcours est la faisabilité technique
-du recyclage des thermoplastiques pour les processus d'impression 3D.
-J'ai eu l'opportunité de travailler pendant ma thèse sur les
-caractérisations mécanique et chimique de la matière recyclée dans la
-chaîne d'impression en co-tutelle avec l'Équipe de Recherche sur les
-Processus Innovatifs (ERPI) et le Laboratoire des Réactions et Génie des
-Procédés (LRGP --- UMR 7274) à Nancy. Je collabore avec le groupe de
-recherche FAST (Free Appropriate Sustainability Technology) de Western
-University de Canada sur le développement open source hardware afin de
-continuer à démocratiser la technologie associé au recyclage distribué.
-Une troisième axe en cours de développement est l'analyse de la
-soutenabilité de cette filière en collaboration avec l'équipe InSyTe de
-l'Université Technologique de Troyes. Le développement d'indicateurs
-au-déla des technico-économiques intégrant la capacité de charge des
-écosystèmes et leurs services est un enjeu prometteur pour rendre les
-filières industrielles plus résilientes.
+fabrication des pièces. Une attention particulière est portée sur la
+performance géométrique, mécanique et vibratoire de ce procédé à
+l'échelle industrielle standard. Un deuxième axe central dans mon
+parcours est la faisabilité technique du recyclage des thermoplastiques
+pour les processus d'impression 3D. J'ai eu l'opportunité de travailler
+pendant ma thèse sur les caractérisations mécanique et chimique de la
+matière recyclée dans la chaîne d'impression en co-tutelle avec l'Équipe
+de Recherche sur les Processus Innovatifs (ERPI) et le Laboratoire des
+Réactions et Génie des Procédés (LRGP --- UMR 7274) à Nancy. Je
+collabore avec le groupe de recherche FAST (Free Appropriate
+Sustainability Technology) de Western University de Canada sur le
+développement open source hardware dans une vision de démocratisation de
+la technologie associé au recyclage distribué. Une troisième axe en
+cours de développement est l'analyse de la soutenabilité de cette
+filière en collaboration avec l'équipe InSyTe de l'Université
+Technologique de Troyes. Le développement d'indicateurs au-déla des
+technico-économiques intégrant la capacité de charge des écosystèmes et
+leurs services est un enjeu prometteur pour rendre les filières
+industrielles plus résilientes.
 
 Actuellement, je participe au développement du démonstrateur
 \href{https://lf2l.fr/projects/green-fablab/}{Green Fablab}\footnote{https://lf2l.fr/projects/green-fablab/}
@@ -426,14 +451,6 @@ appliquée et d'innovation de dix universités partenaires du Mexique, du
 Brésil et de la Colombie par la conception et la mise en œuvre de Social
 Innovation Labs pour l'atténuation et l'adaptation au changement
 climatique.
-
-\begin{figure}[H]
-
-{\centering \includegraphics[width=0.25\textwidth,height=\textheight]{Figures/Cloud.png}
-
-}
-
-\end{figure}
 
 \hypertarget{formations}{%
 \subsection{Formations}\label{formations}}
@@ -519,20 +536,20 @@ Professionnelles}\label{expuxe9riences-professionnelles}}
 \hypertarget{activituxe9s-de-recherche}{%
 \section{Activités de Recherche}\label{activituxe9s-de-recherche}}
 
-\hypertarget{synthuxe8se}{%
-\subsection{Synthèse}\label{synthuxe8se}}
+\hypertarget{synthuxe8se-quantitative}{%
+\subsection{Synthèse quantitative}\label{synthuxe8se-quantitative}}
 
 Dans la période 2014-2023, 9 articles dans des revues à comité de
 lecture et 5 conférences internationales ont été publiés comme illustré
-dans la Figure @ref(fig:bilan).
+dans la Figure~\ref{fig-bilan}. Cette production scientifique relève des
+mes travaux de recherche mais aussi dans la participation aux différents
+projets que je collabore au sein du laboratoire ERPI.
 
-Cette production scientifique relève des mes travaux de recherche mais
-aussi dans la participation des différents projets que j'ai eu
-l'opportunité de collaborer au sein du laboratoire ERPI. Au courant de
-l'année 2022, 4 propositions d'articles ont été soumis à considération
-dans des revues à comité de lecture (en attente de décision) et 2
-chapitres d'ouvrages collectifs orientés vers la communauté de recyclage
-de matériaux sont en cours de lecture par les éditeurs.
+Au courant de l'année 2023, 4 propositions d'articles ont été soumis à
+considération dans des revues à comité de lecture (en attente de
+décision) et 2 chapitres d'ouvrages collectifs orientés vers la
+communauté de recyclage de matériaux sont en cours de lecture par les
+éditeurs.
 
 Le tableau montre les différents journaux auxquels nos propositions ont
 été publiées. L'annexe @ref(articles) présente une liste complète de la
@@ -540,11 +557,11 @@ production scientifique.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.8\textwidth,height=\textheight]{Figures/bilan-1.pdf}
+{\centering \includegraphics[width=0.8\textwidth,height=\textheight]{Figures/fig-bilan-1.pdf}
 
 }
 
-\caption{Bilan de production scientifique}
+\caption{\label{fig-bilan}Bilan de production scientifique}
 
 \end{figure}
 
@@ -588,58 +605,73 @@ Freeform Fabrication Symposium)  \\
 \end{minipage}
 \end{small}
 
-Mes activités de recherche ont comme dénominateur commun le croisement
-de trois enjeux sociétaux forts : 1) le vecteur industriel de la
-fabrication additive, 2) Celui du recyclage des matières plastique, 3)
-la croissance des espaces d'innovation dites ouverte type Fab Labs /
-hackerspaces. Chaque élément est très important dans un contexte où
-notre société doit agir à tous les niveaux (produit-procédé / filière /
-territoire) vers une transition écologique des modes de production, de
-fabrication et de consommation en prenant en compte les enjeux
-environnementaux actuels.
+\hypertarget{synthuxe8se-qualitatif-des-mes-axes-de-recherche}{%
+\subsection{Synthèse qualitatif des mes axes de
+recherche}\label{synthuxe8se-qualitatif-des-mes-axes-de-recherche}}
 
-Mes travaux de recherche ont abouti à la proposition d'un cadre
-conceptuel de filière de recyclage des thermoplastiques pour
-l'impression 3D en considérant les étapes clés et un premier ensemble
-des indicateurs multicritères pour évaluer cette proposition comme
-illustré dans la figure Figure @ref(fig:DRAM).
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, bottomrule=.15mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{En quelque mots}, opacitybacktitle=0.6, rightrule=.15mm, breakable, toprule=.15mm, titlerule=0mm, bottomtitle=1mm, toptitle=1mm, arc=.35mm, colbacktitle=quarto-callout-tip-color!10!white, coltitle=black, leftrule=.75mm, left=2mm, opacityback=0, colback=white]
+
+Mes travaux de recherche portent sur le design systémique (produit /
+procédé / filière / territoire) d'une approche local et open source de
+recyclage distribué des thermoplastiques pour l'impression 3D.
+
+\end{tcolorbox}
+
+Mes activités de recherche ont comme dénominateur commun le croisement
+de trois tendances forts :\\
+1) le vecteur industriel de la fabrication additive,\\
+2) l'enjeux de recyclage des matières plastique et ,\\
+3) la croissance des espaces d'innovation ouverte type Fab Labs /
+hackerspaces.
+
+Mes travaux de recherche ont abouti à une proposition de cadre
+conceptuel oour le deployment d'une filière de recyclage des
+thermoplastiques pour l'impression 3D en considérant les étapes clés
+comme illustré dans la Figure~\ref{fig-sdram}.
+
+Je travaille au sein du laboratoire ERPI avec différents collègues en
+France et à l'étranger pour pouvoir clarifier étape par étape (I-VI) les
+implications, les verrous scientifiques et technologiques afin de
+démocratiser une démarche locale de recyclage distribuée. Chaque élément
+est très important dans un contexte où notre société doit agir à tous
+les niveaux (produit-procédé / filière / territoire) vers une transition
+écologique des modes de production, de fabrication et de consommation en
+prenant en compte les enjeux environnementaux actuels.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{Figures/SDRAM-00.pdf}
+{\centering \includegraphics{Figures/SDRAM-00.pdf}
 
 }
 
-\caption{Récyclage distribué via la fabrication additive}
+\caption{\label{fig-sdram}Récyclage distribué via la fabrication
+additive}
 
 \end{figure}
 
-Je travaille avec différents collègues en France et à l'étranger pour
-pouvoir clarifier étape par étape les implications et les verrous
-scientifiques et technologiques afin de démocratiser une démarche locale
-de recyclage distribuée.
+La particularité de la recherche que je développe en fort lien avec la
+plateforme de recherche du Lorraine Fab Living Lab est de mieux
+comprendre le système technologique du processus de recyclage, la
+dimension opérationnelle du système, et également, l'implication
+systémique de cette nouvelle filière pour un territoire en identifiant
+un ensemble des indicateurs multicritères pour évaluer cette proposition
 
-La particularité de la recherche que je développe au sein du laboratoire
-ERPI et dans la plateforme de recherche du Lorraine Fab Living Lab avec
-d'autres partenaires industriels et académiques est de pouvoir mieux
-comprendre autant la partie opérationnelle du système, mais également,
-l'implication systémique de cette nouvelle filière pour un territoire.
-
-Aujourd'hui, dans le cadre du projet INEDIT, qui vise le transfert des
+Actuellement, dans le cadre du projet INEDIT, qui vise le transfert des
 approches `Do-It-Yourself' vers un context industriel, nous sommes en
 train de mettre en place un démonstrateur qui permettra tester
 l'approche appelé `Do-It-Together' dont la particularité est la
 connection de la co-création et la fabrication grâce à des plateformes
-numériques en incluant la réalité virtuelle (Figure
-@ref(fig:DRAM-INEDIT)).
+numériques en incluant la réalité virtuelle
+(Figure~\ref{fig-DRAM-INEDIT}).
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=1\textwidth,height=\textheight]{Figures/INEDIT.jpg}
+{\centering \includegraphics{Figures/INEDIT.jpg}
 
 }
 
-\caption{Récyclage distribué via la fabrication additive}
+\caption{\label{fig-DRAM-INEDIT}Récyclage distribué via la fabrication
+additive}
 
 \end{figure}
 
@@ -655,9 +687,6 @@ A partir de ce contexte, les axes de recherche peuvent être décrits d'un
 point de vue technologique (micro) vers une vision système (macro) de
 l'implication de la filière de recyclage en tant que système
 socio-technique.
-
-\hypertarget{axes-de-recherche}{%
-\subsection{Axes de Recherche}\label{axes-de-recherche}}
 
 \hypertarget{limpression-3d-open-source-validation-des-standards-de-fabrication}{%
 \subsubsection{L'impression 3D open source: validation des standards de
@@ -1005,8 +1034,10 @@ Après mes travaux de thèse, mes activités d'enseignement ont débuté en
 2017 en tant que chercheur contractuel vacataire à l'École Nationale
 Supérieure en Génie des Systèmes et de l'Innovation (ENSGSI) et depuis
 2020 à l'Institut Universitaire de Technologie (IUT) Nancy-Charlemagne à
-Nancy. L'expérience des travaux de recherche m'a amené à proposer un TP
-autour de la recherche reproductible dans le cadre du module de
+Nancy.
+
+L'expérience des travaux de recherche m'a amené à proposer un TP autour
+de la recherche reproductible dans le cadre du module de
 \emph{Recherche, Innovation et Développement} pour étudiants de cycle
 ingénieur généralistes de 3AI et parcours Master Design M2 - Innovation
 et Design Évalués par les Usages (IDEAS) et pour le master Master
