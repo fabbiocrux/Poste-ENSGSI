@@ -1,0 +1,208 @@
+---
+title: "Candidature au poste de <br> Maître de Conférences"
+subtitle: "ENSGSI / ERPI"  
+date: '`r Sys.Date()`'
+#institute: "Lorraine Fab Living Lab"
+author: 
+  - 'Fabio A. CRUZ SANCHEZ'
+format: 
+  beamer: 
+    aspectratio: 169
+    navigation: vertical
+    theme: Luebeck #AnnArbor
+    #toc: true
+    #toc-title: "Organisation de la presentation"
+    #Luebeck
+    colortheme: beaver
+    slide-level: 3
+    toc-depth: 2
+    #beamerarticle: true
+    #latex_engine: lualatex
+    include-in-header: 
+      text: |
+       %\usepackage{emoji}
+       %\usepackage{xelatexemoji}-
+        %\AtBeginSection{}
+        %\renewcommand{\tableofcontents}{...}
+        \setbeameroption{show notes}
+        %\setbeamertemplate{navigation symbols}{}
+        %\setbeamertemplate{footline}[page number]
+fontsize: 11pt  
+
+---
+
+```{r setup, include=FALSE}
+# Load packages -----
+#library(tidyverse)
+#library(xaringanExtra)
+#library(xaringanthemer)
+library(fontawesome)
+#library(here)
+#library(vembedr)
+
+#source(here("Presentation","xaringan-themer.R"))
+
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = TRUE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE,
+  fig.align='center'
+)
+
+# Link for the Figures
+URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
+
+
+#library(renderthis)
+
+```
+
+
+
+
+::: notes
+Bonjour à tous.
+
+- D’abord je vous remercie de m’accueillir aujourd’hui.
+
+- Je m'appelle Fabio Alberto Cruz Sanchez. 
+
+- J’ai le plaisir de vous présenter ma candidature pour le role de Maître de Conférence à l’école ENSGSI en lien avec le laboratoire ERPI.
+
+- Dans ces 15 min, Je veux mettre en lumiere les competences que je peux apporter à l'équipe péagogique de l'Ecole pour soutenir la formation futures ingénieurs en innovation en portent des valeurs d'Eco-responsabilité pour les enjeux societaux actuels.
+
+- Et bien évidement, 
+:::
+
+
+
+
+### Organisation de la presentation {.plain}
+
+\tableofcontents
+
+
+::: notes
+- Ma presentation est structuré en trois parties
+
+- D'abord, Je vous present mon profil et le récapitulatif de mon parcours profesionel. 
+
+- et ensuite je passerai à la description de mon projet d’intégration au niveau pédagogique et au nivea recherche. Et plus important comment faire le lien entre les deux dans la plateforme Lorraine Fab Living lab qui est leur support.
+
+- Je finirai avec quelques conclusion sur la motivation que m'engage pour ce. 
+
+
+:::
+
+
+# Mon Profil et Parcours Professionnel
+### Profile 
+
+:::: {.columns}
+::: {.column width="30%"}
+<!-- ![](Figures/Fabio.jpg){width=60} -->
+
+![](Figures/icons/flag-colombia.png){width=20} ![](Figures/icons/flag-france.png){width=20} 34 ans 
+
+Ingénieur Mécanique <br>
+Master II - Design Global. <br>
+PhD. en Génie des Systèmes Industriels <br>
+CNU : 60 – 62
+Langues
+:::
+
+
+::: {.column width="65%" }
+
+![](Figures/timeline.jpg)
+
+:::
+::::
+
+::: notes
+
+- Je suis d'origine Colombien. 
+- Je suis ingénieur mécanique formé à l’Université Nacional de Colombie.
+- en 2010; J’ai eu l’opportunité de travailler 1 ans au Bresil pour une entreprise de montage mécaniques.
+- Cette première expérience international m’a ouvert le sprit à trois elements:
+
+  1. La langue, bien évidement, et le premier choque culturel.
+  2. La notion Valeur et la notion Innovation. --> Internationaliser
+  3. L'enjeux environmental comme vecteur fort de mon parcours
+
+:::
+
+
+## Activités de Recherche
+
+### Domaine de recherche {#s}
+
+*Recyclage distribué* via open Source hardware: Validation multi-echelle.
+
+
+\vfill
+ 
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Figures/Profil-Recherche.jpg){width=200}
+
+:::
+
+
+::: {.column width="50%" }
+
+- Technical feasability of recycling
+
+- Validation of the Open SOurce
+:::
+::::
+
+
+::: notes
+Passon à mes activités de recherche.
+
+Je m'interesse à la no
+:::
+
+### Production Scientifique
+
+
+
+::: notes
+Passon à mes activités de recherche.
+
+Je m'interesse à la notion de Recyclage distribuée
+:::
+
+
+
+### Collaboration et Projets Scientifiques
+
+
+### Projet de Recherche
+
+
+## Activités d'Enseignement
+
+
+## Responsabilités Collectifs
+
+
+# Proposition d'intégration à l'ENSGSI et à l'ERPI 
+
+## Projet de Recherche
+
+## Projet d'Ensegement
+
+## Mon futur investissement collectif
+
+# Conclusion
+
+

@@ -5,7 +5,8 @@ title: "Dossier"
 #   pdf_document:
 #     columns: 2
 format:
-#  html: default
+  # html:
+  #   toc: true
   pdf:
     toc: true
     #lot: true
@@ -48,7 +49,7 @@ environments: [center, minipage, tabu]
 
 knitr::opts_chunk$set(
   include = TRUE,
-  fig.width=9, fig.height=3.5, fig.retina=3,
+  fig.width=8, fig.height=5, fig.retina=3,
   fig.path="Figures/",
   out.width = "95%",
   fig.align = 'center',
@@ -71,6 +72,10 @@ library(icons)
 library(wordcloud2)
 library(tm)
 library(kableExtra)
+library(readxl)
+library(ggalluvial)
+library(scales)
+
 
 ```
 
@@ -120,7 +125,7 @@ Recyclagé distribué; 3D Printing; Recyclage plastique; Soutenabilité
 
 ## Présentation 
 
-Je suis ingénieur mécanique formé à l'Université Nacional de Colombie titulaire d'un Master II en Management de l'Innovation et du Design Industriel et PhD. en Génie des Systèmes Industriels de l'Université de Lorraine. 
+Je suis ingénieur mécanique formé à l’Université Nacional de Colombie, titulaire d’un Master II en Management de l’Innovation et du Design Industriel et PhD. en Génie des Systèmes Industriels de l’Université de Lorraine.
 
 \begin{wrapfigure}{r}{0.5\textwidth}
   \begin{center}
@@ -129,24 +134,12 @@ Je suis ingénieur mécanique formé à l'Université Nacional de Colombie titul
   \caption{Nuages de mots fait à partir des résumés des mes articles scientifiques}
 \end{wrapfigure}
 
-Mes expériences professionnelles et de recherche sont centrées sur le champ de la fabrication additive open source (également appelé *Impression 3D*) comme vecteur de développement industriel soutenable.  
-<!-- Mon parcours est fortement lié à la recherche et au développement  -->
-Plus précisement, sur l'étude systémique d’une nouvelle filière distribuée en circuit court pour la valorisation des matières plastiques recyclées via la fabrication additive. 
-Cela implique une approche multi-échelle afin d’appréhender les enjeux liés au procédé technologique, la filière associée et le contexte territorial.
-Tout en gardant une collaboration avec de multiples acteurs et la mobilisation de différentes méthodologies pour améliorer, tester et expérimenter de nouveaux usages.
+Mes expériences professionnelles et de recherche sont centrées sur le champ de la fabrication additive open source (également appelé Impression 3D) comme vecteur de développement industriel soutenable. Plus précisément, sur l’étude systémique de nouvelles filières distribuée en circuit court pour la valorisation des matières plastiques recyclées via la fabrication additive. Cela implique une approche multi-échelle afin d’appréhender les enjeux liés au procédé technologique, la filière associée et le territoire, privilégiant  collaborations avec de multiples acteurs et la mobilisation de différentes méthodologies pour améliorer, tester et expérimenter de nouveaux usages.
 
 <!-- Master -->
-Je travaille sur un premier axe portant sur la validation du procédé d'impression 3D open source en tant qu'outil reproductible pour la fabrication des pièces.
-<!-- Cette axe en lien avec le Laboratoire LEM3 de l’UL.  -->
-Une attention particulière est portée sur la performance géométrique, mécanique et vibratoire de ce procédé à l'échelle industrielle standard.
-<!-- Thèse -->
-Un deuxième axe central dans mon parcours est la faisabilité technique du recyclage des thermoplastiques pour les processus d'impression 3D. 
-J’ai eu l’opportunité de travailler pendant ma thèse sur les caractérisations mécanique et chimique de la matière recyclée dans la chaîne d'impression en co-tutelle avec l'Équipe de Recherche sur les Processus Innovatifs (ERPI) et le Laboratoire des Réactions et Génie des Procédés (LRGP --- UMR 7274) à Nancy.
-<!-- Joshua -->
-Je collabore avec le groupe de recherche FAST (Free Appropriate Sustainability Technology) de Western University de Canada sur le développement open source hardware dans une vision de démocratisation de la technologie associé au recyclage distribué.
-<!-- UTT -->
-Une troisième axe en cours de développement est l’analyse de la soutenabilité de cette filière en collaboration avec l’équipe InSyTe de l’Université Technologique de Troyes. 
-Le développement d'indicateurs au-déla des technico-économiques intégrant la capacité de charge des écosystèmes et leurs services est un enjeu prometteur pour rendre les filières industrielles plus résilientes.
+Mon travail se décompose en trois axes principalement. Un premier axe porte  sur la validation du procédé d’impression 3D open source en tant qu’outil reproductible pour la fabrication des pièces. Une attention particulière est portée sur la performance géométrique, mécanique et vibratoire de ce procédé à une échelle industrielle standard. Un deuxième axe central dans mon parcours est la faisabilité technique du recyclage des thermoplastiques pour les processus d’impression 3D. J’ai eu l’opportunité de travailler pendant ma thèse sur les caractérisations mécanique et chimique de la matière recyclée dans la chaîne d’impression en co-tutelle avec l’Équipe de Recherche sur les Processus Innovatifs (ERPI) et le Laboratoire des Réactions et Génie des Procédés (LRGP — UMR 7274) à Nancy. Je collabore avec le groupe de recherche FAST (Free Appropriate Sustainability Technology) de Western University de Canada sur le développement open source hardware dans une vision de démocratisation de la technologie associé au recyclage distribué. Une troisième axe en cours de développement est l’analyse de la soutenabilité de cette filière en collaboration avec l’équipe InSyTe de l’Université Technologique de Troyes. Le développement d’indicateurs (au-delà des technico-économiques) intégrant la capacité de charge des écosystèmes et leurs services est un enjeu prometteur pour rendre les filières industrielles plus résilientes.
+
+
 
 <!-- INEDIT -->
 Actuellement, je participe au développement du démonstrateur [Green Fablab](https://lf2l.fr/projects/green-fablab/)^[https://lf2l.fr/projects/green-fablab/] dans le cadre du projet Européen H2020 [INEDIT](http://erpi.univ-lorraine.fr/projects/INEDIT/). 
@@ -500,11 +493,62 @@ Le verrou scientifique essentiel sera de clarifier une approche méthodologique 
 \newpage
 
 
+```{r, include=FALSE}
+#| label: tbl-heures
+#| tbl-cap: Synthèse des activités d’enseignement
+
+
+
+Test <- read_excel(path = 'data/Ensegnement.xlsx', sheet = "Heures")
+#names(Test)
+Test <- Test %>% rowwise() %>% mutate(Total =  sum( c(1.5*CM, TD, TP), na.rm = TRUE))
+Total.heures <- sum(Test$Total)
+
+Results <- list()
+
+Results$byplace <- 
+   Test %>% group_by(Place) %>% summarise(Porcentajes = sum(Total)/Total.heures)
+
+Results$bylevel <- 
+   Test %>% group_by(Level) %>% summarise(Porcentajes = sum(Total)/Total.heures)
+
+Results$bypole <- 
+   Test %>% group_by(Pole) %>% summarise(Porcentajes = sum(Total)/Total.heures)
+
+Results$Figure <- 
+   Test %>% 
+   ggplot(aes(axis1 = Level, axis2 = Place , axis3 = Pole, y = Total)) +
+   scale_x_discrete(limits = c("Place", "Level", "Pole"), expand = c(.2, .05)) +
+   geom_alluvium(aes(fill = Year)) +
+   geom_stratum(width= 0.31) +
+   #geom_stratum(width= c(rep(0.3, 9), rep(0.4, 7) ))+
+   geom_text(stat = "stratum", nudge_x = -0.1 , 
+             aes(label = after_stat(stratum),
+                 #hjust = 0
+                 #hjust = c(rep(0, 12), rep(0, 3)) 
+                 hjust = 0
+                 )) +
+   #coord_cartesian(xlim = c(0, 30)) +
+   scale_fill_discrete(name = "Année") +
+   theme_minimal(base_size = 14,  base_family = "Palatino") +
+   theme(legend.position = "bottom",
+         legend.spacing.y = unit(0.2, 'cm') ) 
+
+   #guides(fill = guide_legend(byrow = TRUE)) +
+   # labs(title = "INEDIT Functions",
+   #      subtitle = "Connected to the Green Fablab Demostrator",
+   #      x = "Connection of INEDIT Fonctions with the Demostrator",
+   #      y = "Quantity of Criteria"
+   # )
+
+#ggsave(filename = "Sankey-Fabio.jpg", path= "Figures/", width = 15, height = 7 )
+```
+
+
 # Activités d'Enseignement
 ## Description synthethique
 
 
-Après mes travaux de thèse, mes activités d'enseignement ont débuté en 2017 en tant que chercheur contractuel vacataire.
 \begin{wraptable}{r}{0.3\textwidth}
    \caption{\label{tbl-heures}Synthèse des\\activités d'enseignement}
    \begin{tabular}[t]{lr}
@@ -514,59 +558,52 @@ Après mes travaux de thèse, mes activités d'enseignement ont débuté en 2017
    2021 - 2022 & 91\\
    2020 - 2021 & 69\\
    2019 - 2020 & 57\\
-   2017 - 2018 & 75\\
+   2017 - 2018 & 75\\ \midrule
+   Total & 292.5 \\
    \bottomrule
    \end{tabular}
 \end{wraptable}
+Après mes travaux de thèse, mes activités d'enseignement ont débuté en 2017 en tant que chercheur contractuel vacataire.
 Initialement à l’École Nationale Supérieure en Génie des Systèmes et de l’Innovation (ENSGSI), et depuis 2020 à l'Institut Universitaire de Technologie (IUT) Nancy-Charlemagne à Nancy.
+Les enseignement ont été dispensés pour un total de **`r Total.heures` heures équivalent TD**.
 Tableau \ref{tbl-heures} presente une volumen global de mes activités d’enseignement.
 
 
-Les enseignements ont été dispensés à des niveaux BAC+3, à BAC +5, principalement en travaux dirigés dans différents pôles d’enseignement (Figure 2).
+Concernant, autour de `r label_percent(0.1)(Results$byplace$Porcentajes[1])` de mes enseignements ont été donnes au sein de l'ENSGSI depuis le début.
+Principalement, mes enseignements ont été fait pour de étudiants de niveau BAC+5 (33%), et BAC+2 (30%) sur les Poles **Conception et Innovation** (49%).
 
-```{r}
+Comme illustré par la Figure 2.
 
+
+```{r, echo=FALSE}
+Results$Figure
 ```
 
-La majorité de mes enseignements (91 %) est dispensée au sein des pôles de Conception et Innovation et Génie Mécanique Energétique.
-
-
-Mes thématiques d’enseignement portent majoritairement sur 
+Mes thématiques enseignement portent majoritairement sur XX
 
 
 
-```{r, include=FALSE}
-#| label: tbl-heures
-#| tbl-cap: Synthèse des activités d’enseignement
+<!-- L'expérience des travaux de recherche m’a amené à proposer un TP autour de la  recherche reproductible dans le cadre du module de *Recherche, Innovation et Développement* pour étudiants de cycle ingénieur généralistes de 3AI et parcours Master Design M2 - Innovation et Design Évalués par les Usages (IDEAS) et pour le master Master Urbanisme et Aménagement, Innovation Urbaine pour des Villes & Territoires en Transformation (IUVTT) de l’ENSGSI.  -->
 
 
-heures <- tribble(~Année, ~`Heures - HETD`,
-                  "2021 - 2022", 91,
-                  "2020 - 2021", 69,
-                  "2019 - 2020", 57,
-                  "2017 - 2018", 75,
-                  )
-
-heures %>% 
-   kbl(booktabs = TRUE) %>%
-  kable_styling(latex_options = "HOLD_position")
-```
+<!-- Également, au vue de la thématique du recyclage de plastique et des espaces d’innovation, je me suis proposé pour aider dans la création de contenu de la Licence Professionnelle en Apprentissage AFTER (Animateur Facilitateur de Tiers-lieux Éco-Responsables) que dispense entre l’ENSGSI et l’IUT Charlemagne.  -->
+<!-- J’ai réalisé des cours (CM), TD et TP et participé à la rédaction de documents supports (cours, TD, TP). J'ai également encadré des élèves ingénieurs de 2ème année lors de projets industriels ainsi que des étudiants du Master (M2 IDEAS) lors des projets de recherche de fin d’études.  -->
 
 
-
-L'expérience des travaux de recherche m’a amené à proposer un TP autour de la  recherche reproductible dans le cadre du module de *Recherche, Innovation et Développement* pour étudiants de cycle ingénieur généralistes de 3AI et parcours Master Design M2 - Innovation et Design Évalués par les Usages (IDEAS) et pour le master Master Urbanisme et Aménagement, Innovation Urbaine pour des Villes & Territoires en Transformation (IUVTT) de l’ENSGSI. 
-
-
-Également, au vue de la thématique du recyclage de plastique et des espaces d’innovation, je me suis proposé pour aider dans la création de contenu de la Licence Professionnelle en Apprentissage AFTER (Animateur Facilitateur de Tiers-lieux Éco-Responsables) que dispense entre l’ENSGSI et l’IUT Charlemagne. J’ai réalisé des cours (CM), TD et TP et participé à la rédaction de documents supports (cours, TD, TP). J'ai également encadré des élèves ingénieurs de 2ème année lors de projets industriels ainsi que des étudiants du Master (M2 IDEAS) lors des projets de recherche de fin d’études. Les enseignement ont été dispensés pour un total de **`r sum(heures[2])` heures équivalent TD**.
-
-Je présente en détail le contenu pédagogique et de mes contributions aux modules de formations qui donnent une aperçu de mes expériences d’enseignement : (1) Recherche, Innovation et Développement, (2) Modules de Licence AFTER, (3) Pôle Conception et Innovation Module Ingénierie de l’innovation II / Design Thinking; et (4) Introduction au prototypage et à l’impression 3D.
+Je présente en détail le contenu pédagogique et de mes contributions aux modules de formations qui donnent une aperçu de mes expériences enseignement : 
+(1) Recherche, Innovation et Développement, 
+(2) Modules de Licence AFTER, 
+(3) Pôle Conception et Innovation Module Ingénierie de l’innovation II / Design Thinking; et 
+(4) Introduction au prototypage et à l’impression 3D.
 
 
 ## Participation aux modules pédagogiques
 
 ## Licence professionnel Animateur et facilitateur de tiers-lieux éco-responsables (AFTER) – IUT Charlemagne - ENSGSI
 
-La licence professionnelle AFTER est portée par l’ENSGSI et l’IUT Charlemagne à Nancy est centrée principalement sur la formation de profils pouvant gérer et animer des tiers lieux comme le Lorraine Fab Living Lab. La formation vise à former des personnes inventives et entreprenantes ayant un esprit créatif, qui sont intéressées par le « faire soi-même » ou avec autrui et ayant une forte attention portée aux enjeux environnementaux.
+La licence professionnelle AFTER est portée par l’ENSGSI et l'IUT Charlemagne à Nancy.
+est centrée principalement sur la formation de profils pouvant gérer et animer des tiers lieux comme le Lorraine Fab Living Lab.
+La formation vise à former des personnes inventives et entreprenantes ayant un esprit créatif, qui sont intéressées par le « faire soi-même » ou avec autrui et ayant une forte attention portée aux enjeux environnementaux.
 Les modules *'d’Animation d’un lieu', ‘Exploiter durablement les ressources et les partenariats’ et ‘Recyclage des matériaux à l’aide des techniques Open Source’* font partie de l’UE gestion d’un tiers lieu dans lesquels nous abordons diverses thématiques autour de la gestion et animation d’un tiers lieux. Par exemple, les étudiants découvrent la méthode design thinking pour pouvoir animer des séances de conception et idéation.
 Également, une présentation sur l’approche de machines open source pour recyclage et projets phares dans la communauté.
 
