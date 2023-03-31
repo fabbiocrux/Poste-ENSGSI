@@ -47,6 +47,8 @@ environments: [center, minipage, tabu]
 #source("xaringan-themer.R")
 #library(vembedr)
 
+options(knitr.kable.NA = ' ')
+
 knitr::opts_chunk$set(
   include = TRUE,
   fig.width=8, fig.height=5, fig.retina=3,
@@ -102,9 +104,9 @@ a column separator -->
 ::: {.col data-latex="{0.75\textwidth}"}
 
 
-Franco-Colombien, Né le 06/05/1988 à Bogota, Colombie 
+Colombiennne / française, Né le 06/05/1988 à Bogota, Colombie 
 
-27, Rue du Pont de Pierre, 54270 - Essey-les-Nancy 
+27, Rue du Pont de Pierre, 54270 - Essey-lès-Nancy 
 
 Tel : 07.78.78.38.07
 
@@ -116,7 +118,7 @@ Tel : 07.78.78.38.07
 
 CNU **60**, 62
 
-Recyclagé distribué; 3D Printing; Recyclage plastique; Soutenabilité
+Génie Industriel; Recyclagé distribué; 3D Printing; Recyclage plastique; Soutenabilité
 
 :::
 ::::
@@ -124,8 +126,6 @@ Recyclagé distribué; 3D Printing; Recyclage plastique; Soutenabilité
 
 
 ## Présentation 
-
-
 
 Je suis ingénieur mécanique formé à l’Université Nacional de Colombie, titulaire d’un Master II en Management de l’Innovation et du Design Industriel et PhD. en Génie des Systèmes Industriels de l’Université de Lorraine.
 \begin{wrapfigure}{r}{0.5\textwidth}
@@ -138,10 +138,10 @@ Je suis ingénieur mécanique formé à l’Université Nacional de Colombie, ti
 <!-- Mes expériences professionnelles et de recherche sont centrées sur le champ de -->
 Mon domaine de recherche est la fabrication additive open source (également appelé Impression 3D) comme vecteur de développement industriel soutenable. Plus précisément, sur l'étude systémique de nouvelles filières distribuées en circuit court pour la valorisation des matières plastiques recyclées via la fabrication additive. Cela implique une approche multi-échelle afin d’appréhender à la fois les enjeux liés au procédé technologique, à la filière associée et au territoire, en privilégiant  collaborations avec de multiples acteurs et la mobilisation de différentes méthodologies pour améliorer, tester et expérimenter de nouveaux usages.
 
-Mon travail se décompose en trois échelles principaux. Un premier échelle porte  sur la validation du procédé d’impression 3D open source en tant qu’outil reproductible pour la fabrication des pièces imprimées en thermoplastique. Une attention particulière est portée sur la précision géométrique, résistance mécanique et vibratoire de ce procédé à l’échelle industrielle standard. Une deuxième échelle centrale dans mon parcours est la faisabilité technique du recyclage des thermoplastiques pour les processus d’impression. J’ai eu l’opportunité de travailler pendant ma thèse sur les caractérisations mécaniques et chimiques de la matière recyclée dans la chaîne d’impression en co-tutelle avec l’Équipe de Recherche sur les Processus Innovatifs (ERPI) et le Laboratoire des Réactions et Génie des Procédés (LRGP — UMR 7274) à Nancy. Je collabore avec le groupe de recherche FAST (Free Appropriate Sustainability Technology) de Western University de Canada sur le développement open source hardware dans une vision de démocratisation de la technologie associé au recyclage distribué. Une troisième échelle en cours de développement est l’analyse de la soutenabilité d’une filière de recyclage distribuée en collaboration avec l’équipe InSyTe de l’Université Technologique de Troyes. Le développement d’indicateurs (au-delà des indicateurs technico-économiques) intégrant la capacité de charge des écosystèmes et leurs services est un enjeu prometteur pour rendre les filières industrielles plus résilientes.
+Mon travail se décompose en trois échelles fondamentales. Un premier échelle porte  sur la validation du procédé d’impression 3D open source en tant qu’outil reproductible pour la fabrication des pièces imprimées en thermoplastique. Une attention particulière est portée sur la précision géométrique, résistance mécanique et vibratoire de ce procédé à l’échelle industrielle standard. Une deuxième échelle centrale dans mon parcours est la faisabilité technique du recyclage des thermoplastiques pour les processus d’impression. J’ai eu l’opportunité de travailler pendant ma thèse sur les caractérisations mécaniques et chimiques de la matière recyclée dans la chaîne d’impression en co-tutelle avec l’Équipe de Recherche sur les Processus Innovatifs (ERPI) et le Laboratoire des Réactions et Génie des Procédés (LRGP — UMR 7274) à Nancy. Je collabore avec le groupe de recherche FAST (Free Appropriate Sustainability Technology) de Western University de Canada sur le développement open source hardware dans une vision de démocratisation de la technologie associé au recyclage distribué. Une troisième échelle en cours de développement est l’analyse de la soutenabilité d’une filière de recyclage distribuée en collaboration avec l’équipe InSyTe de l’Université Technologique de Troyes. Le développement d’indicateurs (au-delà des indicateurs technico-économiques) intégrant la capacité de charge des écosystèmes et leurs services est un enjeu prometteur pour rendre les filières industrielles plus résilientes.
 
 
-J'ai une forte expérience en montage et conduite de projet européens. J'ai l'opportunité de mettre en œuvre ces travaux de recherche dans le cadre du projet H2020 [INEDIT](http://erpi.univ-lorraine.fr/projects/INEDIT/) qui vise le transfert des approches ‘Do-It-Yourself’ (DIY) vers un contexte industriel.  Je développe donc le démonstrateur de recyclage des plastiques pour l’impression 3D  ['*Green Fablab*'](https://lf2l.fr/projects/green-fablab/)^[https://lf2l.fr/projects/green-fablab/]  afin de tester l’approche appelée ‘Do-It-Together’ (DIT). C’est une excellente opportunité pour mieux comprendre l’opérationnalisation et la démultiplication de la démarche de recyclage distribué auprès des acteurs et des communautés locales. En parallèle, je pilote également dans le projet [Erasmus+ Climatelabs](https://erpi.univ-lorraine.fr/fr/projects/Climatelabs/) qui cherche à renforcer les capacités de recherche appliquée et d’innovation de dix universités partenaires du Mexique, du Brésil et de la Colombie par la conception et la mise en œuvre des espaces d’innovation sociales pour l’atténuation et l’adaptation au  changement climatique.
+J'ai une forte expérience en montage et conduite de projet européens. J'ai l'opportunité de mettre en œuvre ces travaux de recherche dans le cadre du projet H2020 [INEDIT](http://erpi.univ-lorraine.fr/projects/INEDIT/) qui vise le transfert des approches ‘Do-It-Yourself’ (DIY) vers un contexte industriel.  Je développe donc le démonstrateur de recyclage des plastiques pour l’impression 3D (le [*Green Fablab*](https://lf2l.fr/projects/green-fablab/^[https://lf2l.fr/projects/green-fablab/]))  afin de tester l’approche appelée ‘Do-It-Together’ (DIT). C’est une excellente opportunité pour mieux comprendre l’opérationnalisation et la démultiplication de la démarche de recyclage distribué auprès des acteurs et des communautés locales. En parallèle, je pilote également dans le projet [Erasmus+ Climatelabs](https://erpi.univ-lorraine.fr/fr/projects/Climatelabs/) qui cherche à renforcer les capacités de recherche appliquée et d’innovation de dix universités partenaires du Mexique, du Brésil et de la Colombie par la conception et la mise en œuvre des espaces d’innovation sociales pour l’atténuation et l’adaptation au  changement climatique.
 
 
 ## Formations
@@ -264,7 +264,7 @@ ggplot(aes(x=Year, y=value, fill=Document, label = value)) +
   scale_fill_brewer(palette="Dark2",
                     name = "Dose",
                     labels = c("Articles à comité de lecture = 9", 
-                               "Articles (soumis) = 2", 
+                               "Articles (soumis) = 3", 
                                "Communications dans des congrès internationaux = 6",
                     "Communications dans des congrès nationaux  = 2" ,
                     "Chapitres (soumis) = 2" ))+
@@ -281,6 +281,10 @@ ggplot(aes(x=Year, y=value, fill=Document, label = value)) +
 
 ```
 
+Les tableaux montrent les revues internationales auxquelles j'ai fait des contributions scientifiques. Les revues dans mon domaine sont liées à la **fabrication additive** (AM, 3DP, VPP et PB:JEM et JOM), la **soutenabilité** et **développement durable**(JCLP, RCR et CET) et depuis cette année l'**open hardware** (HX).
+
+Concernant les conferences, sont principalement autour de la fabrication additive (Solid Freeform Symposium) et l'innovation et management de la technologie (ICE/IEEE)
+
 
 
 \begin{small}
@@ -290,20 +294,24 @@ ggplot(aes(x=Year, y=value, fill=Document, label = value)) +
 \toprule
 \textbf{Journaux} & \textbf{IF (2020)} \\
 \midrule
-\href{https://www.journals.elsevier.com/additive-manufacturing}{Additive Manufacturing} & 10.998 \\
-\href{https://www.journals.elsevier.com/resources-conservation-and-recycling}{Resources, Conservation \& Recycling} & 10.204\\
+\href{https://www.journals.elsevier.com/additive-manufacturing}{Additive Manufacturing --AM-} & 10.998 \\
+\href{https://www.journals.elsevier.com/resources-conservation-and-recycling}{Resources, Conservation \& Recycling --RCR-} & 10.204\\
 
-\href{https://www.journals.elsevier.com/journal-of-cleaner-production}{Journal of Cleaner Production} &  9.297\\
-\href{https://www.tandfonline.com/toc/nvpp20/current}{Virtual and Physical Prototyping}
+\href{https://www.journals.elsevier.com/journal-of-cleaner-production}{Journal of Cleaner Production --JCLP-} &  9.297\\
+\href{https://www.tandfonline.com/toc/nvpp20/current}{Virtual and Physical Prototyping --VPP-}
  & 8.092\\
 
-\href{https://home.liebertpub.com/publications/3d-printing-and-additive-manufacturing/621/overview}{3D Printing and Additive Manufacturing}
+\href{https://home.liebertpub.com/publications/3d-printing-and-additive-manufacturing/621/overview}{3D Printing and Additive Manufacturing --3DP-}
  & 5.449\\
+
+\href{https://journals.sagepub.com/home/pib}{Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture --PB:JEM-} & 2,759 \\
  
 \href{https://www.springer.com/journal/11837}{JOM} & 2.474 \\
-\href{https://www.journals.elsevier.com/cleaner-engineering-and-technology}{Cleaner Engineering and Technology} & -- \\
+\href{https://www.journals.elsevier.com/cleaner-engineering-and-technology}{Cleaner Engineering and Technology --CET-} (indexe à Scopus) & -- \\
 
-\href{https://journals.sagepub.com/home/pib}{Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture} & 2,759 \\
+\href{https://www.sciencedirect.com/journal/hardwarex}{HardwareX --HX-} (indexe à Scopus) & --  \\
+
+
 
 \bottomrule
 \end{tabu}
@@ -425,11 +433,14 @@ La fabrication additive va jouer un rôle très important dans le devenir de not
 
 
 
-```{r vosviewer,  out.width = '90%', fig.align='center', fig.cap='Réseau d’occurrence des mots-clés associés aux publications (articles + conférences internationales) et évolution dans le temps', include=TRUE }
+```{r vosviewer,  out.width = '90%',  include=TRUE }
+#| label: vosviewer
+#| fig-cap: Réseau d’occurrence des mots-clés associés aux publications (articles + conférences internationales) et évolution dans le temps
+
 knitr::include_graphics(here("Figures/Vosviewer/Vosviewer-Fabio.pdf"))
 ```
 
-Figure \@ref(fig:vosviewer) présente carte obtenue en recherchant les mots-clés de ma recherche à l'aide du logiciel VOSviewer avec la temporalité. En partant de cette base, le projet de recherche que je visualise aujourd’hui concerne trois éléments importants:
+Figure 5 présente carte obtenue en recherchant les mots-clés de ma recherche à l'aide du logiciel VOSviewer avec la temporalité. En partant de cette base, le projet de recherche que je visualise aujourd’hui concerne trois éléments importants:
 
 1. La validation des matières premières (secondaires), des procédés open source et de l’application de la valeur ajoutée. 
 2. L’évaluation systémique de nouvelle formes de production robustes.
@@ -470,12 +481,53 @@ Le verrou scientifique essentiel sera de clarifier une approche méthodologique 
 #| label: tbl-heures
 #| tbl-cap: Synthèse des activités d’enseignement
 
-
-
 Test <- read_excel(path = 'data/Ensegnement.xlsx', sheet = "Heures")
 #names(Test)
 Test <- Test %>% rowwise() %>% mutate(Total =  sum( c(1.5*CM, TD, TP), na.rm = TRUE))
 Total.heures <- sum(Test$Total)
+
+Test <- Test %>% mutate(Percentage = Total/Total.heures * 100 )
+
+
+
+Test <- Test %>% 
+   mutate(Level = factor(Level, 
+                         levels = c("Formation Continue",
+                                    "BAC+5", 
+                                    "BAC+4", 
+                                    "BAC+3", 
+                                    "BAC+2", 
+                                    "BAC+1"
+                                    ),
+                         labels = c('Formation\nContinue',
+                                    "BAC+5", 
+                                    "BAC+4", 
+                                    "BAC+3", 
+                                    "BAC+2", 
+                                    "BAC+1"
+                                    ))
+          )
+
+Test <- Test %>% 
+   mutate(Place = factor(Place, 
+                         levels = c("Sciences Humaines et Sociales Nancy",
+                                    "ENSGSI", 
+                                    "IUT Nancy-Charlemagne",
+                                    "IUT Metz"
+                                    ),
+                         labels = c("UFR SHS",
+                                    "ENSGSI", 
+                                    "IUT Nancy",
+                                    "IUT Metz"
+                                    ))
+          )
+
+
+Test %>% group_by(Year) %>% summarise(Horas = sum(Total))
+
+Test %>% group_by(Place) %>% summarise(Porcentaje = sum(Percentage))
+
+
 
 Results <- list()
 
@@ -490,8 +542,12 @@ Results$bypole <-
 
 Results$Figure <- 
    Test %>% 
-   ggplot(aes(axis1 = Level, axis2 = Place , axis3 = Pole, y = Total)) +
-   scale_x_discrete(limits = c("Place", "Level", "Pole"), expand = c(.2, .05)) +
+#   select(Level, Percentage, CM, TD, TP) %>% pivot_longer( cols = c(CM:TP))
+   ggplot(aes(axis1 = Level, axis2 = Place , y = Percentage)) +
+   scale_x_discrete(limits = c("Niveau", "Lieu" ), expand = c(.2, .05)) +
+   scale_y_continuous(n.breaks = 6, 
+                      labels = c("0", "20%", "40%", "60%", "80%", "100%"),
+                      name = " ") +
    geom_alluvium(aes(fill = Year)) +
    geom_stratum(width= 0.31) +
    #geom_stratum(width= c(rep(0.3, 9), rep(0.4, 7) ))+
@@ -515,11 +571,42 @@ Results$Figure <-
    # )
 
 #ggsave(filename = "Sankey-Fabio.jpg", path= "Figures/", width = 15, height = 7 )
+
+# library
+library(treemap)
+ 
+Test <-   
+   Test %>%                               
+   mutate(Title = replace(Title, 
+                          Title == "Atelier d’écriture scientifique et de publication", 
+                          "Atelier d’écriture scientifique et de publications"),
+          Title = replace(Title, 
+                          Title == "Exploiter durablement les ressources et les partenariats", 
+                          "Exploiter durablement les ressources et partenariats"),
+          Title = replace(Title, 
+                          Title == "Méthodologie de recherche appliquée à l'innovation", 
+                          "Méthodologie de recherche appliquée à l’innovation"),
+          Title = replace(Title, 
+                          Title == "Recherche, Innovation, Développement", 
+                          "Innovation, développement et recherche"),
+          Title = replace(Title, 
+                          Title == "Recyclage des matériaux à laide de techniques open source", 
+                          "Recyclage des matériaux à l’aide de techniques open source"),
+          )
+
+Cartography <- 
+   Test %>% filter(Place == "ENSGSI" | Place == "IUT Nancy" ) %>% 
+   group_by(Title,Place) %>% summarise(value = sum(Total)) %>% arrange(desc(value))
+
+library(treemapify)
+
+
+
 ```
 
 
 # Activités d'Enseignement
-## Description synthethique
+## Description synthetique
 
 
 \begin{wraptable}{r}{0.3\textwidth}
@@ -531,52 +618,91 @@ Results$Figure <-
    2022 - 2023 & 94,92\\
    2021 - 2022 & 91\\
    2020 - 2021 & 69\\
+   2019 - 2020 & 57\\
    2017 - 2019 & 75\\ \midrule
-   Total & 329.95 \\
+   Total & 386.92 \\
    \bottomrule
    \end{tabular}
 \end{wraptable}
-Après mes travaux de thèse, mes activités d'enseignement ont débuté en 2017 en tant que chercheur contractuel vacataire.
-Initialement à l’École Nationale Supérieure en Génie des Systèmes et de l’Innovation (ENSGSI), et depuis 2020 à l'Institut Universitaire de Technologie (IUT) Nancy-Charlemagne à Nancy.
-Les enseignement ont été dispensés pour un total de **`r Total.heures` heures équivalent TD**.
-Tableau \ref{tbl-heures} presente une volumen global de mes activités d’enseignement.
+Mes activités d’enseignement ont débuté en 2017 en tant que chercheur contractuel vacataire. 
+Mes enseignements font partie  dans le parcours principalement de l’École Nationale Supérieure en Génie des Systèmes et de l’Innovation (ENSGSI) et de l’Institut Universitaire de Technologie (IUT) Nancy-Charlemagne à Nancy depuis 2020.
+Dans une moindre mesure à l'IUT Metz et à l’UFR Science Humaines et Sociales de Nancy.
+Le volume global de mes activités d’enseignement représentent un **total de 386.92 heures équivalent TD**.
+Tableau \ref{tbl-heures}  présente un récapitulatif par année.
 
-
-Concernant, autour de `r label_percent(0.1)(Results$byplace$Porcentajes[1])` de mes enseignements ont été donnes au sein de l'ENSGSI depuis le début.
-Principalement, mes enseignements ont été fait pour de étudiants de niveau BAC+5 (33%), et BAC+2 (30%) sur les Poles **Conception et Innovation** (49%).
-
-Comme illustré par la Figure 2.
-
+Comme illustré par la Figure @fig-sankey, la majorité des mes enseignements ont été dispensés à l’ENSGSI (66.2%), principalement à des niveaux BAC+2 (34%) et BAC+5 (31%) au sein du pôle de **Conception et Innovation**.
+Le Tableau 2 détaille mes enseignements depuis 2015 pour chaque formation. 
+Les attestations d’enseignement sont présentées en Annexe.
 
 ```{r, echo=FALSE}
+#| fig-cap: "Synthèse des enseignements dispensés"
+#| label: fig-sankey
 Results$Figure
 ```
 
-Mes thématiques enseignement portent majoritairement sur XX
+
+\renewcommand{\arraystretch}{0.7}
+```{r, }
+
+
+overview <- Test %>% 
+   mutate(Level = factor(Level, 
+                         levels = c('Formation\nContinue',
+                                    "BAC+5", 
+                                    "BAC+4", 
+                                    "BAC+3", 
+                                    "BAC+2", 
+                                    "BAC+1"
+                                    ),
+                         labels = c("F.Cont",
+                                    "BAC+5", 
+                                    "BAC+4", 
+                                    "BAC+3", 
+                                    "BAC+2", 
+                                    "BAC+1"
+                                    ))
+          )
+
+
+overview %>% select(Place,  Year,  Title, Level, CM, TD, TP) %>%  arrange(Place, Year) %>% select(-Place) %>% set_names("Année", "Module", "Niveau", "CM", "TD", "TP") %>% 
+kbl( booktabs = T , caption = "Répartition des heures d’enseignement depuis 2017") %>%
+kable_styling(full_width = F) %>% 
+   column_spec(1, width = "5em") %>% 
+   column_spec(2, width = "23em") %>% 
+   pack_rows("UFR Science Humaines et Sociales de Nancy", 1, 2, latex_gap_space = "1em") %>% 
+  pack_rows("ENSGSI", 2, 21, latex_gap_space = "1em") %>% 
+  pack_rows("IUT Nancy-Charlemagne", 23, 30, latex_gap_space = "1em") %>% 
+ pack_rows("IUT Metz", 31, 31, latex_gap_space = "1em") %>% 
+   collapse_rows(columns = 1, latex_hline = "major", valign = "middle")
+
+```
+
+\renewcommand{\arraystretch}{1}
+
+
+```{r, include=FALSE}
+# treemap
+treemap(Cartography, index=c("Title", "Place"),
+            vSize="value",
+            type="index",
+           palette = "Set2",
+    title=" ",     
+    fontsize.title=12,      
+            )
+```
 
 
 
-<!-- L'expérience des travaux de recherche m’a amené à proposer un TP autour de la  recherche reproductible dans le cadre du module de *Recherche, Innovation et Développement* pour étudiants de cycle ingénieur généralistes de 3AI et parcours Master Design M2 - Innovation et Design Évalués par les Usages (IDEAS) et pour le master Master Urbanisme et Aménagement, Innovation Urbaine pour des Villes & Territoires en Transformation (IUVTT) de l’ENSGSI.  -->
-
-
-<!-- Également, au vue de la thématique du recyclage de plastique et des espaces d’innovation, je me suis proposé pour aider dans la création de contenu de la Licence Professionnelle en Apprentissage AFTER (Animateur Facilitateur de Tiers-lieux Éco-Responsables) que dispense entre l’ENSGSI et l’IUT Charlemagne.  -->
-<!-- J’ai réalisé des cours (CM), TD et TP et participé à la rédaction de documents supports (cours, TD, TP). J'ai également encadré des élèves ingénieurs de 2ème année lors de projets industriels ainsi que des étudiants du Master (M2 IDEAS) lors des projets de recherche de fin d’études.  -->
-
+Au vue de mon expérience en recherche sur thématique le recyclage de plastique pour la fabrication additive open source, mes thématiques enseignement portent majoritairement sur **l’introduction à la méthodologie de recherche** pour des étudiants BAC+5 (cycle ingénieur et Master II), et l'introduction à la fabrication additive (et recyclage), modelisation CAO et prototypage pour des étudiants de BAC+1/BAC+2.
 
 Je présente en détail le contenu pédagogique et de mes contributions aux modules de formations qui donnent une aperçu de mes expériences enseignement : 
-(1) Recherche, Innovation et Développement, 
-(2) Modules de Licence AFTER, 
-(3) Pôle Conception et Innovation Module Ingénierie de l’innovation II / Design Thinking; et 
-(4) Introduction au prototypage et à l’impression 3D.
-
-
+1. Recherche, Innovation et Développement, 
+2. Modules de Licence Professionnelle:  (1) Recyclage des matériaux à l’aide de techniques open source et (2) Exploiter durablement les ressources et les partenariats 
+3. Introduction à l’Age du faire et Do-It-Yourself (DIY)
 
 ## Participation aux modules pédagogiques
 
-
 ## Module CI15--Recherche, Innovation et Développement 
-
-
 
 Ce module a pour objectif de faire une introduction à la méthode scientifique afin de maîtriser les concepts et étapes clés d’un processus de recherche. Le public visé sont des étudiants de 3ème année ingénieur (BAC+ 5) et l’ensemble des étudiants de Master Design (BAC+ 5) IDEAS (Innovation et Design Évalués par les Usages), Master Urbanisme et Aménagement IUVTT (Innovation Urbaine pour des Villes & Territoires en Transformation) de l’ENSGSI.  
 
@@ -609,7 +735,7 @@ Une spécificité de ce module concerne une attente pédagogique particulière. 
 ## Recyclage des matériaux à l’aide de techniques open source / Exploiter durablement les ressources et les partenariats 
 
 
-Les modules 1) Recyclage des matériaux à l'aide de techniques open source, et 2), _Exploiter durablement les ressources et les partenariats_ sont deux modules de la licence professionnelle _Animateur et facilitateur de tiers-lieux éco-responsables (AFTER)._ Cette licence est portée par l’ENSGSI et l’IUT Charlemagne à Nancy et vise à former des personnes pouvant gérer et animer des tiers lieux. Les tiers-lieux sont des nouveaux espaces socio-techniques qui se font de plus en plus nombreux dans le cadre d’associations et des organismes de l'Économie Sociale et Solidaire (ESS). Ils sont source de médiation et d’innovation favorisant la co-creation, l’échange de compétences sur des pratiques numériques et de fabrication pour les citoyens, entrepreneurs, étudiants, salariés, artistes, etc qui veulent expérimenter des nouvelles formes d’entreprenariat plus respectueux de la planète.
+Les modules 1) *Recyclage des matériaux à l'aide de techniques open source*, et 2), _Exploiter durablement les ressources et les partenariats_ sont deux modules de la licence professionnelle Animateur et facilitateur de tiers-lieux éco-responsables (AFTER). Cette licence est portée par l’ENSGSI et l’IUT Charlemagne à Nancy et vise à former des personnes pouvant gérer et animer des tiers lieux. Les tiers-lieux sont des nouveaux espaces socio-techniques qui se font de plus en plus nombreux dans le cadre d’associations et des organismes de l'Économie Sociale et Solidaire (ESS). Ils sont source de médiation et d’innovation favorisant la co-creation, l’échange de compétences sur des pratiques numériques et de fabrication pour les citoyens, entrepreneurs, étudiants, salariés, artistes, etc qui veulent expérimenter des nouvelles formes d’entreprenariat plus respectueux de la planète.
 Le public visé (BAC+2) ont un profil intéressé par l’approche de «faire soi-même» ayant une forte attention portée aux enjeux environnementaux. 
 :::
 
@@ -618,7 +744,7 @@ Ces deux modules permettent d’acquérir les compétences suivantes :
 
 * Acquérir une culture et une philosophie de l’univers du « faire » : découvrir et comprendre les valeurs des tiers-lieux, fablabs
 * Identifier des initiatives et principales technologies utilisées pour la revalorisation de matériaux secondaires (plastique, bois) dans une approche de conception dites low tech et/out frugale.
-* Maîtriser le procédé de recyclage via injection plastique et utilisation de l’impression et
+* Maîtriser le procédé de recyclage via injection plastique et utilisation de l’impression.
 * Création d’une animation autour de recyclage pour un publique ciblée.
 
 **Approche pédagogique: **
@@ -632,7 +758,6 @@ Les étudiants découvrent des machines open source pour recyclage et projets 
 **Ma contribution:** 
 
 
-
 * Création des séquences pédagogiques pour les deux modules.
 * Développement et et supports techniques de l’open hardware (e.g. machine d’injections manuel) utilisé pour l’animation d’un atelier d'introduction aux recyclage de matière plastiques avec la mise en application des outils technologiques présents au Green Fablab.
 * Création de supports pédagogiques aux enjeux sociétaux de l’économie circulaire axés sur le recyclage de matière plastique. 
@@ -640,63 +765,95 @@ Les étudiants découvrent des machines open source pour recyclage et projets 
 
 ## Introduction à l’Age du faire et Do-It-Yourself (DIY)
 
-Au cours de l’année 2022, J’ai eu l’opportunité de proposer un TP appelé  ‘_Introduction à l’Age du faire et Do-It-Yourself (DIY)’_ à destination des étudiants de 2ème année cycle préparatoire ingénieur (BAC+2) de l’ENSGSI. L’objectif est de les sensibiliser aux différentes technologies qui permettent matérialiser et prototyper rapidement une idée avec les technologies présentes dans le Lorraine Fab Living Lab et le Green Fablab. Ce TP permet:
+Au cours de l’année 2022, J’ai eu l’opportunité de proposer un TP appelé  ‘Introduction à l’Age du faire et Do-It-Yourself (DIY)’ à destination des étudiants de 2ème année cycle préparatoire ingénieur (BAC+2) de l’ENSGSI. L’objectif est de les sensibiliser aux différentes technologies qui permettent matérialiser et prototyper rapidement une idée avec les technologies présentes dans le Lorraine Fab Living Lab et le Green Fablab. Ce TP permet:
 
-
-
-* Avoir une première connaissances sur les différentes technologies présentes dans le Lorraine Fab Living Lab mobilisés pour le prototypage et matérialisation physique et virtuel.
-* Formalization en utilisant un support collaborative
+- Avoir une première connaissance sur les différentes technologies présentes dans le Lorraine Fab Living Lab mobilisés pour le prototypage et la matérialisation physique et virtuelle.
+- Formalization en utilisant un support collaborative
 
 **Approche pédagogique: **
-
 Cette démarche de « réduire, réutiliser et recycler » de l’économie circulaire est applicable aussi dans le geste du prototypage et maquettage dont les écoles d’ingénieurs font preuve.  Avec l’expérience des modules développés pour les étudiants de licence AFTER,  deux séances TP ont été implémentées courant décembre 2022 dans l’objectif de faire une introduction sur la notion de matérialisation/prototypage physique et matérialisation virtuelle. 
 
-La matérialisation physique eco-responsable est de montrer dans une séance de 3h, voir une séquence pédagogique pour passer d’un esquisse vers un prototype personnalisé recyclé. Les étudiants découvrent des machines open source pour recyclage et projets phares dans la communauté de recyclage et voir les objects que peuvent être fabriques. 
+La matérialisation physique éco-responsable est de montrer dans une séance de 3h, voir une séquence pédagogique pour passer d’un esquisse vers un prototype personnalisé recyclé. Les étudiants découvrent des machines open source pour recyclage et projets phares dans la communauté de recyclage et voir les objects que peuvent être fabriques. 
 
 Concernant la matérialisation virtuelle, l'objectif est de saisir les possibilités que les environnement immersives et de réalité virtuel permettent pour l'itération d’un concept.  Donc, le pari est de sensibiliser le plus tôt possible sur ces technologies afin que dans les cursus du cycle ingénieur, les élèves ingénieurs puissent faire un itération plus complète de conception de nouveau produit.  Il a donc été nécessaire d’en adapter le contenu et le format en fonction des connaissances initiales des élèves car c’est une première opportunité de prendre connaissance des méthodes de fabrication. 
 
+
+
 **Ma contribution: **
 
+- Adaptation des outils de réalité virtuel développé dans le projet INEDIT pour l’usage pédagogique
+- Animations des séances pour l’introduction de design vectoriel et prototypage en 2D en lien avec les ressources technologiques du Lorraine Fab Living Lab.
+- Formalisation des étapes de prototypage en utilisant une plateforme pédagogique utilisé dans les cadres de Fablabs (e:g: FabManager [https://fabmanager.lf2l.fr/](https://fabmanager.lf2l.fr/))
 
-
-* Adaptation des outils de réalité virtuel développé dans le projet INEDIT pour l’usage pédagogique
-* Animations des séances pour l’introduction de design vectoriel et prototypage en 2D en lien avec les ressources technologiques du Lorraine Fab Living Lab.
-* Formalisation des étapes de prototypage en utilisant une plateforme pédagogique utilisé dans les cadres de Fablabs (e:g: FabManager)
 
 Cette expérience a été très constructive d’un point de vue pédagogique et ce travail pratique devrait être reconduit pour l'année 2023-2024.
 
 
 
-## Projet d'enseignement
 
-Sur la base de l'expérience de création de cours pour les professeurs de collèges et des lycées, et plus précisément les expériences de recherche et la participation à des projets de recherche nationaux et européens, mon projet pédagogique concerne donc l’application des génie de conception mécanique en incluant des principes d'économie circulaire afin que les future élèves ingénieurs identifient le contexte de conception produit. Je peux le résumer en trois élément fondamentaux :
+## Projet d’enseignement
 
-1. La compréhension de la caractérisation des matériaux en utilisant l'approche open hardware comme support de fabrication afin de relever le comportement, et l’impact de fabrication traditionnels.
-2. La conception de produit en utilisant des critères de soutenabilité tels que la réparabilité, le reconditionnement et le recyclage. Cette phase de conception peut inclure des aides technologiques à la créativité numérique comme la réalité virtuelle afin d'explorer un espace de conception plus large.
-3. L’open source comme une pratique disruptive dans la conception mécanique et dans  l’innovation produit.
+Mon constat de départ à travers des travaux de recherche préfigurent une tendance forte dans la démocratisation des moyens de fabrication numérique dans la conception mécanique. L’un des enjeux majeurs auxquels les futurs élèves ingénieurs vont faire face est de repenser les produits et les moyens de production associés tout en gardant un axe prioritaire sur la résilience des écosystèmes naturels. Ce paradoxe n’est pas simple, et relève de compétences auxquelles les espaces d’innovation comme le Lorraine Fab Living Lab (LF2L) peuvent donner des leviers d’action  pédagogiques très concrets.
 
-Mon constat de départ à travers des travaux de recherche préfigurent une tendance forte dans la démocratisation des moyens de fabrication numérique et dans la conception mécanique. L’un des enjeux majeurs auxquels les futurs élèves ingénieurs vont faire face est de repenser les moyens de production et les filières locales tout en gardant un axe prioritaire sur la résilience des écosystèmes naturels. Ce paradoxe n’est pas simple, et relève de compétences auxquels les espaces d’innovation (éducatives, institutionnelles, publiques) comme les fablabs peuvent donner des leviers d’action concrets. 
+Mon projet pédagogique s'intègre dans la lignée sur le renforcement de l’espace **Green Fablab **comme support de recherche et à la pédagogie pour continuer à tisser des liens entre les méthodes et outils développés au laboratoire ERPI avec le développement de compétences de conception produit eco-responsable  à l’école ENSGSI.  
 
-D’abord, la compréhension et la caractérisation des matériaux est un pilier essentiel dans la formation des ingénieurs. La communauté scientifique développe de plus en plus de matériaux bio-sourcés. Il y a un champ pédagogique à explorer en utilisant de nouveaux composites à base de déchets qui impliquent la caractérisation des matériaux, ainsi que des évaluations économiques et environnementales du cycle de vie. 
-Plus spécifiquement pour le cursus d’Ingénierie, il s'agit donc de créer une connaissance de caractérisation mécanique open source pour comprendre les impacts qu'ont les choix des procédés de fabrication sur la performance mécanique. Assurément, un élément essentiel sera la compréhension des barrières et des opportunités inhérentes à la matière recyclée en tant que matière secondaire.
+Je souhaite continuer à développer des enseignements de type “_Do-It-Together_” en mobilisant des outils d’éco-conception mécanique via l’open source hardware au sein des enseignements du pôle Conception et Innovation de l’ENSGSI.
 
-Ensuite, au vu des impacts écologiques de la surproduction et de surconsommation sur la capacité de charge de nos écosystèmes,  il est impératif de favoriser des compétences pour prioriser le ‘droit à la réparation’ ^[Plus de détails dur la comunication officiel de l’EU: (https://www.europarl.europa.eu/news/en/headlines/society/20220331STO26410/why-is-the-eu-s-right-to-repair-legislation-important)]. 
-Le développement d'outils à faible coût, gratuits et à codes sources ouverts, fabriqués numériquement (idéalement à partir de déchets recyclés) pour permettre la création des moyens de production y compris  des outils scientifiques.
+L'objectif est de combiner les approches open source hardware et *faire-soi-même* afin d'éco-concevoir des produits et des procédés qui répondent aujourd'hui à la stratégie des enjeux de l'économie circulaire.   Je citerai trois orientations envisagées : 
 
-Et finalement, l’open source est très fédérateur dans la technologie de l'information et des communications. Je peux imaginer que ce rôle fédérateur l’open hardware peut aussi le faire grâce à la démocratisation de l'électronique et de la fabrication numérique.
-Cela pourra créer des nouvelles chaînes de valeur locales. L’approche pédagogique doit mobiliser fortement les capacités à la création et à la documentation en mode open source sur les concepts et prototypes dans une communauté ouverte en dehors de la communauté académique. Implémentées au sein des parcours ces compétences numériques nourrissent la création pédagogique active que peut compléter les bases théoriques autour de la conception mécanique et energétique. 
+1. La compréhension de la caractérisation des matériaux en utilisant l’approche open hardware comme support pédagogique afin de relever le comportement et l’impact de fabrication.
 
-Ce projet d'enseignement pourrait s'intituler *“Conception de produit soutenable open source : les atouts de la collecte jusqu'au recyclage en circuit”*
-Ce parcours aurait pour objectif de combiner les approches open hardware et *Faire-soi-même* afin d'éco-concevoir des produits et des procédés qui répondent aujourd'hui à la stratégie des enjeux de l'économie circulaire.  
-L’objectif est de proposer un cheminement cohérent et progressif aux étudiants en partant de l'analyse des besoins, co-créations de solutions, et prototypage des objets de conception intermédiaire à l'aide des techniques de l'impression 3D tout en identifiant une réutilisation possible d’un gisement aujourd'hui non valorisable. 
+2. La conception de produit en utilisant des critères de soutenabilité tels que la réparabilité, le reconditionnement et le recyclage. Cette phase de conception peut inclure des aides technologiques à la créativité numérique comme la réalité virtuelle afin d’explorer un espace de conception plus large.
+
+3. L’open source comme une pratique disruptive dans la conception mécanique et dans l’innovation produit.
+
+**Les matières premières secondaires**:  D’abord, la compréhension et la caractérisation des matériaux est un pilier essentiel dans la formation des ingénieurs. La communauté scientifique développe de plus en plus de matériaux bio-sourcés. Il y a un champ pédagogique à explorer en utilisant de nouveaux composites à base de déchets qui impliquent la caractérisation des matériaux, ainsi que des évaluations économiques et environnementales du cycle de vie. 
+
+Plus spécifiquement pour le cursus d’ingénierie de 2eme année, il s’agit donc de créer une connaissance de caractérisation mécanique open source pour comprendre les impacts qu’ont les choix des procédés de fabrication sur la performance mécanique et d’usage. Assurément, un élément essentiel sera la compréhension des barrières et des opportunités inhérentes à la matière recyclée en tant que matière secondaire. Cet axe peut mobiliser et intégrer les acquis des modules de génie mécanique (GM1-A, GME2A, GME3, GME4). 
+
+**(Re)conception et Innovation en mode Green Fablab**
+
+Ensuite, au vu des impacts écologiques de la surproduction et de surconsommation sur la capacité de charge de nos écosystèmes, il est impératif de favoriser des compétences pour prioriser le ‘droit à la réparation’^[Plus de détails dur la comunication officiel de l’EU [link](https://www.europarl.europa.eu/news/en/headlines/society/20220331STO26410/why-is-the-eu-s-right-to-repair-legislation-important)]. 
+
+Plus précisément, cette proposition peut faire un complément dans les acquis dans les modules de conception (CI3 — Conception mécanique/CAO et CI6 — Conception, ergonomie, design) afin d'inclure des principes d’économie circulaire auxquels les futurs élèves ingénieurs feront face dans un contexte de conception produit. Il s’agit donc de mettre en situations actives les étudiants dans une perspective de départ sur la réparation _inventive_ des objets techniques afin d’aller vers une éco-conception du produit. Cela implique la mobilisation de ressources support du LF2L et Green fablab comme electronique Arduino, impression et injection de matière plastique recyclé, logiciels de conception. La conception mécanique d'outils à faible coût, gratuits et open source, fabriqués numériquement (idéalement à partir de déchets recyclés) peut permettre un approche pédagogique pour lla création des moyens de production y compris des outils scientifiques.
+
+**Open design pour la soutenabilité: les atouts de la collecte jusqu’au recyclage en circuit court**
+
+L’open source est très fédérateur dans la technologie de l’information et des communications. Des nouvelles chaînes de valeur locales émergent dans l'économie sociale et solidaire. 
+
+Par une approche outillée et une ingénierie multidisciplinaire, il s’agit de montrer aux étudiants en quoi leurs cours en génie mécanique sont utiles dans le métier d’ingénieur GSI.
+
+L’approche pédagogique doit mobiliser fortement les capacités à la création et à la documentation en open source sur les concepts et prototypes. Visant une intégration des procédés dans les circuits éco-solidaires aux travers des communs de la connaissance par l’open design.
+
+Idéalement, ces éléments peuvent se positionner entre fin de 2ème année ingénieur, au moment où tous les cours en mécanique ont été dispensés afin de permettre aux étudiants de mobiliser l’ensemble de leurs compétences acquises au sein d’un projet de conception plus concret. 
+
+Ces éléments peuvent s'intégrer les modules (DDQ7)
+
+L’objectif avec cette proposition de projet pédagogique est l’intégration progressive de l’ approche open source dans le cursus. Les valeurs de l’ENSGSI sont porteuses du développement d’une ingénierie de l’innovation éco-responsable.
+
+Qui peut être formalisée à chaque étape depuis l'analyse des besoins en passant par la co-création de solutions, jusqu’au prototypage des objets de conception intermédiaire à l'aide des techniques de l'impression 3D tout en identifiant une réutilisation possible d’un gisement aujourd'hui non valorisable. 
+
+Ces axes peuvent contribuer au syllabus au niveau :
+
+- C3 : Elaborer et Implémenter des processus d'innovation
+
+  - C3.3 Réaliser l’éco-conception de nouveaux produits à partir de l’ACV en suivant les principes de l’économie circulaire.
+
+- C7 : Promouvoir et mettre en oeuvre les principes du développement durable et la Responsabilité sociétale
+
+  - C7.5 Rechercher, en intégrant des nouvelles technologies disponibles, les moyens d’améliorer les performances QHSE, DD&RS de l’organisation/produits/procédés
+
+  - C7.6 Déployer ou orienter de nouvelles activités en s’appuyant sur les principes de l'Économie Sociale et Solidaire, de l’Inclusivité et de l’éco conception.
+
+<!-- Ce projet d'enseignement pourrait s'intituler *“Conception de produit soutenable open source : les atouts de la collecte jusqu'au recyclage en circuit”* -->
 
 
 
 # Activités administratives et de valorisation
 
+- Participation dans le commite technique de la conference ICE / IAMOT 2022 à Nancy. 300 Participants internationaux
 
 ## Activités d'encadrements pédagogique
-
 
 - 2017-2018 Project Holipresse 1AI: Création d'un moule par système de strato-conception low-cost pour la fabrication de pièces injectées à partir de bouchons de bouteilles recyclés. 
 Plus de détails: \url{https://holimaker.fr/}
@@ -715,28 +872,36 @@ Plus de détails dans le lien: \url{http://lf2l.fr/projects/green-fablab/}
 
 ##   Participation coordination et montage de projets
 
-
-
 ```{r}
 
 Projets <- read_excel(path = 'tables/Projets.xlsx', sheet = "Projets")
 #names(Test)
 
 Projets %>% select(-Dates) %>% 
-kbl(booktabs = T) %>%
-kable_styling(latex_options = c("striped", "HOLD_position"), full_width = T, font_size = 10) %>% 
-column_spec(1, width = "1cm") %>% 
-column_spec(2, width = "3cm") %>% 
+kbl(booktabs = T , longtable = T,  caption = "Participation aux montages de projets") %>%
+kable_styling(latex_options = c("HOLD_position"), full_width = F, font_size = 9) %>% 
+column_spec(1, width = "4cm") %>% 
+column_spec(2, width = "3cm") %>%  
 column_spec(3, width = "2cm") %>% 
-column_spec(4, width = "2cm") %>% 
-   row_spec(2:4, hline_after = T) %>% 
-   pack_rows("2023 - ... ", 1, 7)
+column_spec(4, width = "7cm") %>% 
+column_spec(5, width = "3cm") %>% 
+   landscape()
+#   row_spec(2:4, hline_after = T) %>% 
+#   pack_rows("2023 - ... ", 1, 7)
 
 ```
 
 
 
-## Relations avec le monde publique
+## Relations avec le monde socio-économique
+
+
+- **2023:** Participation à concours Trophées des Campus Responsables 2023 aec le projet Green Fablab organisé par l'Association UTOPIES.
+ Plus de détails dans le lien: \url{https://utopies.com/trophees-des-campus-responsables/?utm_source=Campus+PROSPECT&utm_campaign=6b68a37c92-EMAIL_CAMPAIGN_2018_04_18_COPY_01&utm_medium=email&utm_term=0_166f0fc31c-6b68a37c92-572807294} 
+
+
+-  Module sur l'impression 3D auprès des professeurs de technologie de l'Académie de Nancy-Metz. Les échanges ont porté sur la prise en main des étapes du processus d'impression 3D, depuis un modèle numérique CAO jusqu'à la détermination des paramètres d’impression en fonction de la matière utilisée.
+Cette expérience a été très constructive d'un point de vue pédagogique et a répondu à des besoins locaux liés à l'implémentation de ce type de technologie dans les collèges et les lycées de la région. 
 
 - Module a été dispensé pour des étudiants et des industriels de la région de Costa Rica. 
 La thématique a concerné l'identification des étapes dans un processus de création des projets d'innovation,  l'évaluation prospective du degre de nouveauté en utilisation des technologies eye-tracking et neuro-lab (e.g. capteurs physiologiques)
@@ -778,7 +943,9 @@ Lien vers la vidéo de la prestation - Finale de l'Université de Lorraine 2016 
 
 \appendix
 
-# Annexes {-}
+
+
+# Annexes  {.appendix}
 
 
 
@@ -802,7 +969,7 @@ Lien vers la vidéo de la prestation - Finale de l'Université de Lorraine 2016 
 
 1. **Cruz Sanchez, F.A.**, Boudaoud, H., Hoppe, S., Camargo, M., 2017. Polymer recycling in an open-source additive manufacturing context: Mechanical issues. Addit. Manuf. 17, 87–105. [https://doi.org/10.1016/j.addma.2017.05.013](https://doi.org/10.1016/j.addma.2017.05.013)
 
-1. **Cruz Sanchez, F.A.**, Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a standard experimental protocol for open source additive manufacturing. Virtual Phys. Prototyp. 9, 151–167. https://doi.org/10.1080/17452759.2014.919553
+1. **Cruz Sanchez, F.A.**, Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a standard experimental protocol for open source additive manufacturing. Virtual Phys. Prototyp. 9, 151–167. [https://doi.org/10.1080/17452759.2014.919553](https://doi.org/10.1080/17452759.2014.919553)
 
 
 
@@ -811,14 +978,16 @@ Lien vers la vidéo de la prestation - Finale de l'Université de Lorraine 2016 
 
 1. Xue, F., Robin, G., Boudaoud, H., **Cruz Sanchez, F.A.**, Daya, E.M.,*"Enhancing vibration damping properties of viscoelastic structures printed by fused filament fabrication through the optimization of process parameters"*.   Journal of Manufacturing Processes.**(Soumis en Mars 2023– en révision)**
 
+1. Osorio F, **Cruz Sanchez F**,  Camargo M., Dupont L.,Peña J., *"Exploring team roles for social innovation labs: toward a competence-based role self-assessment approach"*  Journal of Engineering and Technology Management **(Soumis en Mars 2022– en révision)**
+
+1. Caceres C, Santander P., **Cruz Sanchez F**, Troussier N., Camargo M., Boudaoud H., *"Life Cycle Assessment of Distributed Plastic Recycling via Additive Manufacturing"*  Cleaner Waste Systems **(Soumis en Mars 2023– en révision)**
+
+
 <!-- 1. Santander P., Bautista S, **Cruz Sanchez, F.A.**, Boudaoud, H., Camargo, M., Pearce, J.M., 2020. *"Toward distributed local recycling networks for plastic waste: A system dynamics-based approach (Part I)"*. Technological Forecasting & Social Change. **(Soumis en Mars 2022– en révision)** -->
 
-1. Osorio F, **Cruz Sanchez F**,  Camargo M., Dupont L.,Peña J., *"Exploring team roles for social innovation labs: toward a competence-based role self-assessment approach"*  Journal of Engineering and Technology Management **(Soumis en Mars 2022– en révision)**
-
-1. Osorio F, **Cruz Sanchez F**,  Camargo M., Dupont L.,Peña J., *"Exploring team roles for social innovation labs: toward a competence-based role self-assessment approach"*  Journal of Engineering and Technology Management **(Soumis en Mars 2022– en révision)**
-
-
 ### Communications dans des congrès internationaux à comité de lecture 
+
+1. Xue, F., Boudaoud, H., Robin, G., **Cruz Sanchez, F. A.**, & Daya, E. M. (2022). Influence of layer thickness and nozzle temperature on the interlocking adhesion strength of additive manufactured multi-material interface. In 2022 International Solid Freeform Fabrication Symposium.
 
 1. Xue, F., Robin, G., Boudaoud, H., **Cruz Sanchez, F. A.**, & Daya, E. M. (2021). Effect of process parameters on the vibration properties of PLA structure fabricated by additive manufacturing. In 2021 International Solid Freeform Fabrication Symposium. University of Texas at Austin.
 
