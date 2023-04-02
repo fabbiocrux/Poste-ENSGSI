@@ -1,11 +1,5 @@
-﻿label	replace by
-copyright	
-elsevier b v	
-elsevier bv	
-elsevier science	
-elsevier science bv	
-elsevier science inc	
-inc	
-john wiley & sons	
-ltd	
-wiley periodical	
+label	replace by
+3d printers	3D printing
+3-d printing	3D printing
+closed-loop supply chain networks	closed-loop supply chain
+closed-loop supply chain (clsc) 	closed-loop supply chain

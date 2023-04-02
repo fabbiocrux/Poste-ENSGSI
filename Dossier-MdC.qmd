@@ -14,8 +14,10 @@ format:
     documentclass: article
     number-sections: true
     geometry:
-      - top=30mm
+      - top=20mm
       - left=20mm
+      - right=20mm
+      - bottom = 20mm
     fontsize: 11pt
     colorlinks: true
     linkcolor: blue
@@ -89,19 +91,19 @@ library(scales)
 
 :::: {.cols width='30%' data-latex=""}
 
-::: {.col data-latex="{0.25\textwidth}"}
+::: {.col data-latex="{0.2\textwidth}"}
 
 ![](Figures/Fabio.jpg){ width=130}
 
 :::
 
-::: {.col width='60%' data-latex="{0.05\textwidth}"}
+::: {.col width='60%' data-latex="{0.025\textwidth}"}
 \ 
 <!-- an empty Div (with a white space), serving as
 a column separator -->
 :::
 
-::: {.col data-latex="{0.75\textwidth}"}
+::: {.col data-latex="{0.775\textwidth}"}
 
 
 Colombiennne / française, Né le 06/05/1988 à Bogota, Colombie 
@@ -111,14 +113,12 @@ Colombiennne / française, Né le 06/05/1988 à Bogota, Colombie
 Tel : 07.78.78.38.07
 
 {{< fa envelope >}} [fabbiocrux.ms@gmail.com](fabbiocrux.ms@gmail.com) 
-
-{{< fa github >}} [Open Science with Github](https://github.com/fabbiocrux)
-
-\aiGoogleScholar \  \href{https://scholar.google.fr/citations?user=8Cuoaf4AAAAJ&hl=fr}{Google scholar} 
+| {{< fa github >}} [Open Science with Github](https://github.com/fabbiocrux)
+| \aiGoogleScholar \  \href{https://scholar.google.fr/citations?user=8Cuoaf4AAAAJ&hl=fr}{Google scholar} 
 
 CNU **60**, 62
 
-Génie Industriel; Recyclagé distribué; 3D Printing; Recyclage plastique; Soutenabilité
+Génie Industriel; Fabrication Additive Open Source; Recyclagé distribué; Soutenabilité
 
 :::
 ::::
@@ -128,7 +128,7 @@ Génie Industriel; Recyclagé distribué; 3D Printing; Recyclage plastique; Sout
 ## Présentation 
 
 Je suis ingénieur mécanique formé à l’Université Nacional de Colombie, titulaire d’un Master II en Management de l’Innovation et du Design Industriel et PhD. en Génie des Systèmes Industriels de l’Université de Lorraine.
-\begin{wrapfigure}{r}{0.5\textwidth}
+\begin{wrapfigure}[15]{r}{0.5\textwidth}
   \begin{center}
     \includegraphics[width=0.48\textwidth]{Figures/Cloud.png}
   \end{center}
@@ -138,7 +138,7 @@ Je suis ingénieur mécanique formé à l’Université Nacional de Colombie, ti
 <!-- Mes expériences professionnelles et de recherche sont centrées sur le champ de -->
 Mon domaine de recherche est la fabrication additive open source (également appelé Impression 3D) comme vecteur de développement industriel soutenable. Plus précisément, sur l'étude systémique de nouvelles filières distribuées en circuit court pour la valorisation des matières plastiques recyclées via la fabrication additive. Cela implique une approche multi-échelle afin d’appréhender à la fois les enjeux liés au procédé technologique, à la filière associée et au territoire, en privilégiant  collaborations avec de multiples acteurs et la mobilisation de différentes méthodologies pour améliorer, tester et expérimenter de nouveaux usages.
 
-Mon travail se décompose en trois échelles fondamentales. Un premier échelle porte  sur la validation du procédé d’impression 3D open source en tant qu’outil reproductible pour la fabrication des pièces imprimées en thermoplastique. Une attention particulière est portée sur la précision géométrique, résistance mécanique et vibratoire de ce procédé à l’échelle industrielle standard. Une deuxième échelle centrale dans mon parcours est la faisabilité technique du recyclage des thermoplastiques pour les processus d’impression. J’ai eu l’opportunité de travailler pendant ma thèse sur les caractérisations mécaniques et chimiques de la matière recyclée dans la chaîne d’impression en co-tutelle avec l’Équipe de Recherche sur les Processus Innovatifs (ERPI) et le Laboratoire des Réactions et Génie des Procédés (LRGP — UMR 7274) à Nancy. Je collabore avec le groupe de recherche FAST (Free Appropriate Sustainability Technology) de Western University de Canada sur le développement open source hardware dans une vision de démocratisation de la technologie associé au recyclage distribué. Une troisième échelle en cours de développement est l’analyse de la soutenabilité d’une filière de recyclage distribuée en collaboration avec l’équipe InSyTe de l’Université Technologique de Troyes. Le développement d’indicateurs (au-delà des indicateurs technico-économiques) intégrant la capacité de charge des écosystèmes et leurs services est un enjeu prometteur pour rendre les filières industrielles plus résilientes.
+Mon travail se décompose en trois échelles fondamentales. Un premier échelle porte  sur la validation du procédé d’impression 3D open source en tant qu’outil reproductible pour la fabrication des pièces imprimées en thermoplastique. Une attention particulière est portée sur la précision géométrique, résistance mécanique et vibratoire de ce procédé à l’échelle industrielle standard. Une deuxième échelle centrale est la faisabilité technique et logistique du recyclage des thermoplastiques pour les processus d’impression. J’ai travaillé pendant ma thèse sur les caractérisations mécaniques et chimiques de la matière recyclée dans la chaîne d’impression en co-tutelle avec l’Équipe de Recherche sur les Processus Innovatifs (ERPI) et le Laboratoire des Réactions et Génie des Procédés (LRGP — UMR 7274) à Nancy. Je collabore avec le groupe de recherche FAST (Free Appropriate Sustainability Technology) de Western University de Canada sur le développement open source hardware dans une vision de démocratisation de la technologie associé au recyclage distribué. Une troisième échelle en cours de développement est l’analyse de la soutenabilité d’une filière de recyclage distribuée en collaboration avec l’équipe InSyTe de l’Université Technologique de Troyes. Le développement d’indicateurs (au-delà des indicateurs technico-économiques) intégrant la capacité de charge des écosystèmes et leurs services est un enjeu prometteur pour rendre les filières industrielles plus résilientes.
 
 
 J'ai une forte expérience en montage et conduite de projet européens. J'ai l'opportunité de mettre en œuvre ces travaux de recherche dans le cadre du projet H2020 [INEDIT](http://erpi.univ-lorraine.fr/projects/INEDIT/) qui vise le transfert des approches ‘Do-It-Yourself’ (DIY) vers un contexte industriel.  Je développe donc le démonstrateur de recyclage des plastiques pour l’impression 3D (le [*Green Fablab*](https://lf2l.fr/projects/green-fablab/^[https://lf2l.fr/projects/green-fablab/]))  afin de tester l’approche appelée ‘Do-It-Together’ (DIT). C’est une excellente opportunité pour mieux comprendre l’opérationnalisation et la démultiplication de la démarche de recyclage distribué auprès des acteurs et des communautés locales. En parallèle, je pilote également dans le projet [Erasmus+ Climatelabs](https://erpi.univ-lorraine.fr/fr/projects/Climatelabs/) qui cherche à renforcer les capacités de recherche appliquée et d’innovation de dix universités partenaires du Mexique, du Brésil et de la Colombie par la conception et la mise en œuvre des espaces d’innovation sociales pour l’atténuation et l’adaptation au  changement climatique.
@@ -183,11 +183,12 @@ Défendu publiquement le 9 Décembre de 2016 à Nancy devant le jury:\par\vspace
 \end{tabu}
 
 
+\vspace{-0.25cm}
 
 ## Expériences Professionnelles
 
 \extrarowsep=3pt
-\begin{tabu} to \linewidth {X[0.4,l] X[2,l]}
+\begin{tabu} to \linewidth {X[0.3,l] X[2,l]}
 2022 -- ... &
 	\textbf{Chercheur contractuel} Université de Lorraine, Université de Lorrain, Nancy -- France \\[5pt]
 
@@ -198,7 +199,7 @@ Défendu publiquement le 9 Décembre de 2016 à Nancy devant le jury:\par\vspace
 	\textbf{Post-doctorant} Université de Lorraine, Université de Lorrain, Nancy -- France \\[5pt]
 
 2010 -- 2011 & \textbf{International trainee} \href{http://www.mipengenharia.com.br/}{Entreprise MIP Engenharia S/A} \thinspace Belo Horizonte, Brazil \par
-\textit{Projet:} Aide à la création d'un plan stratégique pour le projet d'internationalisation de MIP. Développement d'un benchmarking d'entreprises ayant un profil commercial similaire sur les marchés chilien, colombien et péruvien. \\
+\textit{Projet:} Aide à la création d'un plan stratégique pour le projet d'internationalisation de MIP.  \\
 	
 2008 -- 2009 &
 	\textbf{Étudiant adjoint ingénieur} \emph{Universidad Nacional de Colombia. Bogotá - Colombia}	\par 
@@ -206,6 +207,7 @@ Défendu publiquement le 9 Décembre de 2016 à Nancy devant le jury:\par\vspace
 \end{tabu}
 
 
+\vspace{-0.25cm}
 ## Compétences
 
 \extrarowsep=3pt
@@ -262,7 +264,7 @@ ggplot(aes(x=Year, y=value, fill=Document, label = value)) +
   # scale_fill_brewer() +
   #scale_fill_discrete(name = "Dose", ) +
   scale_fill_brewer(palette="Dark2",
-                    name = "Dose",
+                    name = "Production scientifique",
                     labels = c("Articles à comité de lecture = 9", 
                                "Articles (soumis) = 3", 
                                "Communications dans des congrès internationaux = 6",
@@ -281,7 +283,7 @@ ggplot(aes(x=Year, y=value, fill=Document, label = value)) +
 
 ```
 
-Les tableaux montrent les revues internationales auxquelles j'ai fait des contributions scientifiques. Les revues dans mon domaine sont liées à la **fabrication additive** (AM, 3DP, VPP et PB:JEM et JOM), la **soutenabilité** et **développement durable**(JCLP, RCR et CET) et depuis cette année l'**open hardware** (HX).
+Les tableaux montrent les revues internationales auxquelles j'ai fait des contributions scientifiques. Les revues dans mon domaine sont liées à la **fabrication additive** (AM, 3DP, VPP et PB:JEM et JOM), la **soutenabilité** et **développement durable**(JCLP, RCR et CET) et depuis cette année l'**open source hardware** (HX).
 
 Concernant les conferences, sont principalement autour de la fabrication additive (Solid Freeform Symposium) et l'innovation et management de la technologie (ICE/IEEE)
 
@@ -345,37 +347,39 @@ Freeform Fabrication Symposium)  \\
 <!-- Mes travaux de recherche ont abouti à la proposition d’un cadre conceptuel de filière de  recyclage des thermoplastiques pour l'impression 3D en considérant les étapes clés et un premier ensemble des indicateurs multicritères pour évaluer cette proposition comme illustré dans la @fig-sdram.     -->
 
 
-## Synthèse qualitatif des mes axes de recherche
+## Synthèse qualitative des mes axes de recherche
 
 ::: {.callout-tip}
 ## En quelque mots
+![Recyclage distribué pour la Fabrication additive Open source](Figures/DRAM-00.png){#fig-dram-00 width=600}
 
-Mes travaux de recherche portent sur l’étude systémique multi-echelle (produit / procédé / filière / territoire) de nouvelles filières distribuées en circuit court pour la valorisation des matières plastiques recyclées via la fabrication additive. 
+Mes travaux de recherche portent sur l’étude systémique multi-echelle (produit / procédé / filière / territoire) de nouvelles filières distribuées en circuit court pour la valorisation des matières plastiques recyclées via la fabrication additive open source. 
 
 :::
 
-La particularité de la recherche que je développe au sein du laboratoire ERPI est de mieux comprendre le système technologique du processus de recyclage que l’impression 3D open source est en train de rendre factible. L' enjeu sociétal majeur est de pouvoir décrire, modéliser, opérationnaliser et évaluer un système productif et de revalorisation des déchets de façon locale et distribuée. Les statistiques sur la problématique de déchets plastiques font preuve que d’autres approches au-delà de la centralisation et de l'économie d'échelle doivent être explorées. Donc, l’étude sur la notion distribué, sur sa dimension opérationnelle du système, et également l’implication systémique de cette nouvelle filière pour un territoire en identifiant un ensemble d’indicateurs multicritères afin d’évaluer cette type de propositions est un gap dans la littérature scientifique auquel je travaille pour donner.
+La particularité de la recherche que je développe au sein du laboratoire ERPI est de mieux comprendre le système technologique du processus de recyclage que l’impression 3D open source est en train de rendre factible. Les statistiques sur la problématique de déchets plastiques font preuve que d’autres approches au-delà de la centralisation et de l'économie d'échelle doivent être explorées.  L'enjeu majeur est de pouvoir décrire, modéliser, opérationnaliser et évaluer un système productif et de revalorisation des déchets de façon locale et distribuée. @fig-vosviewer présente une visualisation de réseau en utilisant les mots-clés de ma recherche à l'aide du logiciel VOSviewer avec la temporalité 2016-2022. Je travail principalement sur trois échelles 1) étude de la relation matériau-procédé-qualité pour la fabrication additive open source, 2) conception de filière associé afin de répondre aux exigences de plus en plus complexes d’un nouveau produit/processus et 3) exploration des espaces d’innovation en tant que nouvelles formes de production urbaine et leur lien avec la soutenabilité au niveau territorial.
 
-Mes activités de recherche ont un fort lien avec la plateforme de recherche du Lorraine Fab Living Lab, car depuis quelques années, il y a une interet croissance sur les espaces d’innovation ouverte type Fab Labs / hackerspaces. Ces types des espaces sont un levier fort de démultiplication de capacités de production distribué, dont le vecteur industriel de la fabrication additive s’y déploies de façon inhérente. Ces types d’espaces démocratisent les processus de  prototypage et de matérialisation des idées.
+![Réseau d’occurrence des mots-clés associés aux publications (articles + conférences internationales) et évolution dans le temps](Figures/Vosviewer.png){#fig-vosviewer width='90%'}
+
+Donc, l’étude sur la notion distribué, sur sa dimension opérationnelle du système, et également l’implication systémique de cette nouvelle filière pour un territoire en identifiant un ensemble d’indicateurs multicritères afin d’évaluer ce type de propositions est un gap dans la littérature scientifique auquel je travaille pour donner une proposition scientifique.
+
+
+
+Mes activités de recherche ont un fort lien avec la plateforme de recherche du Lorraine Fab Living Lab, car depuis quelques années, il y a une interet croissance sur les espaces d’innovation ouverte type Fab Labs / hackerspaces. Ces types d'espaces sont un levier fort pour la multiplication des capacités de production distribuées, où le vecteur industriel de la fabrication additive est intrinsèquement déployé. Cela permet une démocratisation des processus de prototypage et de matérialisation des idées.
 
 Mes travaux de recherche ont abouti à une proposition de cadre conceptuel pour le déploiement d’une filière de recyclage des thermoplastiques pour l’impression 3D en considérant les étapes clés comme illustré dans la @fig-sdram.
- 
 
+![Récyclage distribué via la fabrication additive](Figures/DRAM-10.png){#fig-sdram width=80%}
 
-![Récyclage distribué via la fabrication additive](Figures/SDRAM-00.pdf){#fig-sdram width=90%}
-
-Je travaille au sein du laboratoire ERPI avec différents collègues en France et à l’étranger pour pouvoir clarifier étape par étape (I-VI) les implications, les verrous scientifiques et technologiques afin de démocratiser une démarche locale de recyclage distribuée. Chaque élément est très important, notamment dans un contexte où la société doit agir à tous les niveaux (produit-procédé / filière / territoire) vers une transition écologique des modes de production, de fabrication et de consommation en prenant en compte les enjeux environnementaux actuels.
-
+Je travaille au sein du laboratoire ERPI avec différents collègues en France et à l’étranger pour pouvoir clarifier étape par étape (I-VI) les implications, les verrous scientifiques et technologiques afin de démocratiser une démarche locale de recyclage distribuée. Chaque élément est très important, notamment dans un contexte où la société doit agir à tous les niveaux (produit-procédé / filière / territoire) vers modes de production, de fabrication et de consommation plus soutenables et résilients à long terme.
 
 Actuellement, dans le cadre du projet INEDIT, qui vise le transfert des approches ‘Do-It-Yourself’ vers un context industriel, nous sommes en train de mettre en place un démonstrateur qui permettra de tester l’approche appelé ‘Do-It-Together’ dont la particularité consiste à coupler les phases de co-création et conception produit avec une notion de  fabrication ouverte grâce à des plateformes numériques en incluant la réalité virtuelle (@fig-DRAM-INEDIT).
 
-![Récyclage distribué via la fabrication additive](Figures/INEDIT.jpg){#fig-DRAM-INEDIT width=90%}
+![Récyclage distribué via la fabrication additive](Figures/INEDIT.jpg){#fig-DRAM-INEDIT width=80%}
 
 Le développement de ce projet mobilise un panel de méthodologies de recherche dans la conception mécanique (e.g: plan d’expériences, validation statistique/ANOVA, simulation) et en innovation (e.g. recherche opérationnelle, analyse multicritère, systèmes dynamiques) en ouvrant un champ d’expérimentation non négligeable pour la créativité de solutions avec des étudiants en ingénierie.
 
 A partir de ce contexte, les axes de recherche peuvent être décrits d’un point de vue technologique (micro) vers une vision système (macro) de l’implication de la filière de recyclage en tant que système socio-technique.
-
-
 
 ### L'impression 3D open source: validation des standards de fabrication
 
@@ -383,70 +387,52 @@ La fabrication additive est reconnue comme un sujet disruptif. Elle est en train
 
 La technologie de dépôt de fil fondu (Fused Filament Fabrication --FFF- en anglais) est la plus répandue grâce à son principe d’extrusion de polymère qui offre une grande flexibilité. Sa démarche de conception open source permet un processus collaboratif d’amélioration distribué à moindre coût. Cependant, la démultiplication des types de machines, des matériaux utilisés et des expérimentations appellent à la détermination de standards de performances permettant ainsi une comparaison et une validation des procédés techniques.
 
+Une première échelle d’analyse sur laquelle je travaille concerne la validation des procédés open source en tant qu’outil de fabrication reproductible et fiable pour un usage semi-industriel. J’ai eu l’opportunité de me concentrer sur la caractérisation de la performance géométrique à travers des modèles de benchmarking[^CruzSanchez2014], des expérimentations pour des applications médicales[^Albuquerque2018] où j’ai exploré le comportement mécanique des matériaux. Systématiquement, des plans d’expériences et d’analyses statistiques ont été mis en œuvre grâce à la mobilisation de méthodologies adaptées. Nous explorons également le comportement vibratoire et d’amortissement des échantillons à partir de FFF [^Xue2022] avec les collègues du Laboratoire d’Études des Microstructures et de Mécanique des Matériaux (LEM3) à Metz - France. Ces travaux permettent de positionner la FFF open source auprès de la communauté scientifique et industrielle en tant qu’outil fiable et reproductible.
 
-Une première échelle d’analyse sur laquelle je travaille concerne la validation des procédés open source en tant qu’outil de fabrication reproductible et fiable pour un usage semi-industriel
-<!-- Master -->
-J’ai eu l’opportunité de me concentrer sur la caractérisation de la performance géométrique à travers des modèles de benchmarking[^CruzSanchez2014], 
-des expérimentations pour des applications médicales[^Albuquerque2018] où j’ai exploré le comportement mécanique des matériaux.
-<!-- Méthodlogies plan d'experience -->
-Systématiquement, des plans d’expériences et d’analyses statistiques ont été mis en œuvre grâce à la mobilisation de méthodologies adaptées. 
-<!-- Fangkai -->
-Nous explorons également le comportement vibratoire et d’amortissement des échantillons à partir de FFF[^Xue2022] avec les collègues du Laboratoire d’Études des Microstructures et de Mécanique des Matériaux (LEM3) à Metz - France. 
-<!-- Conclusion -->
-Ces travaux permettent de positionner la FFF open source auprès de la communauté scientifique et industrielle en tant qu’outil fiable et reproductible.
-
-<!-- FGF -->
-D’un autre côté, le procédé de dépôt par granulés (Fused Granular fabrication --FGF- en anglais) est une avancée technologique récente et représente une grande opportunité dans la démocratisation de l’impression 3D. Ce procédé utilise directement de la matière première en forme de pellet. Cela ouvre un champ d’exploration afin de faciliter l’impression de  grande taille pour des matériaux élastomères thermoplastiques et de matière composites. J’ai pu entamer un travail de comparaison de procédé FGF avec le FFF dans la performance mécanique[^Arthur2020].
-Cependant, le défi actuel réside dans une meilleure compréhension de la communauté scientifique des caractéristiques du procédé au sens précision dimensionnelle, imprimabilité des matériaux et faisabilité économique de cette technologie.
+D’un autre côté, le procédé de dépôt par granulés (Fused Granular fabrication --FGF- en anglais) est une avancée technologique récente et représente une grande opportunité dans la démocratisation de l’impression 3D. Ce procédé utilise directement de la matière première en forme de pellet. Cela ouvre un champ d’exploration afin de faciliter l’impression de  grande taille pour des matériaux élastomères thermoplastiques et de matière composites. J’ai pu entamer un travail de comparaison de procédé FGF avec le FFF dans la performance mécanique[^Arthur2020]. Cependant, le défi actuel réside dans une meilleure compréhension de la communauté scientifique des caractéristiques du procédé au sens précision dimensionnelle, imprimabilité des matériaux et faisabilité économique de cette technologie .
 
 
 ### Filière durable de l'impression 3D pour le récyclage
+
 Une deuxième échelle de ma recherche concerne la proposition d’une méthodologie systématique permettant d’évaluer la fabrication et l’évaluation de la matière recyclée utilisée dans le procédé d’impression. Cette méthodologie facilite l’étude et la modélisation d’une filière de recyclage en circuit court pour l’impression 3D open source.
 
-L’enjeu essentiel de ma thèse et de mon projet de post-doc 2017-2019 a été de démontrer l’imprimabilité des matières recyclées. En ce sens, j’ai réalisé le couplage de tests de caractérisation des propriétés mécaniques (e.g. résistance à la traction, module d’élasticité) et chimiques (e.g viscosité, calorimétrie) avec de multiples cycles d’extrusion, impression et de moulage par injection. L’un de mes premiers résultats est une démarche de caractérisation chimique[^Cruz2015], et mécanique [^CruzSanchez2017] de la dégradation de l’acide polylactique (PLA) qui est le thermoplastique le plus utilisé dans le domaine FFF.
+L’enjeu essentiel de ma thèse et de mon projet de post-doc 2017-2019 a été de démontrer l’imprimabilité des matières recyclées. En ce sens, j’ai réalisé le couplage de tests de caractérisation des propriétés mécaniques (e.g. résistance à la traction, module d’élasticité) et chimiques (e.g viscosité, calorimétrie) avec de multiples cycles d’extrusion, impression et de moulage par injection. L’un de mes premiers résultats est une démarche de caractérisation chimique[^Cruz2015], et mécanique[^CruzSanchez2017] de la dégradation de l’acide polylactique (PLA) qui est le thermoplastique le plus utilisé dans le domaine FFF.
 Mon travail de thèse a eu pour résultat principal de montrer que le recyclage distribué du plastique à l’aide de technologies 3D open source (imprimantes 3D et extrudeuses) est une option possible pour la valorisation des déchets plastiques. Cette approche pour évaluer la recyclabilité permet de simuler le cycle de vie prolongé des produits recyclés. 
 
-
-<!-- Filière con Pavlo -->
 D’autre part, au vu des ces résultats encourageants, j’ai eu l’opportunité d’accompagner les travaux de thèse de Pavlo Santander pendant la période 2017-2020. Nous avons donc changé de perspective dans le but de prouver la faisabilité de recyclage au niveau de la chaîne d’approvisionnement afin de mieux comprendre les paramètres logistiques liés à cette filière de recyclage.
 
-Le faible taux actuel de recyclage des plastiques montre les limites de l’approche actuelle de gestion centralisée des déchets. Ce processus centralisé est complexe, coûteux et polluant en raison des multiples étapes de tri, de collecte et de transport. Le recyclage distribué des plastiques peut être imaginé comme une sorte de “réseau intelligent”, composé de petites unités de recyclage coordonnées fournissant des matières premières secondaires (eg: filaments recyclés) à une communauté (e.g. collèges / lycées, espaces fablabs et de prototypage). Le modèle conceptuel[^Pavlo2018], et son application dans le contexte de Nancy en lien avec le projet Green Fablab[^Santander2020] ont prouvé son approche originale et une mise en œuvre reproductible.  
+Le faible taux actuel de recyclage des plastiques montre les limites de l’approche actuelle de gestion centralisée des déchets. Ce processus centralisé est complexe, coûteux et polluant en raison des multiples étapes de tri, de collecte et de transport. Le recyclage distribué des plastiques peut être imaginé comme une sorte de “réseau intelligent”, composé de petites unités de recyclage coordonnées fournissant des matières premières secondaires (eg: filaments recyclés) à une communauté (e.g. collèges / lycées, espaces fablabs et de prototypage). Le modèle conceptuel[^Pavlo2018], et son application dans le contexte de Nancy en lien avec le projet Green Fablab[^Santander2020] ont prouvé son approche originale et une mise en œuvre reproductible. Récemment, une stratégie que nous visons pour renforcer cet échelle est la conception et développement d’un ensemble de technologies open source hardware  pour chaque étape de recyclage afin de rendre viable cette filière[^Gabriel2023].
 
 Cette nouvelle approche du recyclage propose un système local adapté aux petites quantités de déchets. Sous ce nouveau paradigme, les problèmes économiques et environnementaux d’un recyclage centralisé seraient limités, principalement en raison de l’utilisation d’une technologie open source moins coûteuse, de plus courtes distances entre le lieu de récupération et le point de traitement.
 
-Cet axe est en cours de recherche, et fait l’objet du développement dans le projet de démonstration appliqué INEDIT.
+Cet axe est en cours de recherche, et fait l’objet du développement dans le projet de démonstration appliqué INEDIT 
+.
 
 ### Espace d'innovation pour la circularité 
 
 La troisième échelle porte sur la compréhension des espaces d’innovation comme un levier fort pour l’intégration de projets locaux participatifs, dans notre cas, la création d’une filière de recyclage plastique.
 Les espaces d’innovation sont un sujet de profond intérêt pour les industriels et les académiques car ces espaces permettent de développer des compétences d’innovation participative  et de créativité collective ainsi que de nouvelles pratiques de travail reposant sur des approches de collaboration, de co-conception, de co-production et de co-création. 
 
-J’ai pu travailler en collaboration avec l’École d’ingénieur du CESI sur la façon dont un projet de recyclage pédagogique est développé au sein du laboratoire d’innovation en observant l’évolution des intentions stratégiques du projet et du laboratoire d’innovation [^Roux-Marchand2020]. Les impacts tangibles et intangibles ont été mis en évidence dans la manière dont ils se répercutent sur le pilotage d’un projet d’innovation avec des élèves ingénieurs.  Cette recherche exploratoire représente un axe de travail intéressant pour le développement mettre en évidence l’aspect multidisciplinaire qu’implique 
+J’ai pu travailler en collaboration avec l’École d’ingénieur du CESI sur la façon dont un projet de recyclage pédagogique est développé au sein du laboratoire d’innovation en observant l’évolution des intentions stratégiques du projet et du laboratoire d’innovation[^Roux-Marchand2020]. Les impacts tangibles et intangibles ont été mis en évidence dans la manière dont ils se répercutent sur le pilotage d’un projet d’innovation avec des élèves ingénieurs.  Cette recherche exploratoire représente un axe de travail intéressant pour le développement mettre en évidence l’aspect multidisciplinaire qu’implique 
 
-Ainsi, dans une échelle européen de partage d'expériences et de renforcement de capacités de recherche, je pilote le projet [Erasmus+ Climatelabs](https://erpi.univ-lorraine.fr/fr/projects/Climatelabs/) dont l’enjeu essentiel est de concevoir et mettre en œuvre des espaces d’innovation avec 10 partenaires de l’Amérique latine (5 en Colombie, 3 au Brésil et 2 Mexique). Chaque université met en œuvre un projet pilote en fonction des leurs besoins, forces et défis locaux et des caractéristiques des institutions de leur propre territoire. Ce projet est une opportunité pour partager la connaissance et l’expérience que ERPI/ENSGSI a mûri lors de la création et du développement du projet de Green Fablab. Les notions de “fabrication personnelle”, de pratiques Do-It-Yourself ou de “making” sont souvent des approches sociales et collaboratives, impliquant le partage et la modification de conceptions en ligne, la coopération sur des projets et/ou l’utilisation d’outils dans des espaces partagés.
+Ainsi, dans une échelle européen de partage d'expériences et de renforcement de capacités de recherche, je suis le responsable du projet du projet [Erasmus+ Climatelabs](https://erpi.univ-lorraine.fr/fr/projects/Climatelabs/) dont l’enjeu essentiel est de concevoir et mettre en œuvre des espaces d’innovation avec 10 partenaires de l’Amérique latine (5 en Colombie, 3 au Brésil et 2 Mexique). Chaque université met en œuvre un projet pilote en fonction des leurs besoins, forces et défis locaux et des caractéristiques des institutions de leur propre territoire. Ce projet est une opportunité pour partager la connaissance et l’expérience que ERPI/ENSGSI a mûri lors de la création et du développement du projet de Green Fablab. Les notions de “fabrication personnelle”, de pratiques Do-It-Yourself ou de “making” sont souvent des approches sociales et collaboratives, impliquant le partage et la modification de conceptions en ligne, la coopération sur des projets et/ou l’utilisation d’outils dans des espaces partagés.
 En conséquence, ces terrains d’expérimentations en conception (mécanique et des systèmes socio-techniques) pour chercheur et pour étudiants ingénieur prennent tout leur sens.
 
 
 ## Projet de recherche
 
+
 La fabrication additive va jouer un rôle très important dans le devenir de notre société en tant qu’outil pour la soutenabilité [@Despeisse2016]. Cette technologie permet d’avoir une utilisation efficiente de la matière première par rapport aux technologies traditionnelles de fabrication. Le principe de dépôt couche-par-couche fait que les procédés de l’impression 3D peuvent avoir un impact environnemental réduit en considérant le ratio du dépôt de matière, le type de matière et la géométrie optimisée pour l’usage adéquat. Dans le contexte du recyclage de matière première, (dans mon cas, le recyclage de polymères spécifiquement), la FA est une voie de recherche fondamentale pour explorer de nouvelles méthodes d’éco-conception à multiples échelles [@Wu2021a].
 
+En partant de cette base, le projet de recherche que je visualise aujourd’hui concerne trois éléments importants:
 
 
-```{r vosviewer,  out.width = '90%',  include=TRUE }
-#| label: vosviewer
-#| fig-cap: Réseau d’occurrence des mots-clés associés aux publications (articles + conférences internationales) et évolution dans le temps
 
-knitr::include_graphics(here("Figures/Vosviewer/Vosviewer-Fabio.pdf"))
-```
-
-Figure 5 présente carte obtenue en recherchant les mots-clés de ma recherche à l'aide du logiciel VOSviewer avec la temporalité. En partant de cette base, le projet de recherche que je visualise aujourd’hui concerne trois éléments importants:
-
-1. La validation des matières premières (secondaires), des procédés open source et de l’application de la valeur ajoutée. 
-2. L’évaluation systémique de nouvelle formes de production robustes.
+1. La validation des matières premières (secondaires), et développement d’une techno-diversité des procédés open source et des applications de la valeur ajoutée.
+2. L’évaluation systémique de nouvelles formes de production robustes.
 3. Vers une soutenabilité forte pour la fabrication additive
 
-Le but à long terme est d'inscrire cette démarche dans l'ambition du plan d'action de l'économie circulaire de l'Union Européenne afin de répondre aux enjeux sociétaux de la gestion des déchets plastiques. 
+Le but à long terme est d’inscrire cette démarche dans l’ambition du plan d’action de l’économie circulaire de l’Union Européenne afin de répondre aux enjeux 
 
  
 ### Validation des matières premières secondaires, procédés open source et applications 
@@ -541,10 +527,11 @@ Results$bypole <-
    Test %>% group_by(Pole) %>% summarise(Porcentajes = sum(Total)/Total.heures)
 
 Results$Figure <- 
-   Test %>% 
-#   select(Level, Percentage, CM, TD, TP) %>% pivot_longer( cols = c(CM:TP))
-   ggplot(aes(axis1 = Level, axis2 = Place , y = Percentage)) +
-   scale_x_discrete(limits = c("Niveau", "Lieu" ), expand = c(.2, .05)) +
+   Test %>% select(Year, Level,  Place, CM, TD, TP) %>% 
+   pivot_longer( cols = c(CM:TP)) %>% drop_na() %>% 
+   mutate( Percentage = value/ sum(value) * 100 ) %>% 
+   ggplot(aes(axis1 = Level, axis2 = Place, axis3 = name,  y = Percentage)) +
+   scale_x_discrete(limits = c("Niveau", "Lieu", "Modalité"), expand = c(.2, .05)) +
    scale_y_continuous(n.breaks = 6, 
                       labels = c("0", "20%", "40%", "60%", "80%", "100%"),
                       name = " ") +
@@ -630,7 +617,7 @@ Dans une moindre mesure à l'IUT Metz et à l’UFR Science Humaines et Sociales
 Le volume global de mes activités d’enseignement représentent un **total de 386.92 heures équivalent TD**.
 Tableau \ref{tbl-heures}  présente un récapitulatif par année.
 
-Comme illustré par la Figure @fig-sankey, la majorité des mes enseignements ont été dispensés à l’ENSGSI (66.2%), principalement à des niveaux BAC+2 (34%) et BAC+5 (31%) au sein du pôle de **Conception et Innovation**.
+Comme illustré par la Figure @fig-sankey, la majorité des mes enseignements ont été dispensés à l’ENSGSI (66.2%), principalement à des niveaux BAC+2 (34%) et BAC+5 (31%) en modalité TD au sein du pôle de **Conception et Innovation**.
 Le Tableau 2 détaille mes enseignements depuis 2015 pour chaque formation. 
 Les attestations d’enseignement sont présentées en Annexe.
 
@@ -696,13 +683,13 @@ treemap(Cartography, index=c("Title", "Place"),
 Au vue de mon expérience en recherche sur thématique le recyclage de plastique pour la fabrication additive open source, mes thématiques enseignement portent majoritairement sur **l’introduction à la méthodologie de recherche** pour des étudiants BAC+5 (cycle ingénieur et Master II), et l'introduction à la fabrication additive (et recyclage), modelisation CAO et prototypage pour des étudiants de BAC+1/BAC+2.
 
 Je présente en détail le contenu pédagogique et de mes contributions aux modules de formations qui donnent une aperçu de mes expériences enseignement : 
-1. Recherche, Innovation et Développement, 
-2. Modules de Licence Professionnelle:  (1) Recyclage des matériaux à l’aide de techniques open source et (2) Exploiter durablement les ressources et les partenariats 
-3. Introduction à l’Age du faire et Do-It-Yourself (DIY)
+1) Module CI15 -- Recherche, Innovation et Développement, 
+2) Deux modules de Licence Professionnelle:  (i) Recyclage des matériaux à l’aide de techniques open source et (ii) Exploiter durablement les ressources et les partenariats, et 
+3) Introduction à l’Age du faire et Do-It-Yourself (DIY)
 
 ## Participation aux modules pédagogiques
 
-## Module CI15--Recherche, Innovation et Développement 
+### Module CI15--Recherche, Innovation et Développement 
 
 Ce module a pour objectif de faire une introduction à la méthode scientifique afin de maîtriser les concepts et étapes clés d’un processus de recherche. Le public visé sont des étudiants de 3ème année ingénieur (BAC+ 5) et l’ensemble des étudiants de Master Design (BAC+ 5) IDEAS (Innovation et Design Évalués par les Usages), Master Urbanisme et Aménagement IUVTT (Innovation Urbaine pour des Villes & Territoires en Transformation) de l’ENSGSI.  
 
@@ -732,7 +719,7 @@ Une spécificité de ce module concerne une attente pédagogique particulière. 
 
 
 
-## Recyclage des matériaux à l’aide de techniques open source / Exploiter durablement les ressources et les partenariats 
+### Recyclage des matériaux à l’aide de techniques open source / Exploiter durablement les ressources et les partenariats 
 
 
 Les modules 1) *Recyclage des matériaux à l'aide de techniques open source*, et 2), _Exploiter durablement les ressources et les partenariats_ sont deux modules de la licence professionnelle Animateur et facilitateur de tiers-lieux éco-responsables (AFTER). Cette licence est portée par l’ENSGSI et l’IUT Charlemagne à Nancy et vise à former des personnes pouvant gérer et animer des tiers lieux. Les tiers-lieux sont des nouveaux espaces socio-techniques qui se font de plus en plus nombreux dans le cadre d’associations et des organismes de l'Économie Sociale et Solidaire (ESS). Ils sont source de médiation et d’innovation favorisant la co-creation, l’échange de compétences sur des pratiques numériques et de fabrication pour les citoyens, entrepreneurs, étudiants, salariés, artistes, etc qui veulent expérimenter des nouvelles formes d’entreprenariat plus respectueux de la planète.
@@ -763,7 +750,7 @@ Les étudiants découvrent des machines open source pour recyclage et projets 
 * Création de supports pédagogiques aux enjeux sociétaux de l’économie circulaire axés sur le recyclage de matière plastique. 
 * Montage et organisation de l’atelier pédagogique avec un public d’élèves de collège classé “éducation prioritaire renforcé” 
 
-## Introduction à l’Age du faire et Do-It-Yourself (DIY)
+### Introduction à l’Age du faire et Do-It-Yourself (DIY)
 
 Au cours de l’année 2022, J’ai eu l’opportunité de proposer un TP appelé  ‘Introduction à l’Age du faire et Do-It-Yourself (DIY)’ à destination des étudiants de 2ème année cycle préparatoire ingénieur (BAC+2) de l’ENSGSI. L’objectif est de les sensibiliser aux différentes technologies qui permettent matérialiser et prototyper rapidement une idée avec les technologies présentes dans le Lorraine Fab Living Lab et le Green Fablab. Ce TP permet:
 
@@ -850,6 +837,9 @@ Ces axes peuvent contribuer au syllabus au niveau :
 
 
 # Activités administratives et de valorisation
+
+## Activités administratives liées à la pédagogique
+
 
 - Participation dans le commite technique de la conference ICE / IAMOT 2022 à Nancy. 300 Participants internationaux
 
@@ -1022,21 +1012,24 @@ Lien vers la vidéo de la prestation - Finale de l'Université de Lorraine 2016 
 
 
 
+[^CruzSanchez2014]: **Cruz Sanchez, F.A.**, Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a standard experimental protocol for open source additive manufacturing. Virtual Phys. Prototyp. 9, 151–167. [https://doi.org/10.1080/17452759.2014.919553](https://doi.org/10.1080/17452759.2014.919553)
 
-[^CruzSanchez2014]: **Cruz Sanchez, F.A.**, Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a standard experimental protocol for open source additive manufacturing. Virtual Phys. Prototyp. 9, 151–167. https://doi.org/10.1080/17452759.2014.919553
+[^Albuquerque2018]: Albuquerque, R., Arbelaez, G., **Cruz, F.**, Camargo, M., Joseph, D., Tran, N., 2018. Modelling, Printing and Validation of Dental Dry Models for Implantology Skills Training, in: 2018 IEEE International Conference on Engineering, Technology and Innovation (ICE/ITMC). IEEE, pp. 1–8. [https://doi.org/10.1109/ICE.2018.8436302](https://doi.org/10.1109/ICE.2018.8436302)
 
-[^Albuquerque2018]: Albuquerque, R., Arbelaez, G., **Cruz, F.**, Camargo, M., Joseph, D., Tran, N., 2018. Modelling, Printing and Validation of Dental Dry Models for Implantology Skills Training, in: 2018 IEEE International Conference on Engineering, Technology and Innovation (ICE/ITMC). IEEE, pp. 1–8. https://doi.org/10.1109/ICE.2018.8436302
+[^Arthur2020]: Alexandre, A., **Cruz Sanchez, F.A.**, Boudaoud, H., Camargo, M., Pearce, J.M., 2020. Mechanical Properties of Direct Waste Printing of Polylactic Acid with Universal Pellets Extruder: Comparison to Fused Filament Fabrication on Open-Source Desktop Three-Dimensional Printers. 3D Printing and Additive Manufacturing 3dp.2019.0195. [https://doi.org/10.1089/3dp.2019.0195](https://doi.org/10.1089/3dp.2019.0195)
 
-[^Arthur2020]: Alexandre, A., **Cruz Sanchez, F.A.**, Boudaoud, H., Camargo, M., Pearce, J.M., 2020. Mechanical Properties of Direct Waste Printing of Polylactic Acid with Universal Pellets Extruder: Comparison to Fused Filament Fabrication on Open-Source Desktop Three-Dimensional Printers. 3D Print. Addit. Manuf. 3dp.2019.0195. https://doi.org/10.1089/3dp.2019.0195
 
-[^Xue2022]: Xue, F., Robin, G., Boudaoud, H., **Cruz Sanchez, F.A.**, Daya, E.M., 2022. General Methodology to Investigate the Effect of Process Parameters on the Vibration Properties of Structures Produced by Additive Manufacturing Using Fused Filament Fabrication. JOM 74, 1166–1175. https://doi.org/10.1007/s11837-021-05051-9
+[^Xue2022]: Xue, F., Robin, G., Boudaoud, H., **Cruz Sanchez, F.A.**, Daya, E.M., 2022. General Methodology to Investigate the Effect of Process Parameters on the Vibration Properties of Structures Produced by Additive Manufacturing Using Fused Filament Fabrication. JOM 74, 1166–1175. [https://doi.org/10.1007/s11837-021-05051-9](https://doi.org/10.1007/s11837-021-05051-9)
 
 [^Cruz2015]: **Cruz, F.**, Lanza, S., Boudaoud, H., Hoppe, S., Camargo, M., 2015. Polymer Recycling and Additive Manufacturing in an Open Source context : Optimization of processes and methods, in: Solid Freeform Fabrication. Austin, Texas, pp. 1591–1600.
 
-[^CruzSanchez2017]: **Cruz Sanchez, F.A.**, Boudaoud, H., Hoppe, S., Camargo, M., 2017. Polymer recycling in an open-source additive manufacturing context: Mechanical issues. Addit. Manuf. 17, 87–105. https://doi.org/10.1016/j.addma.2017.05.013
+[^CruzSanchez2017]: **Cruz Sanchez, F.A.**, Boudaoud, H., Hoppe, S., Camargo, M., 2017. Polymer recycling in an open-source additive manufacturing context: Mechanical issues. Addit. Manuf. 17, 87–105. [https://doi.org/10.1016/j.addma.2017.05.013](https://doi.org/10.1016/j.addma.2017.05.013)
 
-[^Pavlo2018]: Pavlo, S., **Fabio, C.**, Hakim, B., Mauricio, C., 2018. 3D-Printing Based Distributed Plastic Recycling: A Conceptual Model for Closed-Loop Supply Chain Design, in: 2018 IEEE International Conference on Engineering, Technology and Innovation (ICE/ITMC). IEEE, pp. 1–8. https://doi.org/10.1109/ICE.2018.8436296
+[^Pavlo2018]: Pavlo, S., **Fabio, C.**, Hakim, B., Mauricio, C., 2018. 3D-Printing Based Distributed Plastic Recycling: A Conceptual Model for Closed-Loop Supply Chain Design, in: 2018 IEEE International Conference on Engineering, Technology and Innovation (ICE/ITMC). IEEE, pp. 1–8. [https://doi.org/10.1109/ICE.2018.8436296](https://doi.org/10.1109/ICE.2018.8436296)
 
-[^Santander2020]: Santander, P., **Cruz Sanchez, F.A.**, Boudaoud, H., Camargo, M., 2020. Closed loop supply chain network for local and distributed plastic recycling for 3D printing: a MILP-based optimization approach. Resour. Conserv. Recycl. 154, 104531. https://doi.org/10.1016/j.resconrec.2019.104531
+[^Santander2020]: Santander, P., **Cruz Sanchez, F.A.**, Boudaoud, H., Camargo, M., 2020. Closed loop supply chain network for local and distributed plastic recycling for 3D printing: a MILP-based optimization approach. Resour. Conserv. Recycl. 154, 104531. [https://doi.org/10.1016/j.resconrec.2019.104531](https://doi.org/10.1016/j.resconrec.2019.104531)
 
-[^Roux-Marchand2020]: Roux-Marchand, T., **Cruz, F.**, Dupont, L., Camargo, M., Osorio, F., 2020. Connecting the strategic intent of innovation labs and projects: the case of the Green Fablab, in: 2020 IEEE International Conference on Engineering, Technology and Innovation (ICE/ITMC). IEEE, pp. 1–10. https://doi.org/10.1109/ICE/ITMC49519.2020.9198320
+[^Roux-Marchand2020]: Roux-Marchand, T., **Cruz, F.**, Dupont, L., Camargo, M., Osorio, F., 2020. Connecting the strategic intent of innovation labs and projects: the case of the Green Fablab, in: 2020 IEEE International Conference on Engineering, Technology and Innovation (ICE/ITMC). IEEE, pp. 1–10. [https://doi.org/10.1109/ICE/ITMC49519.2020.9198320](https://doi.org/10.1109/ICE/ITMC49519.2020.9198320)
+
+[^Gabriel2023]: Gabriel, A., **Cruz, F.**, 2023. Open source IoT-based collection bin applied to local plastic recycling. HardwareX 13, e00389. [https://doi.org/10.1016/j.ohx.2022.e00389](https://doi.org/10.1016/j.ohx.2022.e00389)
+

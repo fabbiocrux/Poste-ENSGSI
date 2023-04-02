@@ -36,7 +36,7 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\usepackage[top=30mm,left=20mm]{geometry}
+\usepackage[top=20mm,left=20mm,right=20mm,bottom = 20mm]{geometry}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \setcounter{secnumdepth}{5}
 % Make \paragraph and \subparagraph free-standing
@@ -334,7 +334,7 @@
 	\end{flushright}
 \end{titlepage}
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, frame hidden, boxrule=0pt, enhanced, breakable, interior hidden, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, breakable, enhanced, boxrule=0pt, frame hidden, borderline west={3pt}{0pt}{shadecolor}, interior hidden]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -347,7 +347,7 @@
 
 \begin{cols}
 
-\begin{col}{0.25\textwidth}
+\begin{col}{0.2\textwidth}
 
 \begin{figure}[H]
 
@@ -359,29 +359,26 @@
 
 \end{col}
 
-\begin{col}{0.05\textwidth}
+\begin{col}{0.025\textwidth}
 ~
 
 \end{col}
 
-\begin{col}{0.75\textwidth}
+\begin{col}{0.775\textwidth}
 Colombiennne / française, Né le 06/05/1988 à Bogota, Colombie
 
 27, Rue du Pont de Pierre, 54270 - Essey-lès-Nancy
 
 Tel : 07.78.78.38.07
 
-\faIcon{envelope} \url{fabbiocrux.ms@gmail.com}
-
+\faIcon{envelope} \url{fabbiocrux.ms@gmail.com} \textbar{}
 \faIcon{github} \href{https://github.com/fabbiocrux}{Open Science with
-Github}
-
-\aiGoogleScholar ~
+Github} \textbar{} \aiGoogleScholar ~
 \href{https://scholar.google.fr/citations?user=8Cuoaf4AAAAJ&hl=fr}{Google scholar}
 
 CNU \textbf{60}, 62
 
-Génie Industriel; Recyclagé distribué; 3D Printing; Recyclage plastique;
+Génie Industriel; Fabrication Additive Open Source; Recyclagé distribué;
 Soutenabilité
 
 \end{col}
@@ -396,7 +393,7 @@ titulaire d'un Master II en Management de l'Innovation et du Design
 Industriel et PhD. en Génie des Systèmes Industriels de l'Université de
 Lorraine.
 
-\begin{wrapfigure}{r}{0.5\textwidth}
+\begin{wrapfigure}[15]{r}{0.5\textwidth}
   \begin{center}
     \includegraphics[width=0.48\textwidth]{Figures/Cloud.png}
   \end{center}
@@ -419,21 +416,20 @@ Mon travail se décompose en trois échelles fondamentales. Un premier
 en tant qu'outil reproductible pour la fabrication des pièces imprimées
 en thermoplastique. Une attention particulière est portée sur la
 précision géométrique, résistance mécanique et vibratoire de ce procédé
-à l'échelle industrielle standard. Une deuxième échelle centrale dans
-mon parcours est la faisabilité technique du recyclage des
-thermoplastiques pour les processus d'impression. J'ai eu l'opportunité
-de travailler pendant ma thèse sur les caractérisations mécaniques et
-chimiques de la matière recyclée dans la chaîne d'impression en
-co-tutelle avec l'Équipe de Recherche sur les Processus Innovatifs
-(ERPI) et le Laboratoire des Réactions et Génie des Procédés (LRGP ---
-UMR 7274) à Nancy. Je collabore avec le groupe de recherche FAST (Free
-Appropriate Sustainability Technology) de Western University de Canada
-sur le développement open source hardware dans une vision de
-démocratisation de la technologie associé au recyclage distribué. Une
-troisième échelle en cours de développement est l'analyse de la
-soutenabilité d'une filière de recyclage distribuée en collaboration
-avec l'équipe InSyTe de l'Université Technologique de Troyes. Le
-développement d'indicateurs (au-delà des indicateurs
+à l'échelle industrielle standard. Une deuxième échelle centrale est la
+faisabilité technique et logistique du recyclage des thermoplastiques
+pour les processus d'impression. J'ai travaillé pendant ma thèse sur les
+caractérisations mécaniques et chimiques de la matière recyclée dans la
+chaîne d'impression en co-tutelle avec l'Équipe de Recherche sur les
+Processus Innovatifs (ERPI) et le Laboratoire des Réactions et Génie des
+Procédés (LRGP --- UMR 7274) à Nancy. Je collabore avec le groupe de
+recherche FAST (Free Appropriate Sustainability Technology) de Western
+University de Canada sur le développement open source hardware dans une
+vision de démocratisation de la technologie associé au recyclage
+distribué. Une troisième échelle en cours de développement est l'analyse
+de la soutenabilité d'une filière de recyclage distribuée en
+collaboration avec l'équipe InSyTe de l'Université Technologique de
+Troyes. Le développement d'indicateurs (au-delà des indicateurs
 technico-économiques) intégrant la capacité de charge des écosystèmes et
 leurs services est un enjeu prometteur pour rendre les filières
 industrielles plus résilientes.
@@ -497,12 +493,14 @@ Défendu publiquement le 9 Décembre de 2016 à Nancy devant le jury:\par\vspace
     
 \end{tabu}
 
+\vspace{-0.25cm}
+
 \hypertarget{expuxe9riences-professionnelles}{%
 \subsection{Expériences
 Professionnelles}\label{expuxe9riences-professionnelles}}
 
 \extrarowsep=3pt
-\begin{tabu} to \linewidth {X[0.4,l] X[2,l]}
+\begin{tabu} to \linewidth {X[0.3,l] X[2,l]}
 2022 -- ... &
     \textbf{Chercheur contractuel} Université de Lorraine, Université de Lorrain, Nancy -- France \\[5pt]
 
@@ -513,12 +511,14 @@ Professionnelles}\label{expuxe9riences-professionnelles}}
     \textbf{Post-doctorant} Université de Lorraine, Université de Lorrain, Nancy -- France \\[5pt]
 
 2010 -- 2011 & \textbf{International trainee} \href{http://www.mipengenharia.com.br/}{Entreprise MIP Engenharia S/A} \thinspace Belo Horizonte, Brazil \par
-\textit{Projet:} Aide à la création d'un plan stratégique pour le projet d'internationalisation de MIP. Développement d'un benchmarking d'entreprises ayant un profil commercial similaire sur les marchés chilien, colombien et péruvien. \\
+\textit{Projet:} Aide à la création d'un plan stratégique pour le projet d'internationalisation de MIP.  \\
     
 2008 -- 2009 &
     \textbf{Étudiant adjoint ingénieur} \emph{Universidad Nacional de Colombia. Bogotá - Colombia}  \par 
     \emph{Projet:} Conception et construction d'une machine de coulée centrifuge pour la fabrication de cylindres en fonte ASTM 40. \\
 \end{tabu}
+
+\vspace{-0.25cm}
 
 \hypertarget{compuxe9tences}{%
 \subsection{Compétences}\label{compuxe9tences}}
@@ -573,7 +573,7 @@ Les tableaux montrent les revues internationales auxquelles j'ai fait
 des contributions scientifiques. Les revues dans mon domaine sont liées
 à la \textbf{fabrication additive} (AM, 3DP, VPP et PB:JEM et JOM), la
 \textbf{soutenabilité} et \textbf{développement durable}(JCLP, RCR et
-CET) et depuis cette année l'\textbf{open hardware} (HX).
+CET) et depuis cette année l'\textbf{open source hardware} (HX).
 
 Concernant les conferences, sont principalement autour de la fabrication
 additive (Solid Freeform Symposium) et l'innovation et management de la
@@ -624,41 +624,74 @@ Freeform Fabrication Symposium)  \\
 \end{minipage}
 \end{small}
 
-\hypertarget{synthuxe8se-qualitatif-des-mes-axes-de-recherche}{%
-\subsection{Synthèse qualitatif des mes axes de
-recherche}\label{synthuxe8se-qualitatif-des-mes-axes-de-recherche}}
+\hypertarget{synthuxe8se-qualitative-des-mes-axes-de-recherche}{%
+\subsection{Synthèse qualitative des mes axes de
+recherche}\label{synthuxe8se-qualitative-des-mes-axes-de-recherche}}
 
-\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, rightrule=.15mm, colframe=quarto-callout-tip-color-frame, coltitle=black, arc=.35mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{En quelque mots}, colbacktitle=quarto-callout-tip-color!10!white, breakable, opacityback=0, bottomrule=.15mm, opacitybacktitle=0.6, bottomtitle=1mm, left=2mm, toptitle=1mm, leftrule=.75mm, toprule=.15mm, colback=white]
+\begin{tcolorbox}[enhanced jigsaw, colback=white, colframe=quarto-callout-tip-color-frame, coltitle=black, toptitle=1mm, opacitybacktitle=0.6, bottomtitle=1mm, arc=.35mm, breakable, colbacktitle=quarto-callout-tip-color!10!white, bottomrule=.15mm, leftrule=.75mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{En quelque mots}, toprule=.15mm, rightrule=.15mm, opacityback=0, left=2mm, titlerule=0mm]
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=6.25in,height=\textheight]{Figures/DRAM-00.png}
+
+}
+
+\caption{\label{fig-dram-00}Recyclage distribué pour la Fabrication
+additive Open source}
+
+\end{figure}
 
 Mes travaux de recherche portent sur l'étude systémique multi-echelle
 (produit / procédé / filière / territoire) de nouvelles filières
 distribuées en circuit court pour la valorisation des matières
-plastiques recyclées via la fabrication additive.
+plastiques recyclées via la fabrication additive open source.
 
 \end{tcolorbox}
 
 La particularité de la recherche que je développe au sein du laboratoire
 ERPI est de mieux comprendre le système technologique du processus de
 recyclage que l'impression 3D open source est en train de rendre
-factible. L' enjeu sociétal majeur est de pouvoir décrire, modéliser,
-opérationnaliser et évaluer un système productif et de revalorisation
-des déchets de façon locale et distribuée. Les statistiques sur la
-problématique de déchets plastiques font preuve que d'autres approches
-au-delà de la centralisation et de l'économie d'échelle doivent être
-explorées. Donc, l'étude sur la notion distribué, sur sa dimension
-opérationnelle du système, et également l'implication systémique de
-cette nouvelle filière pour un territoire en identifiant un ensemble
-d'indicateurs multicritères afin d'évaluer cette type de propositions
-est un gap dans la littérature scientifique auquel je travaille pour
-donner.
+factible. Les statistiques sur la problématique de déchets plastiques
+font preuve que d'autres approches au-delà de la centralisation et de
+l'économie d'échelle doivent être explorées. L'enjeu majeur est de
+pouvoir décrire, modéliser, opérationnaliser et évaluer un système
+productif et de revalorisation des déchets de façon locale et
+distribuée. Figure~\ref{fig-vosviewer} présente une visualisation de
+réseau en utilisant les mots-clés de ma recherche à l'aide du logiciel
+VOSviewer avec la temporalité 2016-2022. Je travail principalement sur
+trois échelles 1) étude de la relation matériau-procédé-qualité pour la
+fabrication additive open source, 2) conception de filière associé afin
+de répondre aux exigences de plus en plus complexes d'un nouveau
+produit/processus et 3) exploration des espaces d'innovation en tant que
+nouvelles formes de production urbaine et leur lien avec la
+soutenabilité au niveau territorial.
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{Figures/Vosviewer.png}
+
+}
+
+\caption{\label{fig-vosviewer}Réseau d'occurrence des mots-clés associés
+aux publications (articles + conférences internationales) et évolution
+dans le temps}
+
+\end{figure}
+
+Donc, l'étude sur la notion distribué, sur sa dimension opérationnelle
+du système, et également l'implication systémique de cette nouvelle
+filière pour un territoire en identifiant un ensemble d'indicateurs
+multicritères afin d'évaluer ce type de propositions est un gap dans la
+littérature scientifique auquel je travaille pour donner une proposition
+scientifique.
 
 Mes activités de recherche ont un fort lien avec la plateforme de
 recherche du Lorraine Fab Living Lab, car depuis quelques années, il y a
 une interet croissance sur les espaces d'innovation ouverte type Fab
-Labs / hackerspaces. Ces types des espaces sont un levier fort de
-démultiplication de capacités de production distribué, dont le vecteur
-industriel de la fabrication additive s'y déploies de façon inhérente.
-Ces types d'espaces démocratisent les processus de prototypage et de
+Labs / hackerspaces. Ces types d'espaces sont un levier fort pour la
+multiplication des capacités de production distribuées, où le vecteur
+industriel de la fabrication additive est intrinsèquement déployé. Cela
+permet une démocratisation des processus de prototypage et de
 matérialisation des idées.
 
 Mes travaux de recherche ont abouti à une proposition de cadre
@@ -668,7 +701,7 @@ comme illustré dans la Figure~\ref{fig-sdram}.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{Figures/SDRAM-00.pdf}
+{\centering \includegraphics[width=0.8\textwidth,height=\textheight]{Figures/DRAM-10.png}
 
 }
 
@@ -682,9 +715,9 @@ France et à l'étranger pour pouvoir clarifier étape par étape (I-VI) les
 implications, les verrous scientifiques et technologiques afin de
 démocratiser une démarche locale de recyclage distribuée. Chaque élément
 est très important, notamment dans un contexte où la société doit agir à
-tous les niveaux (produit-procédé / filière / territoire) vers une
-transition écologique des modes de production, de fabrication et de
-consommation en prenant en compte les enjeux environnementaux actuels.
+tous les niveaux (produit-procédé / filière / territoire) vers modes de
+production, de fabrication et de consommation plus soutenables et
+résilients à long terme.
 
 Actuellement, dans le cadre du projet INEDIT, qui vise le transfert des
 approches `Do-It-Yourself' vers un context industriel, nous sommes en
@@ -696,7 +729,7 @@ réalité virtuelle (Figure~\ref{fig-DRAM-INEDIT}).
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{Figures/INEDIT.jpg}
+{\centering \includegraphics[width=0.8\textwidth,height=\textheight]{Figures/INEDIT.jpg}
 
 }
 
@@ -739,29 +772,29 @@ validation des procédés techniques.
 
 Une première échelle d'analyse sur laquelle je travaille concerne la
 validation des procédés open source en tant qu'outil de fabrication
-reproductible et fiable pour un usage semi-industriel J'ai eu
+reproductible et fiable pour un usage semi-industriel. J'ai eu
 l'opportunité de me concentrer sur la caractérisation de la performance
 géométrique à travers des modèles de benchmarking\footnote{\textbf{Cruz
   Sanchez, F.A.}, Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a
   standard experimental protocol for open source additive manufacturing.
   Virtual Phys. Prototyp. 9, 151--167.
-  https://doi.org/10.1080/17452759.2014.919553}, des expérimentations
-pour des applications médicales\footnote{Albuquerque, R., Arbelaez, G.,
-  \textbf{Cruz, F.}, Camargo, M., Joseph, D., Tran, N., 2018. Modelling,
-  Printing and Validation of Dental Dry Models for Implantology Skills
-  Training, in: 2018 IEEE International Conference on Engineering,
-  Technology and Innovation (ICE/ITMC). IEEE, pp.~1--8.
-  https://doi.org/10.1109/ICE.2018.8436302} où j'ai exploré le
+  \url{https://doi.org/10.1080/17452759.2014.919553}}, des
+expérimentations pour des applications médicales\footnote{Albuquerque,
+  R., Arbelaez, G., \textbf{Cruz, F.}, Camargo, M., Joseph, D., Tran,
+  N., 2018. Modelling, Printing and Validation of Dental Dry Models for
+  Implantology Skills Training, in: 2018 IEEE International Conference
+  on Engineering, Technology and Innovation (ICE/ITMC). IEEE, pp.~1--8.
+  \url{https://doi.org/10.1109/ICE.2018.8436302}} où j'ai exploré le
 comportement mécanique des matériaux. Systématiquement, des plans
 d'expériences et d'analyses statistiques ont été mis en œuvre grâce à la
 mobilisation de méthodologies adaptées. Nous explorons également le
 comportement vibratoire et d'amortissement des échantillons à partir de
-FFF\footnote{Xue, F., Robin, G., Boudaoud, H., \textbf{Cruz Sanchez,
+FFF \footnote{Xue, F., Robin, G., Boudaoud, H., \textbf{Cruz Sanchez,
   F.A.}, Daya, E.M., 2022. General Methodology to Investigate the Effect
   of Process Parameters on the Vibration Properties of Structures
   Produced by Additive Manufacturing Using Fused Filament Fabrication.
-  JOM 74, 1166--1175. https://doi.org/10.1007/s11837-021-05051-9} avec
-les collègues du Laboratoire d'Études des Microstructures et de
+  JOM 74, 1166--1175. \url{https://doi.org/10.1007/s11837-021-05051-9}}
+avec les collègues du Laboratoire d'Études des Microstructures et de
 Mécanique des Matériaux (LEM3) à Metz - France. Ces travaux permettent
 de positionner la FFF open source auprès de la communauté scientifique
 et industrielle en tant qu'outil fiable et reproductible.
@@ -778,12 +811,12 @@ mécanique\footnote{Alexandre, A., \textbf{Cruz Sanchez, F.A.}, Boudaoud,
   H., Camargo, M., Pearce, J.M., 2020. Mechanical Properties of Direct
   Waste Printing of Polylactic Acid with Universal Pellets Extruder:
   Comparison to Fused Filament Fabrication on Open-Source Desktop
-  Three-Dimensional Printers. 3D Print. Addit. Manuf. 3dp.2019.0195.
-  https://doi.org/10.1089/3dp.2019.0195}. Cependant, le défi actuel
-réside dans une meilleure compréhension de la communauté scientifique
-des caractéristiques du procédé au sens précision dimensionnelle,
-imprimabilité des matériaux et faisabilité économique de cette
-technologie.
+  Three-Dimensional Printers. 3D Printing and Additive Manufacturing
+  3dp.2019.0195. \url{https://doi.org/10.1089/3dp.2019.0195}}.
+Cependant, le défi actuel réside dans une meilleure compréhension de la
+communauté scientifique des caractéristiques du procédé au sens
+précision dimensionnelle, imprimabilité des matériaux et faisabilité
+économique de cette technologie .
 
 \hypertarget{filiuxe8re-durable-de-limpression-3d-pour-le-ruxe9cyclage}{%
 \subsubsection{Filière durable de l'impression 3D pour le
@@ -806,12 +839,12 @@ premiers résultats est une démarche de caractérisation
 chimique\footnote{\textbf{Cruz, F.}, Lanza, S., Boudaoud, H., Hoppe, S.,
   Camargo, M., 2015. Polymer Recycling and Additive Manufacturing in an
   Open Source context : Optimization of processes and methods, in: Solid
-  Freeform Fabrication. Austin, Texas, pp.~1591--1600.}, et mécanique
-\footnote{\textbf{Cruz Sanchez, F.A.}, Boudaoud, H., Hoppe, S., Camargo,
-  M., 2017. Polymer recycling in an open-source additive manufacturing
-  context: Mechanical issues. Addit. Manuf. 17, 87--105.
-  https://doi.org/10.1016/j.addma.2017.05.013} de la dégradation de
-l'acide polylactique (PLA) qui est le thermoplastique le plus utilisé
+  Freeform Fabrication. Austin, Texas, pp.~1591--1600.}, et
+mécanique\footnote{\textbf{Cruz Sanchez, F.A.}, Boudaoud, H., Hoppe, S.,
+  Camargo, M., 2017. Polymer recycling in an open-source additive
+  manufacturing context: Mechanical issues. Addit. Manuf. 17, 87--105.
+  \url{https://doi.org/10.1016/j.addma.2017.05.013}} de la dégradation
+de l'acide polylactique (PLA) qui est le thermoplastique le plus utilisé
 dans le domaine FFF. Mon travail de thèse a eu pour résultat principal
 de montrer que le recyclage distribué du plastique à l'aide de
 technologies 3D open source (imprimantes 3D et extrudeuses) est une
@@ -838,14 +871,21 @@ conceptuel\footnote{Pavlo, S., \textbf{Fabio, C.}, Hakim, B., Mauricio,
   C., 2018. 3D-Printing Based Distributed Plastic Recycling: A
   Conceptual Model for Closed-Loop Supply Chain Design, in: 2018 IEEE
   International Conference on Engineering, Technology and Innovation
-  (ICE/ITMC). IEEE, pp.~1--8. https://doi.org/10.1109/ICE.2018.8436296},
-et son application dans le contexte de Nancy en lien avec le projet
-Green Fablab\footnote{Santander, P., \textbf{Cruz Sanchez, F.A.},
-  Boudaoud, H., Camargo, M., 2020. Closed loop supply chain network for
-  local and distributed plastic recycling for 3D printing: a MILP-based
-  optimization approach. Resour. Conserv. Recycl. 154, 104531.
-  https://doi.org/10.1016/j.resconrec.2019.104531} ont prouvé son
-approche originale et une mise en œuvre reproductible.
+  (ICE/ITMC). IEEE, pp.~1--8.
+  \url{https://doi.org/10.1109/ICE.2018.8436296}}, et son application
+dans le contexte de Nancy en lien avec le projet Green Fablab\footnote{Santander,
+  P., \textbf{Cruz Sanchez, F.A.}, Boudaoud, H., Camargo, M., 2020.
+  Closed loop supply chain network for local and distributed plastic
+  recycling for 3D printing: a MILP-based optimization approach. Resour.
+  Conserv. Recycl. 154, 104531.
+  \url{https://doi.org/10.1016/j.resconrec.2019.104531}} ont prouvé son
+approche originale et une mise en œuvre reproductible. Récemment, une
+stratégie que nous visons pour renforcer cet échelle est la conception
+et développement d'un ensemble de technologies open source hardware pour
+chaque étape de recyclage afin de rendre viable cette
+filière\footnote{Gabriel, A., \textbf{Cruz, F.}, 2023. Open source
+  IoT-based collection bin applied to local plastic recycling. HardwareX
+  13, e00389. \url{https://doi.org/10.1016/j.ohx.2022.e00389}}.
 
 Cette nouvelle approche du recyclage propose un système local adapté aux
 petites quantités de déchets. Sous ce nouveau paradigme, les problèmes
@@ -855,7 +895,7 @@ open source moins coûteuse, de plus courtes distances entre le lieu de
 récupération et le point de traitement.
 
 Cet axe est en cours de recherche, et fait l'objet du développement dans
-le projet de démonstration appliqué INEDIT.
+le projet de démonstration appliqué INEDIT .
 
 \hypertarget{espace-dinnovation-pour-la-circularituxe9}{%
 \subsubsection{Espace d'innovation pour la
@@ -873,12 +913,12 @@ de collaboration, de co-conception, de co-production et de co-création.
 J'ai pu travailler en collaboration avec l'École d'ingénieur du CESI sur
 la façon dont un projet de recyclage pédagogique est développé au sein
 du laboratoire d'innovation en observant l'évolution des intentions
-stratégiques du projet et du laboratoire d'innovation \footnote{Roux-Marchand,
+stratégiques du projet et du laboratoire d'innovation\footnote{Roux-Marchand,
   T., \textbf{Cruz, F.}, Dupont, L., Camargo, M., Osorio, F., 2020.
   Connecting the strategic intent of innovation labs and projects: the
   case of the Green Fablab, in: 2020 IEEE International Conference on
   Engineering, Technology and Innovation (ICE/ITMC). IEEE, pp.~1--10.
-  https://doi.org/10.1109/ICE/ITMC49519.2020.9198320}. Les impacts
+  \url{https://doi.org/10.1109/ICE/ITMC49519.2020.9198320}}. Les impacts
 tangibles et intangibles ont été mis en évidence dans la manière dont
 ils se répercutent sur le pilotage d'un projet d'innovation avec des
 élèves ingénieurs. Cette recherche exploratoire représente un axe de
@@ -886,7 +926,8 @@ travail intéressant pour le développement mettre en évidence l'aspect
 multidisciplinaire qu'implique
 
 Ainsi, dans une échelle européen de partage d'expériences et de
-renforcement de capacités de recherche, je pilote le projet
+renforcement de capacités de recherche, je suis le responsable du projet
+du projet
 \href{https://erpi.univ-lorraine.fr/fr/projects/Climatelabs/}{Erasmus+
 Climatelabs} dont l'enjeu essentiel est de concevoir et mettre en œuvre
 des espaces d'innovation avec 10 partenaires de l'Amérique latine (5 en
@@ -921,37 +962,25 @@ spécifiquement), la FA est une voie de recherche fondamentale pour
 explorer de nouvelles méthodes d'éco-conception à multiples échelles
 (\protect\hyperlink{ref-Wu2021a}{Wu et al., 2022}).
 
-\begin{figure}[H]
-
-{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{Figures/Vosviewer/Vosviewer-Fabio.pdf}
-
-}
-
-\caption{Réseau d'occurrence des mots-clés associés aux publications
-(articles + conférences internationales) et évolution dans le temps}
-
-\end{figure}
-
-Figure 5 présente carte obtenue en recherchant les mots-clés de ma
-recherche à l'aide du logiciel VOSviewer avec la temporalité. En partant
-de cette base, le projet de recherche que je visualise aujourd'hui
-concerne trois éléments importants:
+En partant de cette base, le projet de recherche que je visualise
+aujourd'hui concerne trois éléments importants:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  La validation des matières premières (secondaires), des procédés open
-  source et de l'application de la valeur ajoutée.
+  La validation des matières premières (secondaires), et développement
+  d'une techno-diversité des procédés open source et des applications de
+  la valeur ajoutée.
 \item
-  L'évaluation systémique de nouvelle formes de production robustes.
+  L'évaluation systémique de nouvelles formes de production robustes.
 \item
   Vers une soutenabilité forte pour la fabrication additive
 \end{enumerate}
 
 Le but à long terme est d'inscrire cette démarche dans l'ambition du
 plan d'action de l'économie circulaire de l'Union Européenne afin de
-répondre aux enjeux sociétaux de la gestion des déchets plastiques.
+répondre aux enjeux
 
 \hypertarget{validation-des-matiuxe8res-premiuxe8res-secondaires-procuxe9duxe9s-open-source-et-applications}{%
 \subsubsection{Validation des matières premières secondaires, procédés
@@ -1078,8 +1107,8 @@ récapitulatif par année.
 
 Comme illustré par la Figure Figure~\ref{fig-sankey}, la majorité des
 mes enseignements ont été dispensés à l'ENSGSI (66.2\%), principalement
-à des niveaux BAC+2 (34\%) et BAC+5 (31\%) au sein du pôle de
-\textbf{Conception et Innovation}. Le Tableau 2 détaille mes
+à des niveaux BAC+2 (34\%) et BAC+5 (31\%) en modalité TD au sein du
+pôle de \textbf{Conception et Innovation}. Le Tableau 2 détaille mes
 enseignements depuis 2015 pour chaque formation. Les attestations
 d'enseignement sont présentées en Annexe.
 
@@ -1187,18 +1216,18 @@ modelisation CAO et prototypage pour des étudiants de BAC+1/BAC+2.
 
 Je présente en détail le contenu pédagogique et de mes contributions aux
 modules de formations qui donnent une aperçu de mes expériences
-enseignement : 1. Recherche, Innovation et Développement, 2. Modules de
-Licence Professionnelle: (1) Recyclage des matériaux à l'aide de
-techniques open source et (2) Exploiter durablement les ressources et
-les partenariats 3. Introduction à l'Age du faire et Do-It-Yourself
-(DIY)
+enseignement : 1) Module CI15 -- Recherche, Innovation et Développement,
+2) Deux modules de Licence Professionnelle: (i) Recyclage des matériaux
+à l'aide de techniques open source et (ii) Exploiter durablement les
+ressources et les partenariats, et 3) Introduction à l'Age du faire et
+Do-It-Yourself (DIY)
 
 \hypertarget{participation-aux-modules-puxe9dagogiques}{%
 \subsection{Participation aux modules
 pédagogiques}\label{participation-aux-modules-puxe9dagogiques}}
 
 \hypertarget{module-ci15recherche-innovation-et-duxe9veloppement}{%
-\subsection{Module CI15--Recherche, Innovation et
+\subsubsection{Module CI15--Recherche, Innovation et
 Développement}\label{module-ci15recherche-innovation-et-duxe9veloppement}}
 
 Ce module a pour objectif de faire une introduction à la méthode
@@ -1289,8 +1318,8 @@ processus de rédaction est proposé.
 \end{itemize}
 
 \hypertarget{recyclage-des-matuxe9riaux-uxe0-laide-de-techniques-open-source-exploiter-durablement-les-ressources-et-les-partenariats}{%
-\subsection{Recyclage des matériaux à l'aide de techniques open source /
-Exploiter durablement les ressources et les
+\subsubsection{Recyclage des matériaux à l'aide de techniques open
+source / Exploiter durablement les ressources et les
 partenariats}\label{recyclage-des-matuxe9riaux-uxe0-laide-de-techniques-open-source-exploiter-durablement-les-ressources-et-les-partenariats}}
 
 Les modules 1) \emph{Recyclage des matériaux à l'aide de techniques open
@@ -1379,7 +1408,7 @@ peuvent être fabriques.
 \end{itemize}
 
 \hypertarget{introduction-uxe0-lage-du-faire-et-do-it-yourself-diy}{%
-\subsection{Introduction à l'Age du faire et Do-It-Yourself
+\subsubsection{Introduction à l'Age du faire et Do-It-Yourself
 (DIY)}\label{introduction-uxe0-lage-du-faire-et-do-it-yourself-diy}}
 
 Au cours de l'année 2022, J'ai eu l'opportunité de proposer un TP appelé
@@ -1597,6 +1626,10 @@ Ces axes peuvent contribuer au syllabus au niveau :
 \hypertarget{activituxe9s-administratives-et-de-valorisation}{%
 \section{Activités administratives et de
 valorisation}\label{activituxe9s-administratives-et-de-valorisation}}
+
+\hypertarget{activituxe9s-administratives-liuxe9es-uxe0-la-puxe9dagogique}{%
+\subsection{Activités administratives liées à la
+pédagogique}\label{activituxe9s-administratives-liuxe9es-uxe0-la-puxe9dagogique}}
 
 \begin{itemize}
 \tightlist
