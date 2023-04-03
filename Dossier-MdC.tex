@@ -334,7 +334,7 @@
 	\end{flushright}
 \end{titlepage}
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, breakable, enhanced, boxrule=0pt, frame hidden, borderline west={3pt}{0pt}{shadecolor}, interior hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, interior hidden, frame hidden, breakable, enhanced, sharp corners, boxrule=0pt]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -573,7 +573,7 @@ Les tableaux montrent les revues internationales auxquelles j'ai fait
 des contributions scientifiques. Les revues dans mon domaine sont liées
 à la \textbf{fabrication additive} (AM, 3DP, VPP et PB:JEM et JOM), la
 \textbf{soutenabilité} et \textbf{développement durable}(JCLP, RCR et
-CET) et depuis cette année l'\textbf{open source hardware} (HX).
+CET) et l'\textbf{open source hardware} (HX).
 
 Concernant les conferences, sont principalement autour de la fabrication
 additive (Solid Freeform Symposium) et l'innovation et management de la
@@ -628,7 +628,7 @@ Freeform Fabrication Symposium)  \\
 \subsection{Synthèse qualitative des mes axes de
 recherche}\label{synthuxe8se-qualitative-des-mes-axes-de-recherche}}
 
-\begin{tcolorbox}[enhanced jigsaw, colback=white, colframe=quarto-callout-tip-color-frame, coltitle=black, toptitle=1mm, opacitybacktitle=0.6, bottomtitle=1mm, arc=.35mm, breakable, colbacktitle=quarto-callout-tip-color!10!white, bottomrule=.15mm, leftrule=.75mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{En quelque mots}, toprule=.15mm, rightrule=.15mm, opacityback=0, left=2mm, titlerule=0mm]
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, bottomrule=.15mm, opacityback=0, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{En quelque mots}, opacitybacktitle=0.6, colback=white, leftrule=.75mm, colbacktitle=quarto-callout-tip-color!10!white, toptitle=1mm, titlerule=0mm, bottomtitle=1mm, colframe=quarto-callout-tip-color-frame, left=2mm, arc=.35mm, rightrule=.15mm]
 
 \begin{figure}[H]
 
@@ -962,18 +962,31 @@ spécifiquement), la FA est une voie de recherche fondamentale pour
 explorer de nouvelles méthodes d'éco-conception à multiples échelles
 (\protect\hyperlink{ref-Wu2021a}{Wu et al., 2022}).
 
-En partant de cette base, le projet de recherche que je visualise
-aujourd'hui concerne trois éléments importants:
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{Figures/Projet-recherche.png}
+
+}
+
+\caption{\label{fig-projet-recherche}Projet de recherche ayant l'objet
+d'un dépot ERC - Starting Grant}
+
+\end{figure}
+
+En partant de cette base, Figure~\ref{fig-projet-recherche} present le
+projet de recherche que je visualise aujourd'hui concerne trois éléments
+importants:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  La validation des matières premières (secondaires), et développement
-  d'une techno-diversité des procédés open source et des applications de
-  la valeur ajoutée.
+  La validation des techno-diversités open source pour des matières
+  premières (secondaires), des procédés et des applications de valeur
+  ajoutée.
 \item
-  L'évaluation systémique de nouvelles formes de production robustes.
+  Evaluation systemique de nouvelle formes de production urbaine et
+  local.
 \item
   Vers une soutenabilité forte pour la fabrication additive
 \end{enumerate}
@@ -982,10 +995,10 @@ Le but à long terme est d'inscrire cette démarche dans l'ambition du
 plan d'action de l'économie circulaire de l'Union Européenne afin de
 répondre aux enjeux
 
-\hypertarget{validation-des-matiuxe8res-premiuxe8res-secondaires-procuxe9duxe9s-open-source-et-applications}{%
-\subsubsection{Validation des matières premières secondaires, procédés
-open source et
-applications}\label{validation-des-matiuxe8res-premiuxe8res-secondaires-procuxe9duxe9s-open-source-et-applications}}
+\hypertarget{techno-diversituxe9-open-source-des-matiuxe8res-premiuxe8res-secondaires-procuxe9duxe9s-et-applications}{%
+\subsubsection{Techno-diversité open source des matières premières
+secondaires, procédés et
+applications}\label{techno-diversituxe9-open-source-des-matiuxe8res-premiuxe8res-secondaires-procuxe9duxe9s-et-applications}}
 
 La validation de la faisabilité technique de recyclage a été faite pour
 l'acide polylactique (PLA) qui est la matière la plus utilisée dans ce
@@ -1004,9 +1017,10 @@ produits et des systèmes qui répondent à des besoins ponctuels pour
 valoriser des niches de recyclage qui n'ont pas de valorisation dans le
 processus traditionnel.
 
-\hypertarget{validation-systemique-de-nouvelle-formes-de-production}{%
-\subsubsection{Validation systemique de nouvelle formes de
-production}\label{validation-systemique-de-nouvelle-formes-de-production}}
+\hypertarget{evaluation-systemique-de-nouvelle-formes-de-production-urbaine-et-local}{%
+\subsubsection{Evaluation systemique de nouvelle formes de production
+urbaine et
+local}\label{evaluation-systemique-de-nouvelle-formes-de-production-urbaine-et-local}}
 
 L'impression 3D est une brique technologique très importante pour la
 conception de nouvelles formes de production distribuée
@@ -1034,10 +1048,10 @@ recyclées. Cependant, il faut identifier les possibles `effets rebond'
 afin de vérifier si la solution de recyclage en circuit court est
 pertinente et jusqu'à quels niveaux.
 
-\hypertarget{soutenabilituxe9-pour-les-systuxe8mes-socio-technique-de-limpression-3d}{%
-\subsubsection{Soutenabilité pour les systèmes socio-technique de
-l'impression
-3D}\label{soutenabilituxe9-pour-les-systuxe8mes-socio-technique-de-limpression-3d}}
+\hypertarget{soutenabilituxe9-technico-uxe9cologique-pour-les-systuxe8mes-socio-techniques-de-limpression-3d}{%
+\subsubsection{Soutenabilité technico-écologique pour les systèmes
+socio-techniques de l'impression
+3D}\label{soutenabilituxe9-technico-uxe9cologique-pour-les-systuxe8mes-socio-techniques-de-limpression-3d}}
 
 Depuis 2021, je travaille pour le Projet Everest Bio, financé par
 l'institut Carnot ICEEL, qui a pour objectif d'évaluer les services
@@ -1070,6 +1084,9 @@ que les concepteurs perçoivent leur métier et leur action dans le monde.
 A long terme, ceci relève d'une approche inter-, voir trans-,
 disciplinaire de recherche (\protect\hyperlink{ref-Jacobi2022}{Jacobi et
 al., 2022}).
+
+Cette proposition de recherche a été soumise à l'appel \emph{ERC -
+Starting Grant} de la Commission européenne en 2022.
 
 \newpage
 
@@ -1627,15 +1644,35 @@ Ces axes peuvent contribuer au syllabus au niveau :
 \section{Activités administratives et de
 valorisation}\label{activituxe9s-administratives-et-de-valorisation}}
 
-\hypertarget{activituxe9s-administratives-liuxe9es-uxe0-la-puxe9dagogique}{%
-\subsection{Activités administratives liées à la
-pédagogique}\label{activituxe9s-administratives-liuxe9es-uxe0-la-puxe9dagogique}}
+\hypertarget{activituxe9s-administratives-liuxe9es-uxe0-lanimation-de-la-recherche}{%
+\subsection{Activités administratives liées à l'animation de la
+recherche}\label{activituxe9s-administratives-liuxe9es-uxe0-lanimation-de-la-recherche}}
 
 \begin{itemize}
-\tightlist
 \item
-  Participation dans le commite technique de la conference ICE / IAMOT
-  2022 à Nancy. 300 Participants internationaux
+  2022: Participation dans le comité technique d'organisation de la
+  conférence ICE / IAMOT 2022
+  ``\href{https://ice-iamot-2022-conference.org/}{Technology,
+  Engineering, and Innovation Management Communities as Enablers for
+  Social-Ecological Transitions}'' à Nancy. 300 Participants
+  internationaux.
+\item
+  2022: Participation au Réseau de Recherche ``Design for Additive
+  Manufacturing Network ---DfAM Network UK-'' sur `Sustainable
+  Distributed Recycling via Additive Manufacturing':
+  \url{https://www.designforam.ac.uk/responsible-design-for-am-6th-september-2022/}
+\item
+  2021: Participation au programe Ingeniería 2030: ``\emph{Engineering
+  Connection II: Innovation Labs to mitigate climate change - Webinar
+  3}'' de l'Université Pontificia Universidad Católica de Valparaíso -
+  Chile: \url{https://www.youtube.com/watch?v=iTW0COjLFcg}
+\item
+  2020 -- \ldots{} : Participation à l'action GDR MACS / SAGIP sur les
+  enjeux de la soutenabilité et leurs impacts sur la recherche en
+  conception et contrôle des systèmes techniques.\\
+  Le groupe est piloté par Maud Rio; Valérie Botta-Genoulaz; Bernard
+  Grabot; Frédéric Kratz; Véronique Perdereau; Alexandre Philippot;
+  Lionel Roucoules;
 \end{itemize}
 
 \hypertarget{activituxe9s-dencadrements-puxe9dagogique}{%
@@ -1659,7 +1696,7 @@ pédagogique}\label{activituxe9s-dencadrements-puxe9dagogique}}
   portée par ERPI / ARTEM / ENSAD. Plus de détails:
   \url{http://fabcity-nancy.fr/}
 \item
-  Accompagnement des étudiants (10) pendant 6 semaines dans le module
+  Accompagnement des étudiants (16) pendant 6 semaines dans le module
   d'Initiation de Recherche de l'école d'ingénieurs CESI Nancy. Création
   de prototypes pour l'extrusion de filaments en utilisant open
   hardware. Plus de détails dans le lien:
@@ -1677,18 +1714,41 @@ projets}\label{participation-coordination-et-montage-de-projets}}
 \toprule
 Projet & Financeur & Budget & But du projet & Role\\
 \midrule
-Network to build and strengthen capacities in Climate Action through joint cocurricular programs, knowledge sharing and cooperation (LATAM-EU-CAN) & Erasmus + & 787 511 (dont 112 K€ ERPI) & Renforcer les connaissances et les capacités des EES de Colombie et du Chili afin de développer conjointement des programmes d'enseignement dans le domaine de l'action climatique par le biais du partage des connaissances et de la coopération. & Participation au montage (Soumis)\\
-Creating Innovation and entrepreneurship ecosystems (U4BUSINESS) & ERASMUS-LS & 900 k€ (dont 72 k€ ERPI) & Générer des écosystèmes d'innovation et d'entrepreneuriat en établissant un contact plus fort et plus étroit entre les universités latino-américaines, & Participation au montage (Soumis)\\
-ERC - Starting Grant & European Research Council & 1.4 M€ & Conception systémique de recyclage distribuée via l'open hardware & Porteur du projet (Soumis)\\
-Transnational Academy of Social Innovation for Climate Action & Erasmus+ KA220-HED - Cooperation partnerships in higher education. & Soumis Fev 2023 & Promouvoir des systèmes d'enseignement supérieur interconnectés  grâce à la structure de l'Académie, un réseau transnational de parties prenantes favorisant l'échange de compétences, d'expériences et de connaissances & Participation au montage et à la coordination de du ERPI\\
-Everest Bio & ICEEL Carnot & 60 k€ & Développer une méthodologie générique permettant d’évaluer les services écosystémiques rendus par des activités industrielles fonctionnant en circuit court afin d’améliorer la prise de décisions des acteurs industriels et du secteur public. Validation sur le cas d’une filière de recyclage du plastique en circuit court. & Participation au montage et à la pilote scientifique\\
-\addlinespace
-INEDIT (Open Innovation Ecosystems for Do It Together process) & EU Horizon 2020 & 6,4 M€ & Contribuer, à travers la mobilisation d’une double plate-forme - numérique et physique – à renforcer le potentiel d’innovation des PMEs autour de la fabrication sociale. & Participation au montage et task leader de T6.4\\
-ClimateLabs & Erasmus + & 14 k€ & Renforcement des capacités de recherche appliquée et d'innovation de dix universités partenaires du Mexique, du Brésil et de la Colombie par la conception et la mise en œuvre de laboratoires d'innovation sociale pour le changement climatique. & Participation au montage et project manager de l'UL pour la T1.1 et T2.2\\
-Plast’if & Contrat Industriel & 11 k€ & Développement d'une méthodlogie pour permettre la discrimination des plastiques usagés destinés à être revalorisés par impression 3D granulés & Participation au montage et execution des taches techniques\\
-Green Compo 3D & ICEEL Intra-CARNOT & 14 000 €. & Valorisation en circuit court de déchets thermoplas-tiques pour la conception par impression 3D de structures composite & Execution du projet\\
-CPER SuschemProc (Chimie et Procédés Durables au service des industries lorraines) & ICEEL Intra-CARNOT & 44 000 €. & Recyclage en circuit cout de différents matériaux plastiques de manière distribué et ce au moyen de machine d’impression 3D open source de type FDM (depôt de filament). & Execution du projet\\
+\endfirsthead
+\caption[]{Participation aux montages de projets \textit{(continued)}}\\
+\toprule
+Projet & Financeur & Budget & But du projet & Role\\
+\midrule
+\endhead
+
+\endfoot
 \bottomrule
+\endlastfoot
+Local Accessible Urban Digital and Sustainable Factories (LAUDS): New European Bauhaus Approach to Open and Decentralised Urban Manufacturing & EU HORIZON-RIA & Soumis Mars 2023 & LAUDS factories est un concept innovant visant à créer de petites usines polyvalentes dans les zones locales et urbaines pour cocréer et produire des produits personnalisés en petites séries. Il cherche à intégrer des capacités de résilience innovantes et actives au niveau de la production et de la chaîne d'approvisionnement pour soutenir une transformation verte, circulaire et numérique. & Participation au montage\\
+\midrule
+Network to build and strengthen capacities in Climate Action through joint cocurricular programs, knowledge sharing and cooperation (LATAM-EU-CAN) & EU Erasmus + & Soumis Fev2023 & Renforcer les connaissances et les capacités des EES de Colombie et du Chili afin de développer conjointement des programmes d'enseignement dans le domaine de l'action climatique par le biais du partage des connaissances et de la coopération. & Participation au montage\\
+\midrule
+Creating Innovation and entrepreneurship ecosystems (U4BUSINESS) & EU ERASMUS-LS & Soumis Fev 2023 & Générer des écosystèmes d'innovation et d'entrepreneuriat en établissant un contact plus fort et plus étroit entre les universités latino-américaines, & Participation au montage\\
+\midrule
+Transnational Academy of Social Innovation for Climate Action & Erasmus+ KA220-HED - Cooperation partnerships in higher education. & Soumis Fev 2023 & Promouvoir des systèmes d'enseignement supérieur interconnectés  grâce à la structure de l'Académie, un réseau transnational de parties prenantes favorisant l'échange de compétences, d'expériences et de connaissances & Participation au montage et à la coordination de du ERPI\\
+\midrule
+ERC - Starting Grant & European Research Council & Soumis Oct 2022 & Conception systémique de recyclage distribuée via l'open hardware & Porteur du projet\\
+\midrule
+\addlinespace
+Green Local 3D & ANR & 507 k€ (dont 163 k€ - ERPI) & Le projet GreenLocal3D vise à développer une nouvelle solution distribuée (basée sur l'impression 3D) pour réutiliser localement les déchets thermoplastiques non valorisés par des entités de recollection de déchets. & Participation au projet WP1, WP2 + data manager\\
+\midrule
+ÉValuation du rÉseau de REcyclage pour Soutenir la Transition vers une BIOéconomie (Everest Bio) & ICEEL Carnot & 50 k€ (dont 25 k€ -ERPI) & Développer une méthodologie générique permettant d’évaluer les services écosystémiques rendus par des activités industrielles fonctionnant en circuit court afin d’améliorer la prise de décisions des acteurs industriels et du secteur public. Validation sur le cas d’une filière de recyclage du plastique en circuit court. & Participation au montage et au Responsable scientifique\\
+\midrule
+INEDIT (Open Innovation Ecosystems for Do It Together process) & EU Horizon 2020 & 6,8 M€ (dont 545 k€ - ERPI) & Contribuer, à travers la mobilisation d’une double plate-forme - numérique et physique – à renforcer le potentiel d’innovation des PMEs autour de la fabrication sociale. & Participation au montage et task leader de T6.4\\
+\midrule
+ClimateLabs & Erasmus + & 956 k€ (dont 50 k€ --ENSGSI) & Renforcement des capacités de recherche appliquée et d'innovation de dix universités partenaires du Mexique, du Brésil et de la Colombie par la conception et la mise en œuvre de laboratoires d'innovation sociale pour le changement climatique. & Participation au montage et project manager de l'UL pour la WP1.1 et WP2.2\\
+\midrule
+Plast’if & Contrat Industriel & 11 k€ & Développement d'une méthodlogie pour permettre la discrimination des plastiques usagés destinés à être revalorisés par impression 3D granulés & Participation au montage et execution des taches techniques\\
+\midrule
+\addlinespace
+Green Compo 3D & ICEEL Intra-CARNOT & 14 000 €. & Valorisation en circuit court de déchets thermoplas-tiques pour la conception par impression 3D de structures composite & Execution du projet\\
+\midrule
+CPER SuschemProc (Chimie et Procédés Durables au service des industries lorraines) & ICEEL Intra-CARNOT & 44 000 €. & Recyclage en circuit cout de différents matériaux plastiques de manière distribué et ce au moyen de machine d’impression 3D open source de type FDM (depôt de filament). & Execution du projet\\*
 \end{longtable}
 \endgroup{}
 \end{landscape}
@@ -1699,41 +1759,42 @@ socio-économique}\label{relations-avec-le-monde-socio-uxe9conomique}}
 
 \begin{itemize}
 \item
-  \textbf{2023:} Participation à concours Trophées des Campus
-  Responsables 2023 aec le projet Green Fablab organisé par
-  l'Association UTOPIES. Plus de détails dans le lien:
-  \url{https://utopies.com/trophees-des-campus-responsables/?utm_source=Campus+PROSPECT&utm_campaign=6b68a37c92-EMAIL_CAMPAIGN_2018_04_18_COPY_01&utm_medium=email&utm_term=0_166f0fc31c-6b68a37c92-572807294}
+  2023: Participation à concours
+  ``\href{https://utopies.com/trophees-des-campus-responsables/?utm_source=Campus+PROSPECT\&utm_campaign=6b68a37c92-EMAIL_CAMPAIGN_2018_04_18_COPY_01\&utm_medium=email\&utm_term=0_166f0fc31c-6b68a37c92-572807294}{\textbf{Trophées
+  des Campus Responsables 2023}} avec le projet Green Fablab organisé
+  par l'Association UTOPIES. Plus de détails dans le lien:
 \item
-  Module sur l'impression 3D auprès des professeurs de technologie de
-  l'Académie de Nancy-Metz. Les échanges ont porté sur la prise en main
-  des étapes du processus d'impression 3D, depuis un modèle numérique
-  CAO jusqu'à la détermination des paramètres d'impression en fonction
-  de la matière utilisée. Cette expérience a été très constructive d'un
-  point de vue pédagogique et a répondu à des besoins locaux liés à
-  l'implémentation de ce type de technologie dans les collèges et les
-  lycées de la région.
+  2017: Participation dans la Création d'un workshop pour des étudiants
+  et des industriels de la région de Costa Rica. La thématique a
+  concerné l'identification des étapes dans un processus de création des
+  projets d'innovation, l'évaluation prospective du degre de nouveauté
+  en utilisation des technologies eye-tracking et neuro-lab
+  (e.g.~capteurs physiologiques).
 \item
-  Module a été dispensé pour des étudiants et des industriels de la
-  région de Costa Rica. La thématique a concerné l'identification des
-  étapes dans un processus de création des projets d'innovation,
-  l'évaluation prospective du degre de nouveauté en utilisation des
-  technologies eye-tracking et neuro-lab (e.g.~capteurs physiologiques)
+  2017: Module sur l'impression 3D auprès des professeurs de technologie
+  de l'Académie de Nancy-Metz. Les échanges ont porté sur la prise en
+  main des étapes du processus d'impression 3D, depuis un modèle
+  numérique CAO jusqu'à la détermination des paramètres d'impression en
+  fonction de la matière utilisée. Cette expérience a été très
+  constructive d'un point de vue pédagogique et a répondu à des besoins
+  locaux liés à l'implémentation de ce type de technologie dans les
+  collèges et les lycées de la région.
 \item
-  \textbf{2018:} Participation à l'organisation des congrès mondial des
-  Fablabs --FAB14-- distribué en france. Un format distribué a été mis
-  en place donc l'axe éducation à été organisé à Bataville, dans le
-  Grand Est. Plus de détails dans le lien:
+  2018: Participation à l'organisation des congrès mondial des Fablabs
+  --FAB14-- distribué en france. Un format distribué a été mis en place
+  donc l'axe éducation à été organisé à Bataville, dans le Grand Est.
+  Plus de détails dans le lien:
   \url{https://www.tierslieuxedu.org/2018-fab14edu-compte-rendu.pdf}
 \item
-  \textbf{2018-2019}: La ville de Nancy a développé un Conseil
-  d'Orientation de la Transition Écologique de Nancy (COTEN) afin de
-  mettre en place des objectifs et des actions pour trouver des
-  solutions aux enjeux environnementaux. J'ai participé en tant que
-  représentant du laboratoire ERPI entre 2018-2019 au groupe de travail
-  sur la gestion des déchets.
+  2018-2019: La ville de Nancy a développé un Conseil d'Orientation de
+  la Transition Écologique de Nancy (COTEN) afin de mettre en place des
+  objectifs et des actions pour trouver des solutions aux enjeux
+  environnementaux. J'ai participé en tant que représentant du
+  laboratoire ERPI entre 2018-2019 au groupe de travail sur la gestion
+  des déchets.
 \item
-  \textbf{2017-2019}: Participation annuelle à la Foire Internationale
-  de Nancy avec le stand de l'Université de Lorraine : Open Citizen Lab.
+  2017-2019: Participation annuelle à la Foire Internationale de Nancy
+  avec le stand de l'Université de Lorraine : Open Citizen Lab.
 \end{itemize}
 
 Plus précisément, un travail de médiation scientifique à la Foire
@@ -1743,22 +1804,24 @@ retours des utilisateurs. Cela est une activité pédagogique de
 confrontation sur les idées développées hors du cadre conventionnel
 académique. Egalement, mettre en place un stand du projet Green Fablab
 afin de interagir avec les visiteur et vulgariser la
-recherche.\footnote{\url{https://www.youtube.com/watch?v=c8ZyTJ9-YxU&feature=emb_title}}
+recherche.\href{https://www.youtube.com/watch?v=c8ZyTJ9-YxU\&feature=emb_title}{Voir
+sur le lien:
+https://www.youtube.com/watch?v=c8ZyTJ9-YxU\&feature=emb\_title}
 
 \begin{itemize}
 \tightlist
 \item
-  \textbf{2016} Participation au concours de vulgarisation scientifique
-  \href{http://videos.univ-lorraine.fr/index.php?act=view&id=3475}{\textbf{Ma thèse en 180s (2016)}}\\
-  Finale régionale : Ce concours permet aux doctorants de présenter leur
-  sujet de recherche, en français et en termes simples, à un auditoire
-  profane et diversifié. Chaque étudiant ou étudiante doit faire, en
-  trois minutes, un exposé clair, concis et néanmoins convaincant sur
-  son projet de recherche. J'ai pu participer lors de la finale
-  Régionale, qui est le résultat d'un processus de sélection de 11
-  doctorants sur une trentaine de candidats. J'ai obtenu le
-  \textit{Prix des étudiants}, le prix du \textit{public} et la
-  \(3^{ème}\) place après délibération du Jury.
+  2016: Participation au concours de vulgarisation scientifique
+  \href{http://videos.univ-lorraine.fr/index.php?act=view\&id=3475}{Ma
+  thèse en 180s (2016)}. Finale régionale : Ce concours permet aux
+  doctorants de présenter leur sujet de recherche, en français et en
+  termes simples, à un auditoire profane et diversifié. Chaque étudiant
+  ou étudiante doit faire, en trois minutes, un exposé clair, concis et
+  néanmoins convaincant sur son projet de recherche. J'ai pu participer
+  lors de la finale Régionale, qui est le résultat d'un processus de
+  sélection de 11 doctorants sur une trentaine de candidats. J'ai obtenu
+  le \textbf{Prix des étudiants}, le \textbf{Prix du Public} et la
+  \textbf{\(3^{ème}\) place} après délibération du Jury.
 \end{itemize}
 
 Lien vers la vidéo de la prestation - Finale de l'Université de Lorraine
@@ -1999,8 +2062,9 @@ lecture}\label{communications-dans-des-congruxe8s-internationaux-uxe0-comituxe9-
   Fabrication. Austin, Texas, pp.~1591--1600.
 \end{enumerate}
 
-\hypertarget{ouvrages-scientifiques}{%
-\subsubsection{Ouvrages scientifiques}\label{ouvrages-scientifiques}}
+\hypertarget{ouvrages-scientifiques-en-relecture-par-les-editeurs}{%
+\subsubsection{Ouvrages scientifiques (En relecture par les
+Editeurs)}\label{ouvrages-scientifiques-en-relecture-par-les-editeurs}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}

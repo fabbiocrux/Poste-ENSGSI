@@ -283,7 +283,7 @@ ggplot(aes(x=Year, y=value, fill=Document, label = value)) +
 
 ```
 
-Les tableaux montrent les revues internationales auxquelles j'ai fait des contributions scientifiques. Les revues dans mon domaine sont liées à la **fabrication additive** (AM, 3DP, VPP et PB:JEM et JOM), la **soutenabilité** et **développement durable**(JCLP, RCR et CET) et depuis cette année l'**open source hardware** (HX).
+Les tableaux montrent les revues internationales auxquelles j'ai fait des contributions scientifiques. Les revues dans mon domaine sont liées à la **fabrication additive** (AM, 3DP, VPP et PB:JEM et JOM), la **soutenabilité** et **développement durable**(JCLP, RCR et CET) et l'**open source hardware** (HX).
 
 Concernant les conferences, sont principalement autour de la fabrication additive (Solid Freeform Symposium) et l'innovation et management de la technologie (ICE/IEEE)
 
@@ -424,25 +424,26 @@ En conséquence, ces terrains d’expérimentations en conception (mécanique et
 
 La fabrication additive va jouer un rôle très important dans le devenir de notre société en tant qu’outil pour la soutenabilité [@Despeisse2016]. Cette technologie permet d’avoir une utilisation efficiente de la matière première par rapport aux technologies traditionnelles de fabrication. Le principe de dépôt couche-par-couche fait que les procédés de l’impression 3D peuvent avoir un impact environnemental réduit en considérant le ratio du dépôt de matière, le type de matière et la géométrie optimisée pour l’usage adéquat. Dans le contexte du recyclage de matière première, (dans mon cas, le recyclage de polymères spécifiquement), la FA est une voie de recherche fondamentale pour explorer de nouvelles méthodes d’éco-conception à multiples échelles [@Wu2021a].
 
-En partant de cette base, le projet de recherche que je visualise aujourd’hui concerne trois éléments importants:
+![Projet de recherche ayant l'objet d'un dépot ERC - Starting Grant](Figures/Projet-recherche.png){#fig-projet-recherche width=90%}
+
+En partant de cette base, @fig-projet-recherche present le projet de recherche que je visualise aujourd’hui concerne trois éléments importants:
 
 
-
-1. La validation des matières premières (secondaires), et développement d’une techno-diversité des procédés open source et des applications de la valeur ajoutée.
-2. L’évaluation systémique de nouvelles formes de production robustes.
+1. La validation des techno-diversités open source pour des matières premières (secondaires), des procédés et des applications de valeur ajoutée.
+2. Evaluation systemique de nouvelle formes de production urbaine et local.
 3. Vers une soutenabilité forte pour la fabrication additive
 
 Le but à long terme est d’inscrire cette démarche dans l’ambition du plan d’action de l’économie circulaire de l’Union Européenne afin de répondre aux enjeux 
 
  
-### Validation des matières premières secondaires, procédés open source et applications 
+###  Techno-diversité open source des matières premières secondaires, procédés et applications 
 
 La validation de la faisabilité technique de recyclage a été faite pour l'acide polylactique (PLA) qui est la matière  la plus utilisée dans ce domaine. Cependant, d'autres types de matériaux doivent être évalués et caractérisés en incluant leurs applications. 
 
 Du point de vue technique, il est nécessaire de développer une ingénierie de conception et de fabrication utilisant l'approche open source/hardware [@Pearce2020a; @Pearce2017b] afin de promouvoir des technologies low-cost [@Heikkinen2020a]. Pour continuer à démocratiser un recyclage distribué fiable, il faut assurer l'identification, la séparation et le nettoyage des niches de gisements traités localement. Afin de concevoir des produits et des systèmes qui répondent à des besoins ponctuels pour valoriser des niches de recyclage qui n'ont pas de valorisation dans le processus traditionnel.
 
 
-### Validation systemique de nouvelle formes de production
+### Evaluation systemique de nouvelle formes de production urbaine et local
 
 L'impression 3D est une brique technologique très importante pour la conception de nouvelles formes de production distribuée [@Herrmann2020 ; @Kleer2019] et pour les technologies de l'industrie 4.0. [@Culot2020]. Ce changement dans la façon de fabriquer conduit au besoin de développer de nouvelles méthodes d'analyse des configurations industrielles.
 L'acceptabilité du processus de recyclage distribué et sa diffusion plus importante passe par l'identification des leviers technologiques et de leur intégration dans les politiques publiques et sociales. Du point de vue méthodologique, je suis intéressé par l’analyse systémique des démarches de conception pour la soutenabilité. Ces démarches peuvent se placer au niveau du produit, du produit-service, et aller jusqu'aux systèmes socio-techniques [@Ceschin2016]. 
@@ -451,7 +452,7 @@ En vue de favoriser des symbioses industrielles dans une échelle micro et meso 
 Cependant, il faut identifier les possibles ‘effets rebond' afin de vérifier si la solution de recyclage en circuit court est pertinente et jusqu’à quels niveaux.
 
 
-### Soutenabilité pour les systèmes socio-technique de l’impression 3D
+### Soutenabilité technico-écologique pour les systèmes socio-techniques de l’impression 3D
 
 Depuis 2021, je travaille pour le Projet Everest Bio, financé par l'institut Carnot ICEEL, qui a pour objectif d’évaluer les services écosystémiques rendus par des activités industrielles fonctionnant en circuit court afin d’améliorer la prise de décisions des acteurs industriels et du secteur public.  
 
@@ -459,6 +460,7 @@ Dans ce cadre, je tire les constats qu’aujourd’hui les systèmes industriels
 
 Le verrou scientifique essentiel sera de clarifier une approche méthodologique propice à une action plus en synergie avec la nature qui reconnaît les limites planétaires et en minimise la perte de capital naturel et de biodiversité. L’identification et quantification des impacts des services écosystémiques pertinents pour une filière industriel et son territoire local doivent converger pour une démarche de soutenabilité forte [@Barbier2019; @Dietz2006] afin que les concepteurs perçoivent leur métier et leur action dans le monde. A long terme, ceci relève d'une approche inter-, voir trans-, disciplinaire de recherche [@Jacobi2022].
 
+Cette proposition de recherche a été soumise à l'appel *ERC - Starting Grant* de la Commission européenne en 2022.
 
 \newpage
 
@@ -838,26 +840,38 @@ Ces axes peuvent contribuer au syllabus au niveau :
 
 # Activités administratives et de valorisation
 
-## Activités administratives liées à la pédagogique
+## Activités administratives liées à l’animation de la recherche
+
+- 2022: Participation dans le comité technique d’organisation de la conférence ICE / IAMOT 2022 "[Technology, Engineering, and Innovation Management Communities as Enablers for Social-Ecological Transitions](https://ice-iamot-2022-conference.org/)" à Nancy. 300 Participants internationaux.
+
+- 2022: Participation au Réseau de Recherche “Design for Additive Manufacturing Network –-DfAM Network UK-” sur 'Sustainable Distributed Recycling via Additive Manufacturing':  [https://www.designforam.ac.uk/responsible-design-for-am-6th-september-2022/](https://www.designforam.ac.uk/responsible-design-for-am-6th-september-2022/)
+
+- 2021: Participation au programe Ingeniería 2030: "*Engineering Connection II: Innovation Labs to mitigate climate change - Webinar 3*" de l'Université Pontificia Universidad Católica de Valparaíso - Chile: [https://www.youtube.com/watch?v=iTW0COjLFcg](https://www.youtube.com/watch?v=iTW0COjLFcg)
 
 
-- Participation dans le commite technique de la conference ICE / IAMOT 2022 à Nancy. 300 Participants internationaux
+
+- 2020 – ... : Participation à l’action GDR MACS / SAGIP sur les enjeux de la soutenabilité et leurs impacts sur la recherche en conception et contrôle des systèmes techniques.  
+Le groupe est piloté par Maud Rio; Valérie Botta-Genoulaz; Bernard Grabot; Frédéric Kratz; Véronique Perdereau; Alexandre Philippot; Lionel Roucoules;
+
 
 ## Activités d'encadrements pédagogique
 
 - 2017-2018 Project Holipresse 1AI: Création d'un moule par système de strato-conception low-cost pour la fabrication de pièces injectées à partir de bouchons de bouteilles recyclés. 
-Plus de détails: \url{https://holimaker.fr/}
+Plus de détails: [https://holimaker.fr/](https://holimaker.fr/)
 
 - Plast'If (2019- 2020): Test de caractérisation de matière plastique recyclée pour l'utilisation des machines d'impression directe -Fused Granular Fabrication FGF-.
-Plus de détails: \url{https://www.plastif.com/}
+Plus de détails: [https://www.plastif.com/](https://www.plastif.com/)
 
 
-- 2017-2018: Project Fabcity Nancy 2AI: Cartographie des initiatives sur de démarches de fabrication  locale et circulaire. Cette démarche est portée par ERPI / ARTEM / ENSAD.  Plus de détails: \url{http://fabcity-nancy.fr/}
+- 2017-2018: Project Fabcity Nancy 2AI: Cartographie des initiatives sur de démarches de fabrication  locale et circulaire. Cette démarche est portée par ERPI / ARTEM / ENSAD.  Plus de détails: [http://fabcity-nancy.fr/](http://fabcity-nancy.fr/)
 
 
-- Accompagnement des étudiants (10) pendant 6 semaines dans le module d'Initiation de Recherche de l'école d'ingénieurs CESI Nancy. 
+- Accompagnement des étudiants (16) pendant 6 semaines dans le module d'Initiation de Recherche de l'école d'ingénieurs CESI Nancy. 
 Création de prototypes pour l'extrusion de filaments en utilisant open hardware.
-Plus de détails dans le lien: \url{http://lf2l.fr/projects/green-fablab/} 
+Plus de détails dans le lien: [http://lf2l.fr/projects/green-fablab/](http://lf2l.fr/projects/green-fablab/) 
+
+
+
 
 
 ##   Participation coordination et montage de projets
@@ -869,12 +883,13 @@ Projets <- read_excel(path = 'tables/Projets.xlsx', sheet = "Projets")
 
 Projets %>% select(-Dates) %>% 
 kbl(booktabs = T , longtable = T,  caption = "Participation aux montages de projets") %>%
-kable_styling(latex_options = c("HOLD_position"), full_width = F, font_size = 9) %>% 
+kable_styling(latex_options = c("HOLD_position", "repeat_header"), full_width = F, font_size = 9) %>% 
 column_spec(1, width = "4cm") %>% 
 column_spec(2, width = "3cm") %>%  
 column_spec(3, width = "2cm") %>% 
 column_spec(4, width = "7cm") %>% 
 column_spec(5, width = "3cm") %>% 
+   row_spec(1:11, hline_after = T) %>% 
    landscape()
 #   row_spec(2:4, hline_after = T) %>% 
 #   pack_rows("2023 - ... ", 1, 7)
@@ -886,35 +901,35 @@ column_spec(5, width = "3cm") %>%
 ## Relations avec le monde socio-économique
 
 
-- **2023:** Participation à concours Trophées des Campus Responsables 2023 aec le projet Green Fablab organisé par l'Association UTOPIES.
- Plus de détails dans le lien: \url{https://utopies.com/trophees-des-campus-responsables/?utm_source=Campus+PROSPECT&utm_campaign=6b68a37c92-EMAIL_CAMPAIGN_2018_04_18_COPY_01&utm_medium=email&utm_term=0_166f0fc31c-6b68a37c92-572807294} 
+- 2023: Participation à concours "[**Trophées des Campus Responsables 2023**](https://utopies.com/trophees-des-campus-responsables/?utm_source=Campus+PROSPECT&utm_campaign=6b68a37c92-EMAIL_CAMPAIGN_2018_04_18_COPY_01&utm_medium=email&utm_term=0_166f0fc31c-6b68a37c92-572807294) avec le projet Green Fablab organisé par l'Association UTOPIES. Plus de détails dans le lien: 
 
 
--  Module sur l'impression 3D auprès des professeurs de technologie de l'Académie de Nancy-Metz. Les échanges ont porté sur la prise en main des étapes du processus d'impression 3D, depuis un modèle numérique CAO jusqu'à la détermination des paramètres d’impression en fonction de la matière utilisée.
-Cette expérience a été très constructive d'un point de vue pédagogique et a répondu à des besoins locaux liés à l'implémentation de ce type de technologie dans les collèges et les lycées de la région. 
-
-- Module a été dispensé pour des étudiants et des industriels de la région de Costa Rica. 
-La thématique a concerné l'identification des étapes dans un processus de création des projets d'innovation,  l'évaluation prospective du degre de nouveauté en utilisation des technologies eye-tracking et neuro-lab (e.g. capteurs physiologiques)
+- 2017: Participation dans la Création d’un workshop pour des étudiants et des industriels de la région de Costa Rica.
+La thématique a concerné l’identification des étapes dans un processus de création des projets d’innovation, l’évaluation prospective du degre de nouveauté en utilisation des technologies eye-tracking et neuro-lab (e.g. capteurs physiologiques).
 <!-- *Ma contribution*: Cours introductif sur la creation de prototypes en tant que support pour l'évaluation de l'acceptabilité avec des eye-tracking. Accompagnement des groupes à la création d'un objet marketing promotionnelle de Costa Rica afin d'être evalué sous ce technologie.  -->
 
 
-- **2018:** Participation à l'organisation des congrès mondial des Fablabs  --FAB14-- distribué en france. Un format distribué a été mis en place donc l'axe éducation à été organisé à Bataville, dans le Grand Est.
- Plus de détails dans le lien: \url{https://www.tierslieuxedu.org/2018-fab14edu-compte-rendu.pdf} 
+- 2017:  Module sur l'impression 3D auprès des professeurs de technologie de l'Académie de Nancy-Metz. Les échanges ont porté sur la prise en main des étapes du processus d'impression 3D, depuis un modèle numérique CAO jusqu'à la détermination des paramètres d’impression en fonction de la matière utilisée.
+Cette expérience a été très constructive d'un point de vue pédagogique et a répondu à des besoins locaux liés à l'implémentation de ce type de technologie dans les collèges et les lycées de la région. 
 
 
-- **2018-2019**: La ville de Nancy a développé un Conseil d'Orientation de la Transition Écologique de Nancy (COTEN) afin de mettre en place des objectifs et des actions pour trouver des solutions  aux enjeux environnementaux. 
+- 2018: Participation à l'organisation des congrès mondial des Fablabs  --FAB14-- distribué en france. Un format distribué a été mis en place donc l'axe éducation à été organisé à Bataville, dans le Grand Est.
+ Plus de détails dans le lien: [https://www.tierslieuxedu.org/2018-fab14edu-compte-rendu.pdf](https://www.tierslieuxedu.org/2018-fab14edu-compte-rendu.pdf) 
+
+
+- 2018-2019: La ville de Nancy a développé un Conseil d'Orientation de la Transition Écologique de Nancy (COTEN) afin de mettre en place des objectifs et des actions pour trouver des solutions  aux enjeux environnementaux. 
 J'ai participé en tant que représentant du laboratoire ERPI entre 2018-2019 au groupe de travail sur la gestion des déchets.
 
-- **2017-2019**: Participation annuelle à la Foire Internationale de Nancy avec le stand  de l’Université de Lorraine : Open Citizen Lab. 
+- 2017-2019: Participation annuelle à la Foire Internationale de Nancy avec le stand  de l’Université de Lorraine : Open Citizen Lab. 
 
 Plus précisément, un travail de médiation scientifique à la Foire Internationale de Nancy pour les projets étudiants du LF2L. Dans ce cadre, les prototypes des étudiants sont présentés pour avoir des retours des utilisateurs. Cela est une activité pédagogique de confrontation sur les idées développées hors du cadre conventionnel académique.
-Egalement, mettre en place un stand du projet Green Fablab afin de interagir avec les visiteur et vulgariser la recherche.^[\url{https://www.youtube.com/watch?v=c8ZyTJ9-YxU&feature=emb_title}]
+Egalement, mettre en place un stand du projet Green Fablab afin de interagir avec les visiteur et vulgariser la recherche.[Voir sur le lien: https://www.youtube.com/watch?v=c8ZyTJ9-YxU&feature=emb_title](https://www.youtube.com/watch?v=c8ZyTJ9-YxU&feature=emb_title)
 
 
-- **2016** Participation au concours de vulgarisation scientifique \href{http://videos.univ-lorraine.fr/index.php?act=view&id=3475}{\textbf{Ma thèse en 180s (2016)}}  
+- 2016: Participation au concours de vulgarisation scientifique [Ma thèse en 180s (2016)](http://videos.univ-lorraine.fr/index.php?act=view&id=3475). 
 Finale régionale : Ce concours permet aux doctorants de présenter leur sujet de recherche, en français et en termes simples, à un auditoire profane et diversifié. Chaque étudiant ou étudiante doit faire, en trois minutes, un exposé clair, concis et néanmoins convaincant sur son projet de recherche. 
 J’ai pu participer lors de la finale Régionale, qui est le résultat d’un processus de sélection de 11 doctorants sur une trentaine de candidats. 
-J'ai obtenu le \textit{Prix des étudiants}, le prix du \textit{public} et la $3^{ème}$ place après délibération du Jury.
+J'ai obtenu le **Prix des étudiants**, le **Prix du Public** et la **$3^{ème}$ place** après délibération du Jury.
 
 Lien vers la vidéo de la prestation - Finale de l'Université de Lorraine 2016 : 
 \url{https://videos.univ-lorraine.fr/index.php?act=view&id=3475}
@@ -990,7 +1005,7 @@ Lien vers la vidéo de la prestation - Finale de l'Université de Lorraine 2016 
 5. **Cruz, F.**, Lanza, S., Boudaoud, H., Hoppe, S., Camargo, M., 2015. Polymer Recycling and Additive Manufacturing in an Open Source context : Optimization of processes and methods, in: Solid Freeform Fabrication. Austin, Texas, pp. 1591–1600.
 
 
-### Ouvrages scientifiques
+### Ouvrages scientifiques (En relecture par les Editeurs)
 
 
 1. **Cruz, F.**, Lanza, S., Boudaoud, H., Hoppe, S., Camargo, M., *"Approche méthodologique pour évaluer la faisabilité du recyclage des polymères dans un contexte de fabrication additive open-source."* (En relecture  par les éditeurs)
