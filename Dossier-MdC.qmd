@@ -856,6 +856,9 @@ Le groupe est piloté par Maud Rio; Valérie Botta-Genoulaz; Bernard Grabot; Fr�
 
 ## Activités d'encadrements pédagogique
 
+
+- Participation dans l'accompagnement de thèses de doctorat de Pavlo Santander (2019 - 2021), Fangkai Xue (2019 -- ... ), Catalina Suescun (2022 - ...)  Cristian Caceres (2023 - ...), et Masters M2 Ana Maria Barrera (2019), Arthur Alexandre (2020), Swapnil Balpande (2020), Oussama Zaghar (2020). 
+
 - 2017-2018 Project Holipresse 1AI: Création d'un moule par système de strato-conception low-cost pour la fabrication de pièces injectées à partir de bouchons de bouteilles recyclés. 
 Plus de détails: [https://holimaker.fr/](https://holimaker.fr/)
 
@@ -1047,4 +1050,5 @@ Lien vers la vidéo de la prestation - Finale de l'Université de Lorraine 2016 
 [^Roux-Marchand2020]: Roux-Marchand, T., **Cruz, F.**, Dupont, L., Camargo, M., Osorio, F., 2020. Connecting the strategic intent of innovation labs and projects: the case of the Green Fablab, in: 2020 IEEE International Conference on Engineering, Technology and Innovation (ICE/ITMC). IEEE, pp. 1–10. [https://doi.org/10.1109/ICE/ITMC49519.2020.9198320](https://doi.org/10.1109/ICE/ITMC49519.2020.9198320)
 
 [^Gabriel2023]: Gabriel, A., **Cruz, F.**, 2023. Open source IoT-based collection bin applied to local plastic recycling. HardwareX 13, e00389. [https://doi.org/10.1016/j.ohx.2022.e00389](https://doi.org/10.1016/j.ohx.2022.e00389)
+
 

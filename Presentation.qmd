@@ -7,8 +7,9 @@ author:
   - 'Fabio A. CRUZ SANCHEZ'
 format: 
   beamer: 
+    classoption: t
     aspectratio: 169
-    navigation: vertical
+    navigation: horizontal
     theme: Luebeck #AnnArbor
     #toc: true
     #toc-title: "Organisation de la presentation"
@@ -16,6 +17,9 @@ format:
     colortheme: beaver
     slide-level: 3
     toc-depth: 2
+    fig-align: center
+    # beameroption: 
+    #  - show notes on second screen
     #beamerarticle: true
     #latex_engine: lualatex
     include-in-header: 
@@ -101,28 +105,17 @@ Bonjour à tous.
 
 
 # Mon Profil et Parcours Professionnel
-### Profile 
 
-:::: {.columns}
-::: {.column width="30%"}
-<!-- ![](Figures/Fabio.jpg){width=60} -->
+### Profile
 
-![](Figures/icons/flag-colombia.png){width=20} ![](Figures/icons/flag-france.png){width=20} 34 ans 
+Fabio Cruz - 34 ans 
+![](Figures/icons/flag-colombia.png){width=20} ![](Figures/icons/flag-france.png){width=20} 
 
-Ingénieur Mécanique <br>
-Master II - Design Global. <br>
-PhD. en Génie des Systèmes Industriels <br>
-CNU : 60 – 62
-Langues
-:::
+Profile CNU: **60** – 62 
 
+\hfill
 
-::: {.column width="65%" }
-
-![](Figures/timeline.jpg)
-
-:::
-::::
+![](Figures/Fabio-timeline.jpg)
 
 ::: notes
 
@@ -140,29 +133,26 @@ Langues
 
 ## Activités de Recherche
 
-### Domaine de recherche {#s}
+### Domaine de recherche 
 
 *Recyclage distribué* via open Source hardware: Validation multi-echelle.
-
-
-\vfill
- 
+\vspace{10pt}
 
 :::: {.columns}
-::: {.column width="50%"}
-
-![](Figures/Profil-Recherche.jpg){width=200}
-
+::: {.column width="70%" align=center}
+![ ](Figures/slides/DRAM-00.png){width=400}
 :::
 
-
-::: {.column width="50%" }
-
-- Technical feasability of recycling
-
-- Validation of the Open SOurce
+::: {.column width="40%" align=center}
+ - Technical feasability
+ - Supply chain 
+ - Holistique evaluation
 :::
+
 ::::
+
+
+
 
 
 ::: notes
@@ -171,9 +161,12 @@ Passon à mes activités de recherche.
 Je m'interesse à la no
 :::
 
-### Production Scientifique
+### Axes de Recherche 
 
+*Recyclage distribué* via open Source hardware: **Validation multi-echelle**
+\vspace{10pt}
 
+![](Figures/slides/Axes-recherche.jpg){width=550}
 
 ::: notes
 Passon à mes activités de recherche.
@@ -182,11 +175,13 @@ Je m'interesse à la notion de Recyclage distribuée
 :::
 
 
+### Production Scientifique
+
 
 ### Collaboration et Projets Scientifiques
 
 
-### Projet de Recherche
+
 
 
 ## Activités d'Enseignement
