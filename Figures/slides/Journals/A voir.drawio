@@ -1,0 +1,49 @@
+<mxfile host="Electron" modified="2023-04-11T07:35:51.223Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="DxfbGxS5MbEOykL2vn0R" version="21.1.2" type="device">
+  <diagram name="Page-1" id="dd472eb7-4b8b-5cd9-a60b-b15522922e76">
+    <mxGraphModel dx="1706" dy="1177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YbM_nu0U3kmB_rxoTIva-10" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="560" y="80" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YbM_nu0U3kmB_rxoTIva-11" value="- Territorial local development&lt;br&gt;- Zero waste citizen association&lt;br&gt;- Third place" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="YbM_nu0U3kmB_rxoTIva-10" vertex="1">
+          <mxGeometry y="10" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YbM_nu0U3kmB_rxoTIva-12" value="Associative" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fontSize=14;fillColor=#d5e8d4;" parent="YbM_nu0U3kmB_rxoTIva-10" vertex="1">
+          <mxGeometry x="10" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YbM_nu0U3kmB_rxoTIva-6" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="300" y="83" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YbM_nu0U3kmB_rxoTIva-2" value="-&amp;nbsp;Foodservice (Restaurant &amp;amp;&amp;nbsp;Grocery Stores)&lt;br&gt;- Co-workings&amp;nbsp; &amp;amp; Entertainment&lt;br&gt;- Sportive (Gym, Stadium, Rowing)&lt;br&gt;- Building sector&lt;br&gt;- Second hand Store" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="YbM_nu0U3kmB_rxoTIva-6" vertex="1">
+          <mxGeometry y="10" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YbM_nu0U3kmB_rxoTIva-5" value="Private sector" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fontSize=14;fillColor=#e1d5e7;" parent="YbM_nu0U3kmB_rxoTIva-6" vertex="1">
+          <mxGeometry x="10" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YbM_nu0U3kmB_rxoTIva-7" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="300" y="200" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YbM_nu0U3kmB_rxoTIva-8" value="- Fablab&lt;br&gt;- Retirement home&lt;br&gt;- Concert hall" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="YbM_nu0U3kmB_rxoTIva-7" vertex="1">
+          <mxGeometry y="10" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YbM_nu0U3kmB_rxoTIva-9" value="Public sector" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fontSize=14;fillColor=#d5e8d4;" parent="YbM_nu0U3kmB_rxoTIva-7" vertex="1">
+          <mxGeometry x="10" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YbM_nu0U3kmB_rxoTIva-1" value="Green Fablab Ecosystem" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbM_nu0U3kmB_rxoTIva-13" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="560" y="200" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YbM_nu0U3kmB_rxoTIva-14" value="- Industrial and Materials&lt;br&gt;engineering schools&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="YbM_nu0U3kmB_rxoTIva-13" vertex="1">
+          <mxGeometry y="10" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YbM_nu0U3kmB_rxoTIva-15" value="Education" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e78ac3;fontSize=14;fillColor=#e78ac3;" parent="YbM_nu0U3kmB_rxoTIva-13" vertex="1">
+          <mxGeometry x="10" width="120" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,187 @@
+<mxfile host="Electron" modified="2023-04-12T16:41:32.794Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="-pNkq8JnFo6fOw_x9Ct5" version="21.1.2" type="device">
+  <diagram id="-GcLotA9UEpS__c_3CrV" name="Página-1">
+    <mxGraphModel dx="1242" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-1" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;elbow=vertical;dashed=1;endArrow=oval;endFill=1;startArrow=oval;startFill=1;" parent="1" source="KlXYmNbXB5oEDwEpVPqy-21" target="KlXYmNbXB5oEDwEpVPqy-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="KlXYmNbXB5oEDwEpVPqy-3" target="KlXYmNbXB5oEDwEpVPqy-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-3" value="Pluralistic Evaluation" style="swimlane;fillColor=#fad7ac;strokeColor=#b46504;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="340" y="700" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-4" value="&lt;div&gt;-&lt;b&gt;&amp;nbsp;Techno-ecological synergy&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- System dynamics evaluation&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Identification of causal loops&lt;/div&gt;&lt;div&gt;- Establishment of plausible scenarios&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="KlXYmNbXB5oEDwEpVPqy-3" vertex="1">
+          <mxGeometry y="35" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KlXYmNbXB5oEDwEpVPqy-8" target="KlXYmNbXB5oEDwEpVPqy-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="705" y="890" />
+              <mxPoint x="70" y="890" />
+              <mxPoint x="70" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="800" as="targetPoint" />
+            <mxPoint x="700" y="850" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-7" value="Feedback model improvement" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="KlXYmNbXB5oEDwEpVPqy-6" vertex="1" connectable="0">
+          <mxGeometry x="0.8013" relative="1" as="geometry">
+            <mxPoint x="140" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-8" value="Experimentation" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="590" y="700" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-9" value="&lt;div&gt;-&lt;b&gt; Recyclability evaluation at the system&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;level&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Valuation workshops&lt;/div&gt;&lt;div&gt;- Communication and dissemination&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="KlXYmNbXB5oEDwEpVPqy-8" vertex="1">
+          <mxGeometry y="35" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-10" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Understanding the&amp;nbsp;&lt;br&gt;Distributed recycling&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=8;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="620" width="240" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-11" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;elbow=vertical;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KlXYmNbXB5oEDwEpVPqy-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20.03" y="595.97" as="sourcePoint" />
+            <mxPoint x="143" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-12" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Local stock&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Index&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="90" y="736" width="106.25" height="20.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-13" value="Urban analysis" style="swimlane;horizontal=0;shadow=0;sketch=0;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+          <mxGeometry x="90" y="620" width="212.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-14" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- Urban planning priorities by local stakeholders&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="KlXYmNbXB5oEDwEpVPqy-13" vertex="1">
+          <mxGeometry x="28.75" y="68" width="152.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-15" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;b style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;- Close the data gap:&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;P&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;lastic waste&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;stock at the&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;neighbourhood&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;" parent="KlXYmNbXB5oEDwEpVPqy-13" vertex="1">
+          <mxGeometry x="31.25" y="8" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-16" value="Local" style="text;html=1;strokeColor=none;fillColor=#b1ddf0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=12;" parent="KlXYmNbXB5oEDwEpVPqy-13" vertex="1">
+          <mxGeometry x="182.5" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-17" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Ecosystem Services&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="230" y="716" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-18" value="Open Source&#xa;technodiversity" style="swimlane;horizontal=0;shadow=0;sketch=0;fontSize=12;fillColor=#fad9d5;strokeColor=#ae4132;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="90" y="770" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-19" value="&lt;div&gt;-&lt;b&gt; Recyclability feasibility at the unit level.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Open source maturity index&lt;/div&gt;&lt;div&gt;- Practices and barriers for recycling&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="KlXYmNbXB5oEDwEpVPqy-18" vertex="1">
+          <mxGeometry x="40" y="25" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-20" value="Global design" style="text;html=1;strokeColor=none;fillColor=#fad9d5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=12;" parent="KlXYmNbXB5oEDwEpVPqy-18" vertex="1">
+          <mxGeometry x="140" y="90" width="90" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-21" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Absolute LCA&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="230" y="763" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-22" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;elbow=vertical;endArrow=oval;endFill=1;startArrow=classic;startFill=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="KlXYmNbXB5oEDwEpVPqy-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="750" as="sourcePoint" />
+            <mxPoint x="270" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;sketch=0;fontSize=12;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="680" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-24" value="Feedback to urban and technical systems" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="430" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-25" value="WP1" style="text;html=1;strokeColor=none;fillColor=#b1ddf0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="90" y="610" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-26" value="WP2" style="text;html=1;strokeColor=none;fillColor=#fad9d5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="90" y="870" width="90" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-27" value="WP3" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="340" y="690" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KlXYmNbXB5oEDwEpVPqy-28" value="WP4" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="590" y="690" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-1" value="Technodiversité &#xa;Open Source" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1430" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-9" value="Maturité de l&#39;OS pour le recyclage" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="d_lOM9eQkYvqMEcrb9TU-1">
+          <mxGeometry y="50" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-6" value="Analyse du Territoire" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1260" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-14" value="Priorités de ecosistemiques et des parties prenantes" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="d_lOM9eQkYvqMEcrb9TU-6">
+          <mxGeometry y="50" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-7" value="Cadre d&#39;(E)valuation &#xa;Pluraliste " style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1320" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-8" value="- Modèle dynamique&lt;br&gt;- Synergie &lt;br&gt;technico-ecologique&lt;br&gt;&lt;div style=&quot;&quot;&gt;- Valoriser au-delà&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;de l&#39;économie&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="d_lOM9eQkYvqMEcrb9TU-7">
+          <mxGeometry y="50" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-10" value="Experimenter" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="625" y="1320" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-11" value="Replicabilité de &lt;br&gt;l&#39;implementation&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="d_lOM9eQkYvqMEcrb9TU-10">
+          <mxGeometry y="50" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-18" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;elbow=vertical;dashed=1;endArrow=oval;endFill=1;startArrow=oval;startFill=1;" edge="1" parent="1" source="d_lOM9eQkYvqMEcrb9TU-20" target="d_lOM9eQkYvqMEcrb9TU-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-19" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Service Ecosistemiques&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1370" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-20" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;ACV / TRL&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1417" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-21" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;elbow=vertical;endArrow=oval;endFill=1;startArrow=classic;startFill=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1403" as="sourcePoint" />
+            <mxPoint x="310" y="1404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-22" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="d_lOM9eQkYvqMEcrb9TU-8" target="d_lOM9eQkYvqMEcrb9TU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;sketch=0;fontSize=12;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1340" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;exitX=0.534;exitY=1.006;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="d_lOM9eQkYvqMEcrb9TU-11" target="d_lOM9eQkYvqMEcrb9TU-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="111.96000000000001" y="1420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="1463" />
+              <mxPoint x="710" y="1463" />
+              <mxPoint x="710" y="1570" />
+              <mxPoint x="110" y="1570" />
+              <mxPoint x="110" y="1400" />
+            </Array>
+            <mxPoint x="744.96" y="1480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="469.96" y="1480" as="targetPoint" />
+            <mxPoint x="710" y="1530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-27" value="Feedback amélioration du modèle" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="d_lOM9eQkYvqMEcrb9TU-26">
+          <mxGeometry x="0.8013" relative="1" as="geometry">
+            <mxPoint x="140" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-28" value="Feedback aux systèmes urbaine et technique" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="469.96" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lOM9eQkYvqMEcrb9TU-29" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Comprendre le&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Recyclage distribué&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=8;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1250" width="240" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
