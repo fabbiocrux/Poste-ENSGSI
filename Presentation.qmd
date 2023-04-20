@@ -407,11 +407,13 @@ Ma proposition pour l'ERPI:
 
 \footnotesize
 
-- Plastiques
-  - Projet ANR 'Green Local 3D' - 2022-2026 | k€ 476
+1. Plastiques
+  - Projet ANR 'Green Local 3D' - \tiny (2022-2026 | k€ 476)
+  - \tiny LRGP | INSA Lyon | LGI CentraleSupélec
   
-- WEEE
-  - Projet LUE WEEEMET  - 2022-2024 | k€ 149
+2. WEEE
+  - Projet LUE WEEEMET  - \tiny (2022-2024 | k€ 149)
+  - \tiny GeoRessources
 
 :::
 
@@ -475,15 +477,13 @@ Mon apport pour :
 - **le Collectif**
 
   - Participer aux projets industriels et pédagogiques, la vie de l’école et du laboratoire.
+  - « Zéro Déchet » et Comité DDRS
 
 
 ### Merci beaucoup de votre attention
 
 
 #### A disposition pour vos questions. 
-
-
-
 
 
 
@@ -496,10 +496,11 @@ Transfer projeT EU H2020 INEDIT - Dec 2022.
 
 
 
-**Idéation via VR:**
+**Idéation via VR:** 
 
 ![](Figures/slides/Age-faire.jpg){width=50% fig-align='center'}
 
+\tiny Outil developpé par l'Arts et Métiers - Laval
 :::
 
 ::: {.column width="40%"  }
