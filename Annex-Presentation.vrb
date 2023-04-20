@@ -1,0 +1,17 @@
+\frametitle{Running Code}
+When you click the \textbf{Render} button a document will be generated
+that includes both content and the output of embedded code. You can
+embed code like this:
+
+\begin{verbatim}
+[1] 2
+\end{verbatim}
+
+You can add options to executable code like this
+
+\begin{verbatim}
+[1] 4
+\end{verbatim}
+
+The \texttt{echo:\ false} option disables the printing of code (only
+output is displayed).

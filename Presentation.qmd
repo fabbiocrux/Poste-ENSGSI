@@ -1,8 +1,9 @@
 ---
 title: "Candidature au poste de <br> Maître de Conférences"
-subtitle: "ENSGSI / ERPI"  
-date: '`r Sys.Date()`'
-#institute: "Lorraine Fab Living Lab"
+abstract: "testing"
+subtitle: "60-61MCF0378 (ENSGSI/ERPI)"  
+date: "`r format(Sys.time(), '%d %b, %Y')`"
+institute: "Section CNU 60"
 author: 
   - 'Fabio A. CRUZ SANCHEZ'
 format: 
@@ -19,6 +20,8 @@ format:
     slide-level: 3
     toc-depth: 2
     fig-align: center
+    header-includes:
+      - \titlegraphic{\includegraphics[width=0.6\paperwidth]{Figures/logos/UL-ENSGSI-ERPI.png}}
     # beameroption: 
     #  - show notes on second screen
     #beamerarticle: true
@@ -62,48 +65,32 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 
 
-::: notes
-Bonjour à tous.
-
-- D’abord je vous remercie de m’accueillir aujourd’hui.
-
-- Je m'appelle Fabio Alberto Cruz Sanchez. 
-
-- J’ai le plaisir de vous présenter ma candidature pour le role de Maître de Conférence à l’école ENSGSI en lien avec le laboratoire ERPI.
-
-- Dans ces 15 min, Je veux mettre en lumiere les competences que je peux apporter à l'équipe péagogique de l'Ecole pour soutenir la formation futures ingénieurs en innovation en portent des valeurs d'Eco-responsabilité pour les enjeux societaux actuels.
-
-- Et bien évidement, 
-:::
-
-
-
 
 ### Organisation de la presentation {.plain}
 
-\tableofcontents
+\tableofcontents[hideallsubsections]
 
 
 ::: notes
 - Ma presentation est structuré en trois parties
 
-- D'abord, Je vous present mon profil et le récapitulatif de mon parcours profesionel. 
+- Synthèse recherche, ensegnement et responsabilités collectives
 
-- et ensuite je passerai à la description de mon projet d’intégration au niveau pédagogique et au nivea recherche. Et plus important comment faire le lien entre les deux dans la plateforme Lorraine Fab Living lab qui est leur support.
+- Ensuite, Projet d’intégration  et faire le lien LF2L
 
-- Je finirai avec quelques conclusion sur la motivation que m'engage pour ce. 
+- Conclusion sur ma motivation
 
 
 :::
 
 
-# Mon Profil et Parcours Professionnel 
+# Synthèse du parcours professionnel
 
 ### Profile {.t}
 
 \extrarowsep=-1.5pt
 \begin{tabu} to \linewidth {>{\footnotesize}X[1,l]}
-Fabio Cruz - 34 ans   \\
+Fabio Cruz - 34 ans  \\
 Ingénieur Mécanique | PhD en Génie des Systèmes Industriels \\
 Qualifications CNU : 60 – 62 \\
 Profil:  Génie Mécanique / Industriel\\
@@ -133,316 +120,396 @@ Langues: \includegraphics[width=50pt]{Figures/slides/Langues.jpg}
 
 ## Activités de Recherche 
 
-### Domaine de recherche {.t}
+### Thématique de Recherche {.t}
+\small
+Recyclage des thermoplastiques en circuit court par fabrication additive open source. 
 
-*Recyclage distribué* via open Source hardware: Validation multi-echelle.
+![](Figures/slides/DRAM-01.png){width=75% fig-align="center"}
 
-
-
-:::: {.columns}
-::: {.column width="60%" align=center}
-
-1. Feasabilité technique
-2. Filière en circuit court
-3. (E)valuation sur le territoire 
-
-![](Figures/slides/Recherche-Intro-01.png){width=100}
+::: notes
 :::
 
-::: {.column width="40%" align=center}
-![](Figures/slides/Abstract.png){width=250}
+
+### Thématique de Recherche {.t}
+\small
+**Recyclage** des thermoplastiques en circuit court **par fabrication additive open source** 
+
+![](Figures/slides/DRAM-02.png){width=75% fig-align="center"}
+
+
+### Thématique de Recherche {.t}
+\small
+**Recyclage** des thermoplastiques en **circuit court par fabrication additive open source**
+
+![](Figures/slides/DRAM-03.png){width=75% fig-align="center"}
+
+### Thématique de Recherche {.t}
+\small
+**Recyclage des thermoplastiques en circuit court par fabrication additive open source** 
+
+![](Figures/slides/DRAM-04.png){width=75% fig-align="center"}
+
+
+### Thématique de Recherche {.t}
+\small
+**Recyclage des thermoplastiques en circuit court par fabrication additive open source** 
+
+![](Figures/slides/DRAM-05.png){width=75% fig-align="center"}
+
+
+### Thématique de Recherche {.t}
+
+Recherche-action via un demonstrateur territorial en mode *living lab*.
+
+![](Figures/INEDIT.jpg){width='70%' fig-align="center"}
+
+
+
+### Bilan Production Scientifique
+
+:::: {.columns}
+::: {.column width="50%" align=top}
+\scriptsize
+**Quantitatif:**
+
+- 9 articles ACL internationaux, 3 soumis  
+- 6 conférences internationales 				
+- 2 Chapiters soumis.
+- 2 conférences nationales 
+:::
+::: {.column width="50%" align=top}
+\scriptsize
+**Scopus**: 
+
+:::: {.columns}
+::: {.column width="30%" align=top}
+\scriptsize
+- H6, 
+- 11 Docs
+- 449 Cit.
+:::
+::: {.column width="70%" align=top}
+![](Figures/slides/Scopus.png)
+:::
+::::
 
 :::
 ::::
 
 
-
-::: notes
-
-:::
-
-### Axes de Recherche {.t}
-
-*Recyclage distribué* via open Source hardware: **Validation multi-echelle**
+. . .
 
 
-![](Figures/slides/recherche-fabio.png){width=90%}
+\scriptsize
+
+**Qualitatif:**
+
+![](Figures/slides/Partners.png){width=80% fig-align="center"}
 
 
 
-::: notes
-Passon à mes activités de recherche.
+### Participation au montage et à la redaction des projets
 
-Je m'interesse à la notion de Recyclage distribuée
-:::
-
-
-### Production Scientifique
-
-
-:::: {.columns}
-::: {.column width="30%" align=center}
-
-![](Figures/slides/Journals/Journals.png)
-
-:::
-
-::: {.column width="58%" align=center}
-![](Figures/slides/Fabio-Articles.jpg)
-:::
-::::
-
-
-### Participation DE Projets
-
-
-
-
-![](Figures/slides/Projects.jpg){width='80%'}
+![](Figures/slides/Fabio-timeline-Projects.jpg){width='90%' fig-align='center'}
 
 
 
 
 ## Activités d'Enseignement
 
-### Synthèse quantitative des activités d’Enseignement
+### Synthèse des activités d’Enseignement
 
 :::: {.columns}
-::: {.column width="60%" align=center}
+::: {.column width="50%" align=center}
 ![](figures/fig-sankey-1.pdf)
 :::
 
-::: {.column width="40%" align=center}
-- Enseignements depuis 2017 : **386.92 h**
+::: {.column width="50%" align=center}
+\small
+- Enseignements depuis 2017 : **387 h**
 
-- Pole Conception et Innovation
+- **ENSGSI:** Pole Conception et Innovation
+  - Module Recherche, Developpement et Innovation
+  
+- **IUT Charlemagne:** LP Animateur Facilitateur de Tiers-Lieux Éco-Responsables (AFTER)
+  - Création de 2 modules 
 :::
 ::::
 
 
-### Module CI15 - Recherche, Developpement et Innovation {.t}
+### Module de Formation Mis en oeuvre {.t}
 
-
+**CI15 Recherche, Developpement et Innovation** \hfill (2017 - ...)
 
 :::: {.columns}
 ::: {.column width="50%" align=center}
+
 \scriptsize
-**Objectif:**  
 
+- Faire le lien entre la **démarche scientifique et leur sujet de stage!**, pour qu'ils deviennent force de proposition en s'appuyant sur la recherche. 
 
-- Recherche an tant que compétence transversal. 
-- Lien entre la **recherche et leur sujet de stage!**. 
-- Devenir un interlocuteur valable via la recherche. 
 :::
-
 ::: {.column width="50%" align=center}
 \scriptsize
 - Niveau BAC+5: ENSGSI 3AI, Master M2 IDEAS & IUVTT
 :::
 ::::
 
-
-
-
-
-
-
-
 ![](figures/slides/Ensegnement-CI15.jpg)
 
-
-
-### Licence After 
-
-
-
 :::: {.columns}
-::: {.column width="60%" align=center}
-\scriptsize
-**Objectif:**  
+::: {.column width="50%" align=top}
 
-- Maîtriser et s’approprier les notions clés du recyclage
-- Prendre en main les outils de Green Fablab. 
-- Impliquer les étudiants dans une démarche de construction pédagogique
+\footnotesize
+
+- **Support Numérique Pédagogique**
+
+![](figures/slides/CI15-web.png){width=100px fig-align='center'}
+
+https://ci15.netlify.app/
+
 :::
+::: {.column width="50%" align=top}
+\footnotesize
 
-::: {.column width="40%" align=center}
-\scriptsize
-- Niveau BAC+2: Licence 
+- **Sciences de données $\rightarrow$ Réproductibilité**
+
+![](figures/slides/Rlogo.png){width=120px fig-align='center'}
+
 :::
 ::::
+
+
+
+
+
+
+### Recherche $\rightarrow$ Pédagogie: Modules LP AFTER
+
+
+
+\scriptsize
+
+- Maîtriser et s’approprier les notions clés du recyclage
+- Impliquer les étudiants dans une démarche de construction pédagogique
 
 
 ![](figures/slides/Ensegnement-AFTER.jpg){width=90%}
 
+\normalsize
 
 
-# Proposition d'intégration à l'ENSGSI et à l'ERPI 
-
-## Ma comprehension de l'ERPI et de l'ENSGSI
-
-\footnotesize
-:::: {.columns}
-::: {.column width="50%" align=top}
-ENSGSI
-
-- Ingénieurs généralistes d’envergure internationale.
-
-- Génie industriel -> Ingénierie de l’Innovation.
-
-- Secteurs d’activités : énergie, environnement, développement durable, cosmétique, design de produits et services.
-
-
-:::
-::: {.column width="50%" align=top }
- ERPI
-
-- Nouvelles méthodologies pour soutenir et fiabiliser les processus d’innovation (technologiques, organisationnelles, ou sociales).
-
-- Faciliter la prise de décision des parties prenantes. 
-
-- Thèmes de recherche:
-  - Aide à la conception en amont
-  - Acceptabilité du produit, du processus et de la filière
-
-:::
-::::
-\large
-
-Develpper une *Génie de l'Innovation Eco-Responsable**
-
-\normalsize 
-
-## Projet de Recherche
-
-Green Fablab comme projet federateur et transversal pour ERPI:
-
-:::: {.columns}
-::: {.column width="30%" align=top}
-\footnotesize
-
-* Nouveaux démonstrateurs et protocoles expérimentaux Open Source
-
-* Recherche fondamental vers Recherche-action 
-
-* (E)valuation Multi-acteurs et Multi-echelle
-
-:::
-::: {.column width="70%" align=top }
-![](Figures/slides/Projet-Recherche.jpg)
-:::
-::::
-
-
-
-
-
-
-
-
-## Projet Pedagogique
-### Ma vision de la pédagogique
-
-L'ambition que je porte avec l’enseignement:
-
-- Developper des contenus pédagogiques favorisant l'expérimentation DIY
-
-- Faciliter la manipulation des concepts
-
-- Faire le lien avec les enjeux societaux et leur parcours Ingénieur
-
-### Les axes pedagogiques que je peux apporter
-
-1. La compréhension de la caractérisation des matériaux en utilisant l’approche open hardware comme support pédagogique 
-
-2. La conception de produit en utilisant des critères de soutenabilité tels que la réparabilité, le recon- ditionnement et le recyclage.
-
-3. L’open source comme une pratique disruptive dans la conception mécanique et dans l’innovation produit.
-
-
-
-### Integration dans la maquette actuel
-
-![](figures/slides/Projet-pedagogique.jpg)
-
-
-### Example en cours: TP Age du Faire et du DIY \hfill 2AP ENSGSI
-
-- Proposition de TP de 6h pour faire le lien entre recherche et pédagogique
-- Valorisation pédagogique du projet recherche INEDIT 
-
-[Photo TP?]
-
-## Responsabilités Collectifs (Actuel et futur)
+## responsabilités collectives et Valorisation
 
 
 #### Vie du Laboratoire
 
 \scriptsize
 
-- Pilote des projets en lien avec le Green Fablab.
-- Support au LF2L et ERPI dans site web / numerique.
-- Travail collaboratif avec les chercheurs du laboratoire et d’autres laboratoires dans des projets interdisciplinaires
+- Support au LF2L | Labelisation
+- GT Numerique
 - Montage de projets de recherche (EU, Nationaux)
-
+- Reseaux: GRD MACS - Soutenabilité | DfAM (UK)
 
 #### Vie de l'Ecole
 
 \scriptsize
 
-- Animation de séances de prototypage dans le cadre d’évènements organisés par l’école
-- Implication dans les journées Portes Ouvertes 
-- Lien avec Green Fablab et le territoire via l'Octroi.
-- Prix de 'Coup de Coeur' de **Campus Responsable**
+- Animation de séances de prototypage
+- Journées Portes Ouvertes 
+- 'Coup de Coeur' de **Trophées francophones des Campus Responsables 2023** - Utopies - Min. Trans. Ecol / Ens. Sup. et Rech.
 
-#### Animation scientifique, vulgarisation
+#### Vulgarisation scientifique
 
 \scriptsize
-- Participation à la finale régionale de «*Ma thèse en 180 secondes*» 
-- Participation à la foire internationale de Nancy
+- Gagnant à la finale régionale de «*Ma thèse en 180 secondes*» 
+- Foire internationale de Nancy - Green Fablab depuis 2018
 - Conferences grand public au LF2L
+
+
+
+
+# Proposition d'intégration
+## l'ENSGSI et l'ERPI {.t}
+
+
+
+:::: {.columns}
+::: {.column width="50%" align=top}
+Ma proposition pour l'ENSGSI:
+\vspace{1cm}
+
+**Génie de l'Innovation Soutenable  et Responsable**
+<!-- - Ingénieurs généralistes multi-sectorielles. -->
+
+<!-- - Génie industriel $\rightarrow$ Ingénierie de l’Innovation. -->
+
+<!-- - Envergure internationale -->
+
+:::
+::: {.column width="50%" align=top }
+ 
+Ma proposition pour l'ERPI:
+
+\vspace{1cm}
+**Mieux comprendre les systèmes socio-techniques de recyclage distribuée en milieu urbain supportes par l'Open hardware**
+
+
+\vfill
+:::
+::::
+\large
+
+
+
+\normalsize 
+
+## Projet de Recherche {.t}
+
+:::: {.columns}
+::: {.column width="60%" }
+
+![](Figures/slides/ERC.png){width=80% fig-align='center'}
+:::
+
+::: {.column width="40%"  }
+
+![](Figures/slides/Projet-ERPI.png)
+
+:::
+::::
+
+
+
+
+:::notes
+- Thèmes de recherche:
+  - Aide à la conception en amont
+  - Acceptabilité du produit, du processus et de la filière
+
+* Nouveaux démonstrateurs et protocoles expérimentaux Open Source
+
+* Recherche fondamental vers Recherche-action en mode Living Lab
+
+* (E)valuation Multi-acteurs et Multi-echelle
+
+:::
+
+
+### Projet de Recherche {.t}
+
+:::: {.columns}
+::: {.column width="60%" }
+
+![](Figures/slides/ERC.png){width=80% fig-align='center'}
+
+
+
+\footnotesize
+
+- Plastiques
+  - Projet ANR 'Green Local 3D' - 2022-2026 | k€ 476
+  
+- WEEE
+  - Projet LUE WEEEMET  - 2022-2024 | k€ 149
+
+:::
+
+::: {.column width="40%"  }
+
+![](Figures/slides/Projet-ERPI.png)
+
+:::
+::::
+
+
+
+## Projet Pedagogique
+### Ma vision de la pédagogique 
+
+
+Développer des les conditions pour que l’élève :
+
+- S’approprie et matérialise les connaissances en faisant par lui-même.
+
+- Développer des situations pédagogiques en mode *agile* et *active* en lien avec l'Open hardware et des communautés externes.
+
+- Faire le lien entre les enjeux sociétaux du développement durable et le parcours Ingénieur au niveau de la formation et de l'intégration professionnelle.
+
+
+
+### Proposition d'Integration
+
+![](Figures/slides/Ensegnement-Integration-01.jpg)
+
+
+### Proposition d'Integration
+
+![](Figures/slides/Ensegnement-Integration-02.jpg)
+
+
+### Proposition d'Integration
+
+![](Figures/slides/Ensegnement-Integration-03.jpg)
+
+
+REC:
+
+- **C7**:  Promouvoir et mettre en oeuvre les principes de développement durable et de la responsabilité sociétale
 
 
 
 # Conclusion
 
-## Mon approt pour la Recher 
+Mon apport pour :
 
-1.	Apporter mes compétences pour un plus grande compréhension des **leviers socio-techniques**. C’est-à-dire l’étude simultanée des facteurs technico-économiques, et sociales qui sont nécessaires pour l’accélération vers transitions soutenabilité de l'industrie (economie circulaire, ) 
+- **la Recherche**
 
-- Contribuer aux projets du laboratoire, principalement sur la notion de filière à travers la conception, l’évaluation, l’optimisation, la démonstration et la gestion
+  - Apporter mes competences pour une plus grande compréhension des **leviers socio-techniques** vers la soutenabilité de l'industrie.
+ 
 
-Mettre en place des collaborations avec différents laboratoires, des collectivités et des entreprises
+- **la Pédagogie**
 
+  - Valoriser la connaissance scientifique au travers de l'expérimentation au service du développement durable par l'Innovation.
 
+- **le Collectif**
 
-
-
-
-
-\appendix
-
-
-# appendix
-
-### Domaine de recherche {.t}
-
-*Recyclage distribué* via open source hardware: Validation multi-echelle.
-
-1. Feasabilité technique
-2. Filière en circuit court
-3. (E)valuation sur le territoire 
+  - Participer aux projets industriels et pédagogiques, la vie de l’école et du laboratoire.
 
 
-\begin{tikzpicture}[remember picture,overlay]
-    \node[xshift=1.5cm,yshift=-1.3cm] at (current page.center) {\includegraphics[width=12cm]{Figures/slides/DRAM-00.png}};
-\end{tikzpicture}
+### Merci beaucoup de votre attention
+
+
+#### A disposition pour vos questions. 
 
 
 
-::: notes
+
+
+
+### Example en cours: TP Age du Faire et du DIY \hfill 2AP ENSGSI
+
+Transfer projeT EU H2020 INEDIT - Dec 2022.
+
+:::: {.columns}
+::: {.column width="60%" }
+
+
+
+**Idéation via VR:**
+
+![](Figures/slides/Age-faire.jpg){width=50% fig-align='center'}
 
 :::
 
+::: {.column width="40%"  }
+
+**Matérialisation récyclé:**
+
+![](Figures/slides/Age-faire-1.png){width=100% fig-align='center'}
+ 
+
+:::
+::::
 
 

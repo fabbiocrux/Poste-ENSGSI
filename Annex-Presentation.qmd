@@ -1,0 +1,189 @@
+---
+title: "Candidature au poste de <br> Maître de Conférences"
+subtitle: "ENSGSI / ERPI"  
+date: '21 Avril 2023'
+#institute: "Lorraine Fab Living Lab"
+author: 
+  - 'Fabio A. CRUZ SANCHEZ <br> Section CNU 60'
+format: 
+  beamer: 
+    keep-tex: true
+    classoption: c
+    aspectratio: 169
+    navigation: horizontal
+    theme: Luebeck #AnnArbor
+    #toc: true
+    #toc-title: "Organisation de la presentation"
+    #Luebeck
+    colortheme: beaver
+    slide-level: 3
+    toc-depth: 2
+    fig-align: center
+    # beameroption: 
+    #  - show notes on second screen
+    #beamerarticle: true
+    #latex_engine: lualatex
+    include-in-header: [assets/slides.tex]
+    
+fontsize: 11pt  
+---
+
+
+
+\section*{Appendix}
+
+\appendix
+
+### Domaine de recherche {.t}
+
+*Recyclage distribué* via open source hardware: Validation multi-echelle.
+
+1. Feasabilité technique
+2. Filière en circuit court
+3. (E)valuation sur le territoire 
+
+
+\begin{tikzpicture}[remember picture,overlay]
+    \node[xshift=1.5cm,yshift=-1.3cm] at (current page.center) {\includegraphics[width=12cm]{Figures/slides/DRAM-00.png}};
+\end{tikzpicture}
+
+
+### Domaine de recherche {.t}
+
+*Recyclage distribué* via fabrication additive open source: Validation multi-echelle.
+
+
+
+:::: {.columns}
+::: {.column width="65%" align=top}
+\small
+1. Feasabilité technique la fabrication additive open source
+2. Filière en boucle (semi) fermé et en circuit court
+3. (E)valuation sur le territoire 
+
+![](Figures/slides/Abstract.png){width=150 fig-align="center"}
+
+:::
+
+::: {.column width="35%" align=top}
+
+![](Figures/slides/Recherche-Intro-01.png){width=200 fig-align="center"}
+
+
+:::
+::::
+
+
+
+### Echelles de Recherche {.t}
+
+*Recyclage distribué* via open source hardware: **Validation multi-echelle**
+
+
+![](Figures/slides/recherche-fabio.png){width=90%}
+
+
+::: notes
+:::
+
+
+
+
+### Module CI15 - Recherche, Developpement et Innovation {.t}
+
+
+
+:::: {.columns}
+::: {.column width="50%" align=center}
+\scriptsize
+**Objectif:**  
+
+
+- Recherche an tant que compétence transversal. 
+- Lien entre la **recherche et leur sujet de stage!**. 
+- Devenir un interlocuteur valable via la recherche. 
+:::
+
+::: {.column width="50%" align=center}
+\scriptsize
+- Niveau BAC+5: ENSGSI 3AI, Master M2 IDEAS & IUVTT
+:::
+::::
+
+
+![](figures/slides/Ensegnement-CI15.jpg)
+
+
+
+
+
+## Projet de Recherche
+
+Green Fablab comme projet federateur et transversal pour ERPI:
+
+:::: {.columns}
+::: {.column width="30%" align=top}
+\footnotesize
+
+* Nouveaux démonstrateurs et protocoles expérimentaux Open Source
+
+* Recherche fondamental vers Recherche-action 
+
+* (E)valuation Multi-acteurs et Multi-echelle
+
+:::
+::: {.column width="70%" align=top }
+![](Figures/slides/Projet-Recherche.jpg)
+:::
+::::
+
+
+### Génie Mécanique et Energetique {.t}
+
+Caractérisation des matériaux en utilisant l’approche open hardware comme support pédagogique 
+
+#### Travail sur un cas d’étude : 
+Conception, fabrication et simulation d'un ailette thermique open source?
+
+
+
+
+### (Re)conception et Innovation en mode Green Fablab
+
+La (*Re*)conception de produit en utilisant des critères de soutenabilité.
+
+#### Travail sur un cas d’étude : 
+
+
+
+
+
+
+### 3AI:  Parcours
+
+Open design pour la soutenabilité: les atouts de la collecte jusqu’au recyclage en circuit court
+
+
+
+
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this 
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

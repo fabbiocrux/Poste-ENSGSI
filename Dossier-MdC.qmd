@@ -634,7 +634,6 @@ Results$Figure
 \renewcommand{\arraystretch}{0.7}
 ```{r, }
 
-
 overview <- Test %>% 
    mutate(Level = factor(Level, 
                          levels = c('Formation\nContinue',
