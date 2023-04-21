@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-04-20T14:11:27.329Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="TNJD_dXkwcX5lBZ_TTxq" version="21.1.2" type="device" pages="2">
+<mxfile host="Electron" modified="2023-04-21T05:26:50.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="RaD1g1w8gP8nHBWIltxD" version="21.1.2" type="device" pages="2">
   <diagram name="Parcours" id="82e54ff1-d628-8f03-85c4-9753963a91cd">
-    <mxGraphModel dx="1475" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1180" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -320,7 +320,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KCQb8bCwinvCjTEbwwfw" name="Projects">
-    <mxGraphModel dx="1686" dy="329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1815" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -394,7 +394,7 @@
         <mxCell id="0hSzcAWW9dTBWUUQJWZr-81" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontSize=17;fontFamily=Roboto Serif;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto%2BSerif;fontStyle=0" parent="0hSzcAWW9dTBWUUQJWZr-74" vertex="1">
           <mxGeometry y="40" width="405" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0hSzcAWW9dTBWUUQJWZr-82" value="Contrat Industrielle" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;fontSize=17;fontFamily=Roboto Serif;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto%2BSerif;" parent="0hSzcAWW9dTBWUUQJWZr-81" vertex="1">
+        <mxCell id="0hSzcAWW9dTBWUUQJWZr-82" value="Contrat Industriel" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;fontSize=17;fontFamily=Roboto Serif;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto%2BSerif;" parent="0hSzcAWW9dTBWUUQJWZr-81" vertex="1">
           <mxGeometry width="115" height="110" as="geometry">
             <mxRectangle width="115" height="110" as="alternateBounds" />
           </mxGeometry>

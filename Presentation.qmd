@@ -2,8 +2,8 @@
 title: "Candidature au poste de <br> Maître de Conférences"
 abstract: "testing"
 subtitle: "60-61MCF0378 (ENSGSI/ERPI)"  
-date: "`r format(Sys.time(), '%d %b, %Y')`"
 institute: "Section CNU 60"
+date: "`r format(Sys.time(), '%d %b, %Y')`"
 author: 
   - 'Fabio A. CRUZ SANCHEZ'
 format: 
@@ -22,6 +22,7 @@ format:
     fig-align: center
     header-includes:
       - \titlegraphic{\includegraphics[width=0.6\paperwidth]{Figures/logos/UL-ENSGSI-ERPI.png}}
+#      - \date{Thisis test }
     # beameroption: 
     #  - show notes on second screen
     #beamerarticle: true
@@ -228,7 +229,7 @@ Recherche-action via un demonstrateur territorial en mode *living lab*.
 \small
 - Enseignements depuis 2017 : **387 h**
 
-- **ENSGSI:** Pole Conception et Innovation
+- **ENSGSI:** Pôle Conception et Innovation
   - Module Recherche, Developpement et Innovation
   
 - **IUT Charlemagne:** LP Animateur Facilitateur de Tiers-Lieux Éco-Responsables (AFTER)
@@ -246,7 +247,7 @@ Recherche-action via un demonstrateur territorial en mode *living lab*.
 
 \scriptsize
 
-- Faire le lien entre la **démarche scientifique et leur sujet de stage!**, pour qu'ils deviennent force de proposition en s'appuyant sur la recherche. 
+- Faire le lien entre la **démarche scientifique et leur sujet de stage**, pour qu'ils deviennent force de proposition en s'appuyant sur la recherche. 
 
 :::
 ::: {.column width="50%" align=center}
@@ -306,25 +307,25 @@ https://ci15.netlify.app/
 
 \scriptsize
 
-- Support au LF2L | Labelisation
-- GT Numerique
-- Montage de projets de recherche (EU, Nationaux)
-- Reseaux: GRD MACS - Soutenabilité | DfAM (UK)
+- Support au LF2L | Labelisation.
+- GT Numerique.
+- Montage de projets de recherche (EU, Nationaux).
+- Reseaux: GRD MACS - Soutenabilité | DfAM (UK).
 
 #### Vie de l'Ecole
 
 \scriptsize
 
-- Animation de séances de prototypage
-- Journées Portes Ouvertes 
-- 'Coup de Coeur' de **Trophées francophones des Campus Responsables 2023** - Utopies - Min. Trans. Ecol / Ens. Sup. et Rech.
+- Animation de séances de prototypage.
+- Journées Portes Ouvertes. 
+- 'Coup de Cœur' de **Trophées francophones des Campus Responsables 2023** - Utopies - Min. Trans. Ecol / Ens. Sup. et Rech.
 
 #### Vulgarisation scientifique
 
 \scriptsize
-- Gagnant à la finale régionale de «*Ma thèse en 180 secondes*» 
-- Foire internationale de Nancy - Green Fablab depuis 2018
-- Conferences grand public au LF2L
+- Prix *Coup de Cœur du Public, Lycèens et $3^{ème}$* à la finale régionale de «*Ma thèse en 180 secondes*» 2016. 
+- Foire internationale de Nancy - Green Fablab depuis 2018.
+- Conférences grand public au LF2L.
 
 
 
@@ -352,7 +353,7 @@ Ma proposition pour l'ENSGSI:
 Ma proposition pour l'ERPI:
 
 \vspace{1cm}
-**Mieux comprendre les systèmes socio-techniques de recyclage distribuée en milieu urbain supportes par l'Open hardware**
+**Mieux comprendre les systèmes socio-techniques de recyclage distribués en milieu urbain supportés par l'Open hardware**
 
 
 \vfill
@@ -426,38 +427,41 @@ Ma proposition pour l'ERPI:
 
 
 
-## Projet Pedagogique
-### Ma vision de la pédagogique 
+## Projet Pédagogique
+### Ma vision de la pédagogie 
 
 
-Développer des les conditions pour que l’élève :
+Développer les conditions pour que l’étudiant :
 
 - S’approprie et matérialise les connaissances en faisant par lui-même.
 
-- Développer des situations pédagogiques en mode *agile* et *active* en lien avec l'Open hardware et des communautés externes.
+- Intègre des situations pédagogiques en mode *agile* et *active* en lien avec l'Open hardware et des communautés externes.
 
-- Faire le lien entre les enjeux sociétaux du développement durable et le parcours Ingénieur au niveau de la formation et de l'intégration professionnelle.
+- Fasse le lien entre les enjeux sociétaux du développement durable, son parcours   de formation et son intégration professionnelle.
 
 
 
-### Proposition d'Integration
+### Proposition d'Intégration {.t}
 
 ![](Figures/slides/Ensegnement-Integration-01.jpg)
 
 
-### Proposition d'Integration
+### Proposition d'Intégration {.t}
 
 ![](Figures/slides/Ensegnement-Integration-02.jpg)
 
 
-### Proposition d'Integration
+### Proposition d'Intégration {.t}
 
 ![](Figures/slides/Ensegnement-Integration-03.jpg)
 
+\vspace{-5pt}
+\small
+Référentiel Emploi Compétences:
 
-REC:
+\vspace{-3pt}
 
-- **C7**:  Promouvoir et mettre en oeuvre les principes de développement durable et de la responsabilité sociétale
+- **C7**:  \footnotesize Promouvoir et mettre en oeuvre les principes de développement durable et de la responsabilité sociétale
 
 
 
@@ -467,17 +471,17 @@ Mon apport pour :
 
 - **la Recherche**
 
-  - Apporter mes competences pour une plus grande compréhension des **leviers socio-techniques** vers la soutenabilité de l'industrie.
+  - Apporter mes compétences pour une plus grande compréhension des **leviers socio-techniques** vers la soutenabilité de l'industrie.
  
 
 - **la Pédagogie**
 
-  - Valoriser la connaissance scientifique au travers de l'expérimentation au service du développement durable par l'Innovation.
+  - Valoriser la transférabilité de la connaissance scientifique au travers de l'expérimentation et de l'Innovation au service du développement durable.
 
 - **le Collectif**
 
   - Participer aux projets industriels et pédagogiques, la vie de l’école et du laboratoire.
-  - « Zéro Déchet » et Comité DDRS
+  - « Zéro Déchet » et Comité DDRS.
 
 
 ### Merci beaucoup de votre attention
@@ -487,9 +491,9 @@ Mon apport pour :
 
 
 
-### Example en cours: TP Age du Faire et du DIY \hfill 2AP ENSGSI
+### Exemple en cours: TP Âge du Faire et du DIY \hfill 2AP ENSGSI
 
-Transfer projeT EU H2020 INEDIT - Dec 2022.
+Transfer projet EU H2020 INEDIT - Dec 2022.
 
 :::: {.columns}
 ::: {.column width="60%" }
@@ -500,12 +504,12 @@ Transfer projeT EU H2020 INEDIT - Dec 2022.
 
 ![](Figures/slides/Age-faire.jpg){width=50% fig-align='center'}
 
-\tiny Outil developpé par l'Arts et Métiers - Laval
+\tiny Outil développé par les Arts et Métiers - Laval
 :::
 
 ::: {.column width="40%"  }
 
-**Matérialisation récyclé:**
+**Matérialisation recyclée:**
 
 ![](Figures/slides/Age-faire-1.png){width=100% fig-align='center'}
  
